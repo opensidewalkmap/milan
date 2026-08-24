@@ -34,8 +34,15 @@
   ],
   "spatial": null,
   "temporal": {
-    "updated": null,
-    "node_registry": {}
+    "updated": "2026-08-24T21:52:38+00:00",
+    "node_registry": {
+      "Data Fetching": "2026-08-24T21:41:37Z",
+      "Versioning Data": "2026-08-24T21:43:58Z",
+      "Data Pre-Processing": "2026-08-24T21:44:16Z",
+      "Data Quality Tool": "2026-08-24T21:49:48Z",
+      "Completeness Analysis": "2026-08-24T21:52:20Z",
+      "Statistical Charts": "2026-08-24T21:52:38Z"
+    }
   },
   "lineage": {
     "process_description": "Generated from node workflow executions and OpenStreetMap history services.",
@@ -57,7 +64,7 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-08-24T13:04:53-03:00",
+    "generated_at": "2026-08-24T21:52:38+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
       "commit": "1f7814d1b3d9895e5dcd663c7ee63837b68a280f",
@@ -72,10 +79,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/updates/registry.json",
     "media_type": "application/json",
     "format": "JSON",
-    "byte_size": 3,
+    "byte_size": 297,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+      "value": "480a35b95afbb3029ae8cd57b56e9f920e00871b9d4f3afa6ed7f67acf38f317"
     }
   },
   "links": [

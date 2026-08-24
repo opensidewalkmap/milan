@@ -5,12 +5,32 @@
     "version": "1.0.0",
     "encoding": "application/json",
     "alignment": "conceptual",
-    "domain": "non-geographic",
+    "domain": "mixed",
     "aligned_with": [
       {
         "name": "ISO 15836-1:2017",
         "role": "cross-domain resource description",
         "url": "https://www.iso.org/standard/71339.html"
+      },
+      {
+        "name": "ISO 19115-1:2014",
+        "role": "geographic metadata fundamentals",
+        "url": "https://www.iso.org/standard/53798.html"
+      },
+      {
+        "name": "ISO 19115-2:2019",
+        "role": "acquisition and processing lineage",
+        "url": "https://www.iso.org/standard/67039.html"
+      },
+      {
+        "name": "ISO 19157-1:2023",
+        "role": "geographic data quality reporting",
+        "url": "https://www.iso.org/standard/78900.html"
+      },
+      {
+        "name": "ISO 19110:2016",
+        "role": "feature catalogue concepts where applicable",
+        "url": "https://www.iso.org/standard/57303.html"
       }
     ],
     "conformance_note": "This is an OSWM JSON application profile. Geographic ISO concepts are applied only to geographic or mixed resources; the profile does not claim conformance to the ISO 19115-3 XML encoding."
@@ -32,10 +52,33 @@
       "url": "https://github.com/opensidewalkmap/milan"
     }
   ],
-  "spatial": null,
+  "spatial": {
+    "scope": "node_coverage",
+    "bbox": [
+      9.0408867,
+      45.3867381,
+      9.2781103,
+      45.5358482
+    ],
+    "bbox_order": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "reference_system": "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+    "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
+  },
   "temporal": {
-    "updated": null,
-    "node_registry": {}
+    "updated": "2026-08-24T21:52:38+00:00",
+    "node_registry": {
+      "Data Fetching": "2026-08-24T21:41:37Z",
+      "Versioning Data": "2026-08-24T21:43:58Z",
+      "Data Pre-Processing": "2026-08-24T21:44:16Z",
+      "Data Quality Tool": "2026-08-24T21:49:48Z",
+      "Completeness Analysis": "2026-08-24T21:52:20Z",
+      "Statistical Charts": "2026-08-24T21:52:38Z"
+    }
   },
   "lineage": {
     "process_description": "Generated or collected by the OSWM node pipeline.",
@@ -45,8 +88,8 @@
   },
   "quality": {
     "scope": "resource",
-    "standard": "OSWM Metadata Profile 1.0",
-    "statement": "The record reports provenance and technical integrity without asserting a universal fitness-for-use threshold.",
+    "standard": "ISO 19157-1:2023",
+    "statement": "The record reports provenance and technical integrity. It does not assert a universal fitness-for-use threshold.",
     "related_report": "https://opensidewalkmap.github.io/milan/quality_check/index.json"
   },
   "rights": {
@@ -55,7 +98,7 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-08-24T13:04:53-03:00",
+    "generated_at": "2026-08-24T21:52:38+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
       "commit": "1f7814d1b3d9895e5dcd663c7ee63837b68a280f",
@@ -67,9 +110,54 @@
   "assets": [],
   "collections": [
     {
+      "title": "Boundaries",
+      "path": "metadata/boundaries/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/boundaries/index.json"
+    },
+    {
+      "title": "Data Quality",
+      "path": "metadata/data_quality/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/data_quality/index.json"
+    },
+    {
+      "title": "Hazard Analysis",
+      "path": "metadata/hazard_analysis/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/index.json"
+    },
+    {
+      "title": "Processed",
+      "path": "metadata/processed/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/processed/index.json"
+    },
+    {
+      "title": "Raw",
+      "path": "metadata/raw/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/raw/index.json"
+    },
+    {
+      "title": "Routing",
+      "path": "metadata/routing/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/routing/index.json"
+    },
+    {
+      "title": "Snapshots",
+      "path": "metadata/snapshots/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/snapshots/index.json"
+    },
+    {
+      "title": "Tiles",
+      "path": "metadata/tiles/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/tiles/index.json"
+    },
+    {
       "title": "Updates",
       "path": "metadata/updates/index.json",
       "href": "https://opensidewalkmap.github.io/milan/metadata/updates/index.json"
+    },
+    {
+      "title": "Vrts",
+      "path": "metadata/vrts/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/vrts/index.json"
     }
   ],
   "links": [
@@ -85,8 +173,8 @@
     }
   ],
   "integrity": {
-    "data_files": 1,
-    "collections": 2,
-    "generated_records": 4
+    "data_files": 72,
+    "collections": 16,
+    "generated_records": 89
   }
 }

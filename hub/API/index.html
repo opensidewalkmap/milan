@@ -881,6 +881,383 @@ print(data)</pre>
     "metadata_path": null
   },
   {
+    "category": "Boundaries & Config",
+    "path": "data/boundaries/infos.json",
+    "format": "JSON",
+    "description": "Metadata properties of the study area (name, source, importance, bounds, etc.).",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/boundaries/infos.json.metadata.json"
+  },
+  {
+    "category": "Boundaries & Config",
+    "path": "data/boundaries/metadata.json",
+    "format": "JSON",
+    "description": "Asset file: metadata.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/boundaries/metadata.json.metadata.json"
+  },
+  {
+    "category": "Boundaries & Config",
+    "path": "data/boundaries/polygon.geojson",
+    "format": "GeoJSON",
+    "description": "Polygon geometry of the study/mapping area boundaries (study boundaries).",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/boundaries/polygon.geojson.metadata.json"
+  },
+  {
+    "category": "Boundaries & Config",
+    "path": "data/boundaries/polygon.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: polygon.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/boundaries/polygon.parquet.metadata.json"
+  },
+  {
+    "category": "Boundaries & Config",
+    "path": "webmap_params.json",
+    "format": "JSON",
+    "description": "Full configuration for the webmap, including center coordinates, initial zoom level, layers, MapLibre GL styles, and configurations.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": null
+  },
+  {
+    "category": "Boundaries Metadata",
+    "path": "metadata/boundaries/infos.json.metadata.json",
+    "format": "JSON",
+    "description": "Boundary geometry and descriptive information for the node coverage area. This record describes the JSON distribution at data/boundaries/infos.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Boundaries Metadata",
+    "path": "metadata/boundaries/metadata.json.metadata.json",
+    "format": "JSON",
+    "description": "Boundary geometry and descriptive information for the node coverage area. This record describes the JSON distribution at data/boundaries/metadata.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Boundaries Metadata",
+    "path": "metadata/boundaries/polygon.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Boundary geometry and descriptive information for the node coverage area. This record describes the GeoJSON distribution at data/boundaries/polygon.geojson.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Boundaries Metadata",
+    "path": "metadata/boundaries/polygon.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Boundary geometry and descriptive information for the node coverage area. This record describes the GeoParquet distribution at data/boundaries/polygon.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/boundaries/index.json",
+    "format": "JSON",
+    "description": "Boundary geometry and descriptive information for the node coverage area. This collection mirrors data/boundaries without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/data_quality/crossings_lacking_kerbs/index.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This collection mirrors data/data_quality/crossings_lacking_kerbs without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/data_quality/disjointed/index.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This collection mirrors data/data_quality/disjointed without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/data_quality/improper_geoms/index.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This collection mirrors data/data_quality/improper_geoms without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/data_quality/index.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This collection mirrors data/data_quality without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/data_quality/kerb_on_top_of_non_crossing/index.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This collection mirrors data/data_quality/kerb_on_top_of_non_crossing without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/hazard_analysis/index.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This collection mirrors data/hazard_analysis without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/processed/index.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This collection mirrors data/processed without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/processed/other_footways/index.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This collection mirrors data/processed/other_footways without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/raw/index.json",
+    "format": "JSON",
+    "description": "Unfiltered pedestrian-network extracts acquired for the configured node area. This collection mirrors data/raw without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/routing/index.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This collection mirrors data/routing without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/snapshots/index.json",
+    "format": "JSON",
+    "description": "Precomputed summaries used by OSWM web-map charts and printable snapshots. This collection mirrors data/snapshots without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Collection Metadata",
+    "path": "metadata/tiles/index.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This collection mirrors data/tiles without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
     "category": "Collection Metadata",
     "path": "metadata/updates/index.json",
     "format": "JSON",
@@ -915,6 +1292,290 @@ print(data)</pre>
     "metadata_path": null
   },
   {
+    "category": "Collection Metadata",
+    "path": "metadata/vrts/index.json",
+    "format": "JSON",
+    "description": "GDAL VRT descriptors that group and expose OSWM datasets. This collection mirrors data/vrts without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Crossings Charts",
+    "path": "statistics_specs/crossings/crossing_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Crossing Surface metrics for crossings layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Crossings Charts",
+    "path": "statistics_specs/crossings/crossing_types.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Crossing Types metrics for crossings layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Crossings Charts",
+    "path": "statistics_specs/crossings/crossings_age.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Crossings Age metrics for crossings layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Crossings Charts",
+    "path": "statistics_specs/crossings/crossings_length.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Crossings Length metrics for crossings layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Crossings Charts",
+    "path": "statistics_specs/crossings/crossings_n_revs.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Crossings N Revs metrics for crossings layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Crossings Charts",
+    "path": "statistics_specs/crossings/crossings_smoothness_x_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Crossings Smoothness X Surface metrics for crossings layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_blind.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_blind.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_blind.geojson.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_blind.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: features_blind.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_blind.parquet.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_elderly.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_elderly.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_elderly.geojson.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_elderly.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: features_elderly.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_elderly.parquet.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_pedestrian.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_pedestrian.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_pedestrian.geojson.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_pedestrian.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: features_pedestrian.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_pedestrian.parquet.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_wheelchair.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_wheelchair.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_wheelchair.geojson.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_wheelchair.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: features_wheelchair.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_wheelchair.parquet.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/pipeline_decision.json",
+    "format": "JSON",
+    "description": "Asset file: pipeline_decision.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/pipeline_decision.json.metadata.json"
+  },
+  {
     "category": "Data Aging & Versioning",
     "path": "data/updates/registry.json",
     "format": "JSON",
@@ -932,10 +1593,4026 @@ print(data)</pre>
     "metadata_path": "metadata/updates/registry.json.metadata.json"
   },
   {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/versioning/crossings_versioning.json",
+    "format": "JSON",
+    "description": "Detailed age tracking metrics for crossing features.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/versioning/crossings_versioning.json.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/versioning/kerbs_versioning.json",
+    "format": "JSON",
+    "description": "Detailed age tracking metrics for kerb features.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/versioning/kerbs_versioning.json.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/versioning/other_footways_versioning.json",
+    "format": "JSON",
+    "description": "Detailed age tracking metrics for other footways layers.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/versioning/other_footways_versioning.json.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/versioning/sidewalks_versioning.json",
+    "format": "JSON",
+    "description": "Detailed modification dates, changeset stats, and age metrics for sidewalks.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/versioning/sidewalks_versioning.json.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/watcher_decision.json",
+    "format": "JSON",
+    "description": "Asset file: watcher_decision.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/watcher_decision.json.metadata.json"
+  },
+  {
+    "category": "Data Quality Metadata",
+    "path": "metadata/data_quality/crossings_lacking_kerbs/crossings_lacking_kerbs.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This record describes the GeoParquet distribution at data/data_quality/crossings_lacking_kerbs/crossings_lacking_kerbs.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Data Quality Metadata",
+    "path": "metadata/data_quality/disjointed/crossings_disjointed.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This record describes the GeoParquet distribution at data/data_quality/disjointed/crossings_disjointed.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Data Quality Metadata",
+    "path": "metadata/data_quality/disjointed/kerbs_disjointed.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This record describes the GeoParquet distribution at data/data_quality/disjointed/kerbs_disjointed.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Data Quality Metadata",
+    "path": "metadata/data_quality/improper_geoms/crossings_improper_geoms.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This record describes the GeoParquet distribution at data/data_quality/improper_geoms/crossings_improper_geoms.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Data Quality Metadata",
+    "path": "metadata/data_quality/improper_geoms/kerbs_improper_geoms.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This record describes the GeoParquet distribution at data/data_quality/improper_geoms/kerbs_improper_geoms.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Data Quality Metadata",
+    "path": "metadata/data_quality/improper_geoms/sidewalks_improper_geoms.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This record describes the GeoParquet distribution at data/data_quality/improper_geoms/sidewalks_improper_geoms.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Data Quality Metadata",
+    "path": "metadata/data_quality/kerb_on_top_of_non_crossing/kerbs_no_crossing.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Spatial outputs identifying potential topology, geometry, or tagging inconsistencies. This record describes the GeoParquet distribution at data/data_quality/kerb_on_top_of_non_crossing/kerbs_no_crossing.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "GDAL VRT Descriptors",
+    "path": "data/vrts/data.vrt",
+    "format": "XML/VRT",
+    "description": "GDAL Virtual Format file linking all processed parquet files together.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview VRT",
+      "snippets": [
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/vrts/data.vrt.metadata.json"
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_age.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Age metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_category.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Category metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_lit.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Lit metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_n_revs.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data N Revs metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_smoothness.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Smoothness metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Surface metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_tactile_paving.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Tactile Paving metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_traffic_calming.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Traffic Calming metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Charts",
+    "path": "statistics_specs/all_data/all_data_wheelchair_tag.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising All Data Wheelchair Tag metrics for all_data layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
+    "path": "quality_check/categories.json",
+    "format": "JSON",
+    "description": "List of quality check category descriptions and metadata.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
+    "path": "quality_check/completeness/data.json",
+    "format": "JSON",
+    "description": "Data quality asset file: data.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
+    "path": "quality_check/feature_keys.json",
+    "format": "JSON",
+    "description": "Summary of tag keys present in the database.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
+    "path": "quality_check/map.geojson",
+    "format": "GeoJSON",
+    "description": "Data quality asset file: map.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
+    "path": "quality_check/map_registry.json",
+    "format": "JSON",
+    "description": "Data quality asset file: map_registry.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
+    "path": "quality_check/unique_tag_values.json",
+    "format": "JSON",
+    "description": "Unique tag keys and values found across all downloaded features.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
+    "path": "quality_check/valid_tag_values.json",
+    "format": "JSON",
+    "description": "Predefined list of OSM tag values considered valid by OSWM quality checks.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_blind.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_blind.geojson.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_blind.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_blind.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_elderly.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_elderly.geojson.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_elderly.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_elderly.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_pedestrian.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_pedestrian.geojson.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_pedestrian.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_pedestrian.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_wheelchair.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_wheelchair.geojson.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_wheelchair.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_wheelchair.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/hazard.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the PMTiles distribution at data/hazard_analysis/hazard.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/hazard_layers.vrt.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GDAL VRT distribution at data/hazard_analysis/hazard_layers.vrt.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/metadata.json.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the JSON distribution at data/hazard_analysis/metadata.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/profiles.json.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the JSON distribution at data/hazard_analysis/profiles.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/rules.json.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the JSON distribution at data/hazard_analysis/rules.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/terrain.json.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the JSON distribution at data/hazard_analysis/terrain.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/terrain_blind.png.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the PNG distribution at data/hazard_analysis/terrain_blind.png.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/terrain_elderly.png.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the PNG distribution at data/hazard_analysis/terrain_elderly.png.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/terrain_pedestrian.png.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the PNG distribution at data/hazard_analysis/terrain_pedestrian.png.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/terrain_wheelchair.png.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the PNG distribution at data/hazard_analysis/terrain_wheelchair.png.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/tile_generation_report.json.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the JSON distribution at data/hazard_analysis/tile_generation_report.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Assets",
+    "path": "data/hazard_analysis/hazard_layers.vrt",
+    "format": "XML/VRT",
+    "description": "Asset file: hazard_layers.vrt",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview VRT",
+      "snippets": [
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/hazard_layers.vrt.metadata.json"
+  },
+  {
+    "category": "Hazard Assets",
+    "path": "data/hazard_analysis/tile_generation_report.json",
+    "format": "JSON",
+    "description": "Asset file: tile_generation_report.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/tile_generation_report.json.metadata.json"
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/crossings_lacking_kerbs.json",
+    "format": "JSON",
+    "description": "Validation check results (Crossings Lacking Kerbs) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/disjointed_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Disjointed Geometries) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/improper_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Geometries) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/improper_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Keys) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/invalid_characters.json",
+    "format": "JSON",
+    "description": "Validation check results (Invalid Characters) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/kerb_on_top_of_non_crossing.json",
+    "format": "JSON",
+    "description": "Validation check results (Kerb On Top Of Non Crossing) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/keys_without_wiki.json",
+    "format": "JSON",
+    "description": "Validation check results (Keys Without Wiki) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/missing_tags.json",
+    "format": "JSON",
+    "description": "Validation check results (Missing Tags) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/older_than_five_years.json",
+    "format": "JSON",
+    "description": "Validation check results (Older Than Five Years) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/replaceable_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Replaceable Values) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/uncanny_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Uncanny Keys) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/crossings/wrong_mispelled_or_unlisted_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Wrong Mispelled Or Unlisted Values) for crossings in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/crossings_lacking_kerbs.json",
+    "format": "JSON",
+    "description": "Validation check results (Crossings Lacking Kerbs) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/disjointed_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Disjointed Geometries) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/improper_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Geometries) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/improper_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Keys) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/invalid_characters.json",
+    "format": "JSON",
+    "description": "Validation check results (Invalid Characters) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/kerb_on_top_of_non_crossing.json",
+    "format": "JSON",
+    "description": "Validation check results (Kerb On Top Of Non Crossing) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/keys_without_wiki.json",
+    "format": "JSON",
+    "description": "Validation check results (Keys Without Wiki) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/missing_tags.json",
+    "format": "JSON",
+    "description": "Validation check results (Missing Tags) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/older_than_five_years.json",
+    "format": "JSON",
+    "description": "Validation check results (Older Than Five Years) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/replaceable_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Replaceable Values) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/uncanny_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Uncanny Keys) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/kerbs/wrong_mispelled_or_unlisted_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Wrong Mispelled Or Unlisted Values) for kerbs in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/crossings_lacking_kerbs.json",
+    "format": "JSON",
+    "description": "Validation check results (Crossings Lacking Kerbs) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/disjointed_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Disjointed Geometries) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/improper_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Geometries) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/improper_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Keys) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/invalid_characters.json",
+    "format": "JSON",
+    "description": "Validation check results (Invalid Characters) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/kerb_on_top_of_non_crossing.json",
+    "format": "JSON",
+    "description": "Validation check results (Kerb On Top Of Non Crossing) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/keys_without_wiki.json",
+    "format": "JSON",
+    "description": "Validation check results (Keys Without Wiki) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/missing_tags.json",
+    "format": "JSON",
+    "description": "Validation check results (Missing Tags) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/older_than_five_years.json",
+    "format": "JSON",
+    "description": "Validation check results (Older Than Five Years) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/replaceable_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Replaceable Values) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/uncanny_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Uncanny Keys) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/other_footways/wrong_mispelled_or_unlisted_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Wrong Mispelled Or Unlisted Values) for other_footways in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/crossings_lacking_kerbs.json",
+    "format": "JSON",
+    "description": "Validation check results (Crossings Lacking Kerbs) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/disjointed_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Disjointed Geometries) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/improper_geometries.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Geometries) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/improper_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Improper Keys) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/invalid_characters.json",
+    "format": "JSON",
+    "description": "Validation check results (Invalid Characters) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/kerb_on_top_of_non_crossing.json",
+    "format": "JSON",
+    "description": "Validation check results (Kerb On Top Of Non Crossing) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/keys_without_wiki.json",
+    "format": "JSON",
+    "description": "Validation check results (Keys Without Wiki) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/missing_tags.json",
+    "format": "JSON",
+    "description": "Validation check results (Missing Tags) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/older_than_five_years.json",
+    "format": "JSON",
+    "description": "Validation check results (Older Than Five Years) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/replaceable_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Replaceable Values) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/uncanny_keys.json",
+    "format": "JSON",
+    "description": "Validation check results (Uncanny Keys) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "JSON Quality Checks",
+    "path": "quality_check/json/sidewalks/wrong_mispelled_or_unlisted_values.json",
+    "format": "JSON",
+    "description": "Validation check results (Wrong Mispelled Or Unlisted Values) for sidewalks in JSON format.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Kerbs Charts",
+    "path": "statistics_specs/kerbs/kerb_tactile_paving.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Kerb Tactile Paving metrics for kerbs layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Kerbs Charts",
+    "path": "statistics_specs/kerbs/kerb_types.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Kerb Types metrics for kerbs layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Kerbs Charts",
+    "path": "statistics_specs/kerbs/kerb_wheelchair_access.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Kerb Wheelchair Access metrics for kerbs layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Kerbs Charts",
+    "path": "statistics_specs/kerbs/kerbs_age.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Kerbs Age metrics for kerbs layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Kerbs Charts",
+    "path": "statistics_specs/kerbs/kerbs_n_revs.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Kerbs N Revs metrics for kerbs layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Kerbs Charts",
+    "path": "statistics_specs/kerbs/kerbs_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Kerbs Surface metrics for kerbs layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Kerbs Charts",
+    "path": "statistics_specs/kerbs/kerbs_x_paving_x_wheelchair.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Kerbs X Paving X Wheelchair metrics for kerbs layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/data_quality/crossings_lacking_kerbs/crossings_lacking_kerbs.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: crossings_lacking_kerbs.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "crossing IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/crossings_lacking_kerbs/crossings_lacking_kerbs.parquet.metadata.json"
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/data_quality/disjointed/crossings_disjointed.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: crossings_disjointed.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "crossing IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/disjointed/crossings_disjointed.parquet.metadata.json"
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/data_quality/disjointed/kerbs_disjointed.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: kerbs_disjointed.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "kerb IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/disjointed/kerbs_disjointed.parquet.metadata.json"
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/data_quality/improper_geoms/crossings_improper_geoms.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: crossings_improper_geoms.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "crossing IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/improper_geoms/crossings_improper_geoms.parquet.metadata.json"
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/data_quality/improper_geoms/kerbs_improper_geoms.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: kerbs_improper_geoms.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "kerb IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/improper_geoms/kerbs_improper_geoms.parquet.metadata.json"
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/data_quality/improper_geoms/sidewalks_improper_geoms.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: sidewalks_improper_geoms.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/improper_geoms/sidewalks_improper_geoms.parquet.metadata.json"
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/data_quality/kerb_on_top_of_non_crossing/kerbs_no_crossing.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: kerbs_no_crossing.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "crossing IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/kerb_on_top_of_non_crossing/kerbs_no_crossing.parquet.metadata.json"
+  },
+  {
+    "category": "Map Data Assets",
+    "path": "data/snapshots/node_summary.json",
+    "format": "JSON",
+    "description": "Asset file: node_summary.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/snapshots/node_summary.json.metadata.json"
+  },
+  {
     "category": "Metadata Catalogue",
     "path": "metadata/index.json",
     "format": "JSON",
     "description": "Published data products provided by this OSWM node. This collection mirrors data without changing the source data directory.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Other Footways Charts",
+    "path": "statistics_specs/other_footways/other_footways_age.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Other Footways Age metrics for other_footways layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Other Footways Charts",
+    "path": "statistics_specs/other_footways/other_footways_length.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Other Footways Length metrics for other_footways layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Other Footways Charts",
+    "path": "statistics_specs/other_footways/other_footways_n_revs.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Other Footways N Revs metrics for other_footways layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Other Footways Charts",
+    "path": "statistics_specs/other_footways/other_footways_smoothness.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Other Footways Smoothness metrics for other_footways layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Other Footways Charts",
+    "path": "statistics_specs/other_footways/other_footways_smoothness_x_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Other Footways Smoothness X Surface metrics for other_footways layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Other Footways Charts",
+    "path": "statistics_specs/other_footways/other_footways_subcategory.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Other Footways Subcategory metrics for other_footways layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Other Footways Charts",
+    "path": "statistics_specs/other_footways/other_footways_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Other Footways Surface metrics for other_footways layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/crossings.parquet",
+    "format": "GeoParquet",
+    "description": "Processed pedestrian road crossings in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "crossing IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/crossings.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/kerbs.parquet",
+    "format": "GeoParquet",
+    "description": "Processed kerb access points at crossings in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "kerb IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/kerbs.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/other_footways.parquet",
+    "format": "GeoParquet",
+    "description": "Processed other footway features in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/other_footways.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/other_footways/informal_footways.parquet",
+    "format": "GeoParquet",
+    "description": "Processed informal footways sublayer in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/other_footways/informal_footways.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/other_footways/main_footways.parquet",
+    "format": "GeoParquet",
+    "description": "Processed main footways sublayer in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/other_footways/main_footways.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/other_footways/pedestrian_areas.parquet",
+    "format": "GeoParquet",
+    "description": "Processed pedestrian areas sublayer in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/other_footways/pedestrian_areas.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/other_footways/potential_footways.parquet",
+    "format": "GeoParquet",
+    "description": "Processed potential footways sublayer in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/other_footways/potential_footways.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/other_footways/stairways.parquet",
+    "format": "GeoParquet",
+    "description": "Processed stairways sublayer in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/other_footways/stairways.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/roads_for_completeness.parquet",
+    "format": "GeoParquet",
+    "description": "Asset file: roads_for_completeness.parquet",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/roads_for_completeness.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/processed/sidewalks.parquet",
+    "format": "GeoParquet",
+    "description": "Processed and filtered sidewalks in GeoParquet format. Juxtaposed to roads.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/sidewalks.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/raw/crossings.parquet",
+    "format": "GeoParquet",
+    "description": "Raw crossings dataset directly from OSM (unfiltered) in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "crossing IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/raw/crossings.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/raw/kerbs.parquet",
+    "format": "GeoParquet",
+    "description": "Raw kerbs dataset directly from OSM (unfiltered) in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "kerb IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/raw/kerbs.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/raw/other_footways.parquet",
+    "format": "GeoParquet",
+    "description": "Raw other footways dataset directly from OSM (unfiltered) in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/raw/other_footways.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/raw/sidewalks.parquet",
+    "format": "GeoParquet",
+    "description": "Raw sidewalks dataset directly from OSM (unfiltered) in GeoParquet format.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "surface = 'asphalt'"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/raw/sidewalks.parquet.metadata.json"
+  },
+  {
+    "category": "Pedestrian Data (Parquet)",
+    "path": "data/vrts/data_raw.vrt",
+    "format": "XML/VRT",
+    "description": "GDAL Virtual Format file linking all raw parquet files together.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview VRT",
+      "snippets": [
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/vrts/data_raw.vrt.metadata.json"
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/crossings.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/crossings.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/kerbs.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/kerbs.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/other_footways.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/other_footways/informal_footways.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/informal_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/other_footways/main_footways.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/main_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/other_footways/pedestrian_areas.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/pedestrian_areas.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/other_footways/potential_footways.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/potential_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/other_footways/stairways.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/stairways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/roads_for_completeness.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/roads_for_completeness.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Processed Metadata",
+    "path": "metadata/processed/sidewalks.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/sidewalks.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Raw Metadata",
+    "path": "metadata/raw/crossings.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Unfiltered pedestrian-network extracts acquired for the configured node area. This record describes the GeoParquet distribution at data/raw/crossings.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Raw Metadata",
+    "path": "metadata/raw/kerbs.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Unfiltered pedestrian-network extracts acquired for the configured node area. This record describes the GeoParquet distribution at data/raw/kerbs.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Raw Metadata",
+    "path": "metadata/raw/other_footways.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Unfiltered pedestrian-network extracts acquired for the configured node area. This record describes the GeoParquet distribution at data/raw/other_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Raw Metadata",
+    "path": "metadata/raw/sidewalks.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Unfiltered pedestrian-network extracts acquired for the configured node area. This record describes the GeoParquet distribution at data/raw/sidewalks.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Routing & Demos",
+    "path": "data/routing/metadata.json",
+    "format": "JSON",
+    "description": "Routing ruleset provenance, binary-graph audit, slope-source counts, warnings, and generated grade distributions.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/metadata.json.metadata.json"
+  },
+  {
+    "category": "Routing & Demos",
+    "path": "data/routing/network.oswmg",
+    "format": "OSWM Binary Graph",
+    "description": "Versioned typed-array routing topology with profile weights and an indexed segment lookup for the browser worker.",
+    "capabilities": {
+      "action": "download-resource",
+      "action_label": "Download Graph",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/network.oswmg.metadata.json"
+  },
+  {
+    "category": "Routing & Demos",
+    "path": "data/routing/network.parquet",
+    "format": "GeoParquet",
+    "description": "GeoParquet routing network with compact, directional accessibility grades for expert scrutiny.",
+    "capabilities": {
+      "action": "copy-spatial-extract",
+      "action_label": "Copy 1 km Extract",
+      "snippets": [
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/network.parquet.metadata.json"
+  },
+  {
+    "category": "Routing & Demos",
+    "path": "data/routing/profiles.json",
+    "format": "JSON",
+    "description": "Browser-safe distance/accessibility routing modes plus binary graph and display-layer metadata.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/profiles.json.metadata.json"
+  },
+  {
+    "category": "Routing & Demos",
+    "path": "data/routing/slope_cache.json",
+    "format": "JSON",
+    "description": "Reusable derived longitudinal slope estimates keyed by edge geometry and provider configuration.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/slope_cache.json.metadata.json"
+  },
+  {
+    "category": "Routing & Demos",
+    "path": "data/routing/tile_generation_report.json",
+    "format": "JSON",
+    "description": "Validation result, input feature count, and byte size for the routing PMTiles build.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/tile_generation_report.json.metadata.json"
+  },
+  {
+    "category": "Routing Metadata",
+    "path": "metadata/routing/metadata.json.metadata.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This record describes the JSON distribution at data/routing/metadata.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Routing Metadata",
+    "path": "metadata/routing/network.oswmg.metadata.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This record describes the OSWM Binary Graph distribution at data/routing/network.oswmg.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Routing Metadata",
+    "path": "metadata/routing/network.parquet.metadata.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This record describes the GeoParquet distribution at data/routing/network.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Routing Metadata",
+    "path": "metadata/routing/network.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This record describes the PMTiles distribution at data/routing/network.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Routing Metadata",
+    "path": "metadata/routing/profiles.json.metadata.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This record describes the JSON distribution at data/routing/profiles.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Routing Metadata",
+    "path": "metadata/routing/slope_cache.json.metadata.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This record describes the JSON distribution at data/routing/slope_cache.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Routing Metadata",
+    "path": "metadata/routing/tile_generation_report.json.metadata.json",
+    "format": "JSON",
+    "description": "Routing network, profiles, grades, and generation provenance for pedestrian routing. This record describes the JSON distribution at data/routing/tile_generation_report.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Rules & Configuration",
+    "path": "data/hazard_analysis/metadata.json",
+    "format": "JSON",
+    "description": "Asset file: metadata.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/metadata.json.metadata.json"
+  },
+  {
+    "category": "Rules & Configuration",
+    "path": "data/hazard_analysis/profiles.json",
+    "format": "JSON",
+    "description": "Asset file: profiles.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/profiles.json.metadata.json"
+  },
+  {
+    "category": "Rules & Configuration",
+    "path": "data/hazard_analysis/rules.json",
+    "format": "JSON",
+    "description": "Asset file: rules.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/rules.json.metadata.json"
+  },
+  {
+    "category": "Rules & Configuration",
+    "path": "data/hazard_analysis/terrain.json",
+    "format": "JSON",
+    "description": "Asset file: terrain.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/terrain.json.metadata.json"
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_age.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Age metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_incline.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Incline metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_length.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Length metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_n_revs.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks N Revs metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_smoothness.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Smoothness metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_smoothness_x_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Smoothness X Surface metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_surface.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Surface metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_tactile_paving.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Tactile Paving metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Sidewalks Charts",
+    "path": "statistics_specs/sidewalks/sidewalks_width.json",
+    "format": "JSON",
+    "description": "Vega-Lite JSON chart specification visualising Sidewalks Width metrics for sidewalks layer.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Snapshots Metadata",
+    "path": "metadata/snapshots/node_summary.json.metadata.json",
+    "format": "JSON",
+    "description": "Precomputed summaries used by OSWM web-map charts and printable snapshots. This record describes the JSON distribution at data/snapshots/node_summary.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/crossings_lacking_kerbs.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Crossings Lacking Kerbs.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/disjointed_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Disjointed Geometries.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/improper_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Geometries.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/improper_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Keys.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/invalid_characters.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Invalid Characters.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/kerb_on_top_of_non_crossing.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Kerb On Top Of Non Crossing.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/keys_without_wiki.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Keys Without Wiki.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/missing_tags.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Missing Tags.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/older_than_five_years.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Older Than Five Years.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/replaceable_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Replaceable Values.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/uncanny_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Uncanny Keys.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/crossings/wrong_mispelled_or_unlisted_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Wrong Mispelled Or Unlisted Values.Csv) for crossings.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/crossings_lacking_kerbs.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Crossings Lacking Kerbs.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/disjointed_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Disjointed Geometries.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/improper_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Geometries.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/improper_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Keys.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/invalid_characters.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Invalid Characters.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/kerb_on_top_of_non_crossing.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Kerb On Top Of Non Crossing.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/keys_without_wiki.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Keys Without Wiki.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/missing_tags.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Missing Tags.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/older_than_five_years.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Older Than Five Years.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/replaceable_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Replaceable Values.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/uncanny_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Uncanny Keys.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/kerbs/wrong_mispelled_or_unlisted_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Wrong Mispelled Or Unlisted Values.Csv) for kerbs.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/crossings_lacking_kerbs.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Crossings Lacking Kerbs.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/disjointed_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Disjointed Geometries.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/improper_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Geometries.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/improper_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Keys.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/invalid_characters.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Invalid Characters.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/kerb_on_top_of_non_crossing.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Kerb On Top Of Non Crossing.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/keys_without_wiki.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Keys Without Wiki.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/missing_tags.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Missing Tags.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/older_than_five_years.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Older Than Five Years.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/replaceable_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Replaceable Values.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/uncanny_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Uncanny Keys.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/other_footways/wrong_mispelled_or_unlisted_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Wrong Mispelled Or Unlisted Values.Csv) for other_footways.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/crossings_lacking_kerbs.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Crossings Lacking Kerbs.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/disjointed_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Disjointed Geometries.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/improper_geometries.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Geometries.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/improper_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Improper Keys.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/invalid_characters.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Invalid Characters.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/kerb_on_top_of_non_crossing.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Kerb On Top Of Non Crossing.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/keys_without_wiki.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Keys Without Wiki.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/missing_tags.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Missing Tags.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/older_than_five_years.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Older Than Five Years.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/replaceable_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Replaceable Values.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/uncanny_keys.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Uncanny Keys.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Table Quality Checks",
+    "path": "quality_check/tables/sidewalks/wrong_mispelled_or_unlisted_values.csv",
+    "format": "CSV",
+    "description": "Tabular validation report (Wrong Mispelled Or Unlisted Values.Csv) for sidewalks.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview CSV",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/crossings.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/crossings.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/informal_footways.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/informal_footways.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/kerbs.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/kerbs.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/main_footways.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/main_footways.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/pedestrian_areas.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/pedestrian_areas.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/potential_footways.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/potential_footways.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/sidewalks.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/sidewalks.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/stairways.pmtiles.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the PMTiles distribution at data/tiles/stairways.pmtiles.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Tiles Metadata",
+    "path": "metadata/tiles/tile_generation_report.json.metadata.json",
+    "format": "JSON",
+    "description": "PMTiles packages generated for efficient static web-map delivery. This record describes the JSON distribution at data/tiles/tile_generation_report.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/index.html.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the HTML distribution at data/updates/index.html.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/pipeline_decision.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/pipeline_decision.json.",
     "capabilities": {
       "action": "preview-json",
       "action_label": "Preview JSON",
@@ -964,6 +5641,626 @@ print(data)</pre>
     },
     "deliverable": "metadata",
     "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/versioning/crossings_versioning.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/versioning/crossings_versioning.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/versioning/kerbs_versioning.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/versioning/kerbs_versioning.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/versioning/other_footways_versioning.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/versioning/other_footways_versioning.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/versioning/sidewalks_versioning.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/versioning/sidewalks_versioning.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/watcher_decision.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/watcher_decision.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/routing/network.pmtiles",
+    "format": "PMTiles",
+    "description": "Lightweight routing-network vector tiles used by the MapLibre demo.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/network.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/crossings.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing processed crossings.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/crossings.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/informal_footways.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing informal footways.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/informal_footways.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/kerbs.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing processed kerbs.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/kerbs.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/main_footways.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing main footways.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/main_footways.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/pedestrian_areas.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing pedestrian areas.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/pedestrian_areas.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/potential_footways.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing potential footways.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/potential_footways.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/sidewalks.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing processed sidewalks for web rendering.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/sidewalks.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/stairways.pmtiles",
+    "format": "PMTiles",
+    "description": "Vector tile package containing stairways.",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/stairways.pmtiles.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/tiles/tile_generation_report.json",
+    "format": "JSON",
+    "description": "Asset file: tile_generation_report.json",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/tile_generation_report.json.metadata.json"
+  },
+  {
+    "category": "Vector Tiles (PMTiles)",
+    "path": "data/vrts/tiles.vrt",
+    "format": "XML/VRT",
+    "description": "GDAL Virtual Format file referencing tile-oriented datasets.",
+    "capabilities": {
+      "action": "preview-text",
+      "action_label": "Preview VRT",
+      "snippets": [
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/vrts/tiles.vrt.metadata.json"
+  },
+  {
+    "category": "Vrts Metadata",
+    "path": "metadata/vrts/data.vrt.metadata.json",
+    "format": "JSON",
+    "description": "GDAL VRT descriptors that group and expose OSWM datasets. This record describes the GDAL VRT distribution at data/vrts/data.vrt.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Vrts Metadata",
+    "path": "metadata/vrts/data_raw.vrt.metadata.json",
+    "format": "JSON",
+    "description": "GDAL VRT descriptors that group and expose OSWM datasets. This record describes the GDAL VRT distribution at data/vrts/data_raw.vrt.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Vrts Metadata",
+    "path": "metadata/vrts/tiles.vrt.metadata.json",
+    "format": "JSON",
+    "description": "GDAL VRT descriptors that group and expose OSWM datasets. This record describes the GDAL VRT distribution at data/vrts/tiles.vrt.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Web Maps & Assets",
+    "path": "data/hazard_analysis/hazard.pmtiles",
+    "format": "PMTiles",
+    "description": "Asset file: hazard.pmtiles",
+    "capabilities": {
+      "action": "inspect-pmtiles",
+      "action_label": "Inspect Archive",
+      "snippets": [
+        "javascript",
+        "gdal",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/hazard.pmtiles.metadata.json"
+  },
+  {
+    "category": "Web Maps & Assets",
+    "path": "data/hazard_analysis/terrain_blind.png",
+    "format": "PNG",
+    "description": "Asset file: terrain_blind.png",
+    "capabilities": {
+      "action": "open-resource",
+      "action_label": "View Image",
+      "snippets": [
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/terrain_blind.png.metadata.json"
+  },
+  {
+    "category": "Web Maps & Assets",
+    "path": "data/hazard_analysis/terrain_elderly.png",
+    "format": "PNG",
+    "description": "Asset file: terrain_elderly.png",
+    "capabilities": {
+      "action": "open-resource",
+      "action_label": "View Image",
+      "snippets": [
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/terrain_elderly.png.metadata.json"
+  },
+  {
+    "category": "Web Maps & Assets",
+    "path": "data/hazard_analysis/terrain_pedestrian.png",
+    "format": "PNG",
+    "description": "Asset file: terrain_pedestrian.png",
+    "capabilities": {
+      "action": "open-resource",
+      "action_label": "View Image",
+      "snippets": [
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/terrain_pedestrian.png.metadata.json"
+  },
+  {
+    "category": "Web Maps & Assets",
+    "path": "data/hazard_analysis/terrain_wheelchair.png",
+    "format": "PNG",
+    "description": "Asset file: terrain_wheelchair.png",
+    "capabilities": {
+      "action": "open-resource",
+      "action_label": "View Image",
+      "snippets": [
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/terrain_wheelchair.png.metadata.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/boundaries/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'boundaries' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/boundaries/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/data_quality/crossings_lacking_kerbs/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'data_quality/crossings_lacking_kerbs' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/crossings_lacking_kerbs/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/data_quality/disjointed/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'data_quality/disjointed' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/disjointed/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/data_quality/improper_geoms/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'data_quality/improper_geoms' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/improper_geoms/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/data_quality/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'data_quality' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/data_quality/kerb_on_top_of_non_crossing/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'data_quality/kerb_on_top_of_non_crossing' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/data_quality/kerb_on_top_of_non_crossing/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/hazard_analysis/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'hazard_analysis' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/processed/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'processed' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/processed/other_footways/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'processed/other_footways' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/processed/other_footways/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/raw/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'raw' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/raw/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/routing/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'routing' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/routing/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/snapshots/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'snapshots' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/snapshots/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/tiles/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'tiles' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/tiles/index.json"
   },
   {
     "category": "Folder Indexes",
@@ -998,6 +6295,295 @@ print(data)</pre>
     },
     "deliverable": "map_data",
     "metadata_path": "metadata/updates/versioning/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "data/vrts/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'vrts' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/vrts/index.json"
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/completeness/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'completeness' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/json/crossings/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'json/crossings' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/json/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'json' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/json/kerbs/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'json/kerbs' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/json/other_footways/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'json/other_footways' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/json/sidewalks/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'json/sidewalks' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/tables/crossings/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'tables/crossings' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/tables/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'tables' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/tables/kerbs/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'tables/kerbs' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/tables/other_footways/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'tables/other_footways' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "quality_check/tables/sidewalks/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'tables/sidewalks' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "statistics_specs/all_data/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'all_data' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "statistics_specs/crossings/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'crossings' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "statistics_specs/kerbs/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'kerbs' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "statistics_specs/other_footways/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'other_footways' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
+  },
+  {
+    "category": "Folder Indexes",
+    "path": "statistics_specs/sidewalks/index.json",
+    "format": "JSON",
+    "description": "Folder-level data index describing files and subdirectories available inside the 'sidewalks' folder.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "vega_specs",
+    "metadata_path": null
   }
 ];
         const exampleArea = {
