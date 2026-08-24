@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source_revision": "1f7814d1b3d9895e5dcd663c7ee63837b68a280f",
+  "managed_files": [
+    ".github/workflows/customizable.yml",
+    ".github/workflows/data_daily_updating.yml",
+    ".github/workflows/pages.yml",
+    ".github/workflows/setup.yml",
+    ".github/workflows/special_updates.yml",
+    ".github/workflows/update_codebase.yml",
+    ".github/workflows/weekly.yml"
+  ]
+}

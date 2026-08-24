@@ -17,37 +17,125 @@
 # It can be also the name of a neighborhood if is such a big city or you just want a node for it
 # Sometimes being more specific can help, so if you for example want the city of Salvador (Brazil)
 # you should use "Salvador, Brazil", since just "Salvador" probably will return "El Salvador", the country
-CITY_NAME = "Curitiba"
+CITY_NAME = "Milan"
 
 # simple name, spaces must be replaced by underscores, no special characters, all in lowercase
-CITY_SHORTNAME = "curitiba"
+CITY_SHORTNAME = "milan"
+
+# Prefer an exact OpenStreetMap administrative relation for repeatable node
+# boundaries.  Leave as None only when the node intentionally relies on the
+# ranked CITY_NAME search and BOUNDING_BOX fallback.
+OSM_RELATION_ID = 44915
+
+# Stagger these UTC schedules across nodes before fleet enrollment.  The
+# managed workflow synchronizer renders them into GitHub Actions workflows.
+NODE_DAILY_CRON = "13 8 * * *"
+NODE_WEEKLY_CRON = "37 9 * * 0"
+
+# Public-service requests are bounded and identify OSWM.  Large cities and
+# simultaneous cold starts should use controlled infrastructure instead.
+NOMINATIM_URL = "https://nominatim.openstreetmap.org"
+NOMINATIM_USER_AGENT = (
+    "OpenSidewalkMap/1.0 (https://github.com/kauevestena/oswm_codebase)"
+)
+NOMINATIM_TIMEOUT_SECONDS = 30
+NOMINATIM_ATTEMPTS = 3
+NOMINATIM_BACKOFF_SECONDS = 2
+
+OVERPASS_ENDPOINTS = (
+    "https://overpass-api.de/api",
+    "https://overpass.kumi.systems/api",
+)
+OVERPASS_ATTEMPTS_PER_ENDPOINT = 2
+OVERPASS_BACKOFF_SECONDS = 5
+
+# Metadata records are published in English ("en") by default. The timezone is
+# automatically determined from MID_LAT/MID_LGT (or BOUNDING_BOX).
+# METADATA_TIMEZONE = "America/Sao_Paulo"  # Optional manual override
+
 
 # username, for adresses
-USERNAME = "kauevestena"
+USERNAME = "opensidewalkmap"
 
 # repository name, for many weblink references:
-REPO_NAME = "opensidewalkmap_beta"
+REPO_NAME = "milan"
 
 # BOUNDING BOX:
 # by now is mostly a fallback method, if the API fails to download the city polygon using CITY_NAME
 # A good tool to find them is: bboxfinder.com
 # # entire city:
-BOUNDING_BOX = (
-    -25.6450101000000004,  # SOUTHERNMOST LATITUDE
-    -49.3891399999999976,  # WESTERNMOST  LONGITUDE
-    -25.3467008999999983,  # NORTHERNMOST LATITUDE
-    -49.1843181999999999,  # EASTERNMOST  LONGITUDE
-)
+BOUNDING_BOX = (45.3867381, 9.0408867, 45.5358482, 9.2781103)
 
 # Set a midpoint for the map AND A Z LEVEL FOR THE INITIAL ZOOM:
-MID_LAT = -25.46075
-MID_LGT = -49.26135
-INITIAL_Z_LEVEL = 19
+MID_LAT = 45.4642
+MID_LGT = 9.1900
+INITIAL_Z_LEVEL = 11
+
+# API usage examples use a 1 km x 1 km square centred on downtown. Nodes may
+# choose a representative civic centre independently from the initial map view.
+API_EXAMPLE_AREA_LABEL = "Milan downtown (Piazza del Duomo)"
+API_EXAMPLE_CENTER_LAT = 45.4642
+API_EXAMPLE_CENTER_LON = 9.1900
+API_EXAMPLE_BBOX_SIZE_M = 1000
+
+METADATA_TIMEZONE = "Europe/Rome"
 
 # MIN AND MAX ZOOM LEVELS FOR TILE GENERATION:
 # (since there's the 100MB file size limit, for big datasets might be better to stay at 19 or even 18)
 TILES_MIN_ZOOM = 9
-TILES_MAX_ZOOM = 20
+TILES_MAX_ZOOM = 19
+
+# ROUTING ELEVATION SOURCES
+#
+# OSM incline=* values always have priority. The providers below are tried in
+# descending priority order only when a numeric mapped incline is unavailable.
+# The default is globally valid: public Copernicus DEM COGs hosted by AWS,
+# with GLO-30 preferred and worldwide GLO-90 used for any unreleased 30 m
+# tile. A node may still insert a better local LiDAR/DTM COG before them:
+#
+# {
+#     "type": "local_cog",
+#     "path": "path/or/https-url/to/dtm.tif",
+#     "source_name": "municipal_lidar_dtm",
+#     "priority": 100,
+#     "confidence": 90,
+#     "resolution_m": 1,
+#     "minimum_baseline_m": 8,
+#     "sample_count": 7,
+# }
+#
+# Only compact derived slopes are committed. Downloaded raster tiles live in
+# the ignored .cache directory.
+ELEVATION_CONFIG = {
+    "enabled": True,
+    "providers": [
+        {
+            "type": "copernicus_glo30",
+            "role": "global_primary",
+            "priority": 20,
+            "cache_dir": ".cache/oswm/elevation/copernicus_glo30",
+            "minimum_baseline_m": 45,
+            "sample_count": 7,
+            "max_abs_slope_percent": 40,
+        },
+        {
+            "type": "copernicus_glo90",
+            "role": "global_coverage_fallback",
+            "priority": 10,
+            "cache_dir": ".cache/oswm/elevation/copernicus_glo90",
+            "minimum_baseline_m": 135,
+            "sample_count": 7,
+            "max_abs_slope_percent": 40,
+        },
+    ],
+    "request_timeout_seconds": 120,
+}
+
+HAZARD_TERRAIN_CONFIG = {
+    "enabled": True,
+    "max_dimension": 1600,
+    "smoothing_sigma_pixels": 3.0,
+}
 
 
 ###  THE MORE DELICATE ONES: (leave them unchanged by default, unless you know what you are doing!)
@@ -102,46 +190,4 @@ other_footways_subcatecories = {
     "potential_footways": {"highway": ["path", "track"]},
     "informal_footways": {"foot": ["yes", "permissive"]},
     "pedestrian_areas": {},  # defined only by geometry type (Polygon,Multipolygon)
-}
-
-
-# GLOBAL ELEVATION SOURCES
-#
-# Numeric OSM incline=* remains authoritative. Otherwise the routing and
-# hazard modules use the public Copernicus DEM Cloud Optimized GeoTIFFs hosted
-# by the AWS Open Data Registry. GLO-30 is preferred; GLO-90 guarantees global
-# land coverage where a public 30 m tile is unavailable. Both are digital
-# surface models, so derived values describe terrain context rather than a
-# surveyed sidewalk or cross slope.
-ELEVATION_CONFIG = {
-    "enabled": True,
-    "providers": [
-        {
-            "type": "copernicus_glo30",
-            "role": "global_primary",
-            "priority": 20,
-            "cache_dir": ".cache/oswm/elevation/copernicus_glo30",
-            "minimum_baseline_m": 45,
-            "sample_count": 7,
-            "max_abs_slope_percent": 40,
-        },
-        {
-            "type": "copernicus_glo90",
-            "role": "global_coverage_fallback",
-            "priority": 10,
-            "cache_dir": ".cache/oswm/elevation/copernicus_glo90",
-            "minimum_baseline_m": 135,
-            "sample_count": 7,
-            "max_abs_slope_percent": 40,
-        },
-    ],
-    "request_timeout_seconds": 120,
-}
-
-HAZARD_TERRAIN_CONFIG = {
-    "enabled": True,
-    "max_dimension": 1600,
-    # Suppress building-scale noise in the global surface model so the layer
-    # communicates broad terrain context.
-    "smoothing_sigma_pixels": 3.0,
 }
