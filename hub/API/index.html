@@ -1412,25 +1412,6 @@ print(data)</pre>
   },
   {
     "category": "Data (Parquet & GeoJSON)",
-    "path": "data/hazard_analysis/features_blind.geojson",
-    "format": "GeoJSON",
-    "description": "Asset file: features_blind.geojson",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview GeoJSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "gdal",
-        "curl"
-      ],
-      "attribute_filter": "id IS NOT NULL"
-    },
-    "deliverable": "hazard_analysis",
-    "metadata_path": "metadata/hazard_analysis/features_blind.geojson.metadata.json"
-  },
-  {
-    "category": "Data (Parquet & GeoJSON)",
     "path": "data/hazard_analysis/features_blind.parquet",
     "format": "GeoParquet",
     "description": "Asset file: features_blind.parquet",
@@ -1446,25 +1427,6 @@ print(data)</pre>
     },
     "deliverable": "hazard_analysis",
     "metadata_path": "metadata/hazard_analysis/features_blind.parquet.metadata.json"
-  },
-  {
-    "category": "Data (Parquet & GeoJSON)",
-    "path": "data/hazard_analysis/features_elderly.geojson",
-    "format": "GeoJSON",
-    "description": "Asset file: features_elderly.geojson",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview GeoJSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "gdal",
-        "curl"
-      ],
-      "attribute_filter": "id IS NOT NULL"
-    },
-    "deliverable": "hazard_analysis",
-    "metadata_path": "metadata/hazard_analysis/features_elderly.geojson.metadata.json"
   },
   {
     "category": "Data (Parquet & GeoJSON)",
@@ -1486,25 +1448,6 @@ print(data)</pre>
   },
   {
     "category": "Data (Parquet & GeoJSON)",
-    "path": "data/hazard_analysis/features_pedestrian.geojson",
-    "format": "GeoJSON",
-    "description": "Asset file: features_pedestrian.geojson",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview GeoJSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "gdal",
-        "curl"
-      ],
-      "attribute_filter": "id IS NOT NULL"
-    },
-    "deliverable": "hazard_analysis",
-    "metadata_path": "metadata/hazard_analysis/features_pedestrian.geojson.metadata.json"
-  },
-  {
-    "category": "Data (Parquet & GeoJSON)",
     "path": "data/hazard_analysis/features_pedestrian.parquet",
     "format": "GeoParquet",
     "description": "Asset file: features_pedestrian.parquet",
@@ -1523,25 +1466,6 @@ print(data)</pre>
   },
   {
     "category": "Data (Parquet & GeoJSON)",
-    "path": "data/hazard_analysis/features_wheelchair.geojson",
-    "format": "GeoJSON",
-    "description": "Asset file: features_wheelchair.geojson",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview GeoJSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "gdal",
-        "curl"
-      ],
-      "attribute_filter": "id IS NOT NULL"
-    },
-    "deliverable": "hazard_analysis",
-    "metadata_path": "metadata/hazard_analysis/features_wheelchair.geojson.metadata.json"
-  },
-  {
-    "category": "Data (Parquet & GeoJSON)",
     "path": "data/hazard_analysis/features_wheelchair.parquet",
     "format": "GeoParquet",
     "description": "Asset file: features_wheelchair.parquet",
@@ -1557,6 +1481,23 @@ print(data)</pre>
     },
     "deliverable": "hazard_analysis",
     "metadata_path": "metadata/hazard_analysis/features_wheelchair.parquet.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/changeset_cache.json",
+    "format": "JSON",
+    "description": "Cached metadata for OSM changesets (user, comment, created_at, closed_at) to avoid redundant OSM API hits.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/changeset_cache.json.metadata.json"
   },
   {
     "category": "Data Aging & Versioning",
@@ -1676,6 +1617,40 @@ print(data)</pre>
     },
     "deliverable": "map_data",
     "metadata_path": "metadata/updates/watcher_decision.json.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/watcher_history.json",
+    "format": "JSON",
+    "description": "Historical log of daily OSM contribution counts (additions, modifications, deletions) for each layer over the last 120 days.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/watcher_history.json.metadata.json"
+  },
+  {
+    "category": "Data Aging & Versioning",
+    "path": "data/updates/yesterday.json",
+    "format": "JSON",
+    "description": "List of OSM changesets touching OSWM interest features that occurred yesterday.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "map_data",
+    "metadata_path": "metadata/updates/yesterday.json.metadata.json"
   },
   {
     "category": "Data Quality Metadata",
@@ -2018,6 +1993,23 @@ print(data)</pre>
   },
   {
     "category": "Global Quality Metrics",
+    "path": "quality_check/keys_without_wiki.json",
+    "format": "JSON",
+    "description": "List of tag keys missing documentation in the OSM Wiki.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "data_quality",
+    "metadata_path": null
+  },
+  {
+    "category": "Global Quality Metrics",
     "path": "quality_check/map.geojson",
     "format": "GeoJSON",
     "description": "Data quality asset file: map.geojson",
@@ -2088,43 +2080,9 @@ print(data)</pre>
   },
   {
     "category": "Hazard Analysis Metadata",
-    "path": "metadata/hazard_analysis/features_blind.geojson.metadata.json",
-    "format": "JSON",
-    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_blind.geojson.",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview JSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "curl"
-      ]
-    },
-    "deliverable": "metadata",
-    "metadata_path": null
-  },
-  {
-    "category": "Hazard Analysis Metadata",
     "path": "metadata/hazard_analysis/features_blind.parquet.metadata.json",
     "format": "JSON",
     "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_blind.parquet.",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview JSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "curl"
-      ]
-    },
-    "deliverable": "metadata",
-    "metadata_path": null
-  },
-  {
-    "category": "Hazard Analysis Metadata",
-    "path": "metadata/hazard_analysis/features_elderly.geojson.metadata.json",
-    "format": "JSON",
-    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_elderly.geojson.",
     "capabilities": {
       "action": "preview-json",
       "action_label": "Preview JSON",
@@ -2156,43 +2114,9 @@ print(data)</pre>
   },
   {
     "category": "Hazard Analysis Metadata",
-    "path": "metadata/hazard_analysis/features_pedestrian.geojson.metadata.json",
-    "format": "JSON",
-    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_pedestrian.geojson.",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview JSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "curl"
-      ]
-    },
-    "deliverable": "metadata",
-    "metadata_path": null
-  },
-  {
-    "category": "Hazard Analysis Metadata",
     "path": "metadata/hazard_analysis/features_pedestrian.parquet.metadata.json",
     "format": "JSON",
     "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_pedestrian.parquet.",
-    "capabilities": {
-      "action": "preview-json",
-      "action_label": "Preview JSON",
-      "snippets": [
-        "javascript",
-        "python",
-        "curl"
-      ]
-    },
-    "deliverable": "metadata",
-    "metadata_path": null
-  },
-  {
-    "category": "Hazard Analysis Metadata",
-    "path": "metadata/hazard_analysis/features_wheelchair.geojson.metadata.json",
-    "format": "JSON",
-    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_wheelchair.geojson.",
     "capabilities": {
       "action": "preview-json",
       "action_label": "Preview JSON",
@@ -5593,6 +5517,23 @@ print(data)</pre>
   },
   {
     "category": "Updates Metadata",
+    "path": "metadata/updates/changeset_cache.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/changeset_cache.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
     "path": "metadata/updates/index.html.metadata.json",
     "format": "JSON",
     "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the HTML distribution at data/updates/index.html.",
@@ -5715,6 +5656,40 @@ print(data)</pre>
     "path": "metadata/updates/watcher_decision.json.metadata.json",
     "format": "JSON",
     "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/watcher_decision.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/watcher_history.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/watcher_history.json.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Updates Metadata",
+    "path": "metadata/updates/yesterday.json.metadata.json",
+    "format": "JSON",
+    "description": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/yesterday.json.",
     "capabilities": {
       "action": "preview-json",
       "action_label": "Preview JSON",
