@@ -82,10 +82,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/updates/pipeline_decision.json",
     "media_type": "application/json",
     "format": "JSON",
-    "byte_size": 2115,
+    "byte_size": 353,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "70557361816aee3f098887e7409f6d635e2539d9793fd8a1def9e1dbc7a97d09"
+      "value": "66cbbd8d90cb82e887fc5d4ceeaa78067390b89d04aec121c5cd01c6d0093f2c"
     }
   },
   "links": [

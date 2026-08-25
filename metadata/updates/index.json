@@ -138,10 +138,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/pipeline_decision.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 2115,
+      "byte_size": 353,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "70557361816aee3f098887e7409f6d635e2539d9793fd8a1def9e1dbc7a97d09"
+        "value": "66cbbd8d90cb82e887fc5d4ceeaa78067390b89d04aec121c5cd01c6d0093f2c"
       }
     },
     {
@@ -162,10 +162,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/watcher_decision.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 276,
+      "byte_size": 231,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "0d8d79cec225d1fa68ccd92685ef8347d34ebb58a507bf6c7382e15ea847a310"
+        "value": "4cf2a1598a5ed323e4b1e87e232f88198a9ba6902016fa5a6cd8ca4228c50800"
       }
     },
     {
@@ -177,7 +177,7 @@
       "byte_size": 94194,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "33a5c08e2a47569f1a204813b91c7cd63cf50cdca025a0de10c023bb8e320b6d"
+        "value": "9ca10a83f0adbae8f138af5013fd080c00d74c66e9a0f35a46ea1b7fb926d5fd"
       }
     },
     {
@@ -186,10 +186,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/yesterday.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 2186,
+      "byte_size": 1558,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "0138fc5a7b00ae647f78457263528865ab594b8b631aa280c6937aae8da6b951"
+        "value": "ea72fbba08b411a0c85cbade3607feb73174a5ad810876685def75fdb4d7e3d9"
       }
     }
   ],

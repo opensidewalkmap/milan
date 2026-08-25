@@ -82,10 +82,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/updates/watcher_decision.json",
     "media_type": "application/json",
     "format": "JSON",
-    "byte_size": 276,
+    "byte_size": 231,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "0d8d79cec225d1fa68ccd92685ef8347d34ebb58a507bf6c7382e15ea847a310"
+      "value": "4cf2a1598a5ed323e4b1e87e232f88198a9ba6902016fa5a6cd8ca4228c50800"
     }
   },
   "links": [
