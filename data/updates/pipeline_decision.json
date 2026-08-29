@@ -1,12 +1,16 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-08-28T20:12:25Z",
-  "mode": "skip",
-  "reason": "no_osm_changes",
+  "checked_at": "2026-08-29T04:28:06Z",
+  "mode": "generate",
+  "reason": "forced",
   "watcher_status": 0,
-  "force": false,
-  "current_codebase_revision": "1f7814d1b3d9895e5dcd663c7ee63837b68a280f",
+  "force": true,
+  "current_codebase_revision": "181d10276c184265f3de546a941386d9163efc23",
   "recorded_codebase_revision": "1f7814d1b3d9895e5dcd663c7ee63837b68a280f",
   "missing_raw": [],
-  "missing_required": []
+  "missing_required": [
+    "data/basemaps/light.pmtiles",
+    "data/basemaps/dark.pmtiles",
+    "data/basemaps/generation_report.json"
+  ]
 }

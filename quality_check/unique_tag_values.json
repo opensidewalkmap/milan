@@ -3264,6 +3264,7 @@
             "Piazza Velasca",
             "Piazzale Dateo",
             "Parco Argonne",
+            "Piazzale Siena",
             "Piazza Esquilino",
             "Piazzale Giovanni Bausan",
             "Piazza Eleonora Duse",
@@ -4160,7 +4161,6 @@
             "iron",
             "chipseal",
             "graound;grass",
-            "acrylic",
             "see",
             "metal_grid",
             "woodchips",
@@ -4326,6 +4326,7 @@
             "position extimated",
             "add connections to platforms",
             "da controllare quale sia la pista ciclabile e quale la pedonale",
+            "da definire meglio con immagini satellitari aggiornate",
             "Northern side estimated",
             "position estimated",
             "Use proper GPS track",
@@ -4836,7 +4837,6 @@
         ],
         "name:it": [
             "Porta del Filarete",
-            "Piazzetta Reale",
             "Galleria Vittorio Emanuele Secondo",
             "Via Giorgio de Chirico"
         ],
@@ -6119,6 +6119,7 @@
             "1339_53142",
             "2723_51732",
             "5411_0",
+            "306_0",
             "6078_55935",
             "7103_36611",
             "7103_36613",
@@ -6544,6 +6545,7 @@
             "Q3902295",
             "Q929968",
             "Q106642743",
+            "Q106982716",
             "Q106434467",
             "Q125147342",
             "Q4010601",
@@ -6853,6 +6855,7 @@
         ],
         "website": [
             "https://www.ospedaleniguarda.it/",
+            "https://experience.regione.lombardia.it/it/palazzo-lombardia/piazza-citt%C3%A0-di-lombardia",
             "https://www.youtube.com/watch?app=desktop&v=45STF37e4T8"
         ],
         "wikimedia_commons": [
@@ -6919,6 +6922,7 @@
             "12",
             "45",
             "28",
+            "16",
             "21",
             "1",
             "4",
@@ -6929,7 +6933,6 @@
             "19",
             "13",
             "9",
-            "16",
             "2",
             "36",
             "48",

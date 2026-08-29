@@ -1,6 +1,6 @@
 {
   "node_name": "Milan",
-  "generated_at": "2026-08-28T20:14:16Z",
+  "generated_at": "2026-08-29T05:07:45Z",
   "bbox": [
     45.3867381,
     9.0408867,
@@ -40,23 +40,8 @@
       }
     }
   },
-  "total_projects_found": 15,
+  "total_projects_found": 14,
   "projects": [
-    {
-      "id": 1411,
-      "title": "Sustainable Transportation in Nashville, Tennessee",
-      "service": "Tasking Manager",
-      "instance": "https://tasks.teachosm.org/",
-      "url": "https://tasks.teachosm.org/projects/1411",
-      "status": "Published",
-      "description": "Sustainable transportation methods are crucial to a thriving city. A healthy network of transport promotes walkability, social interaction, use of public transportation, contribution to the city's sustainability, health, local economy, and livability. Here we are looking at Nashville's transportation infrastructure and improving its quality in OpenStreetMap.\n",
-      "country": [
-        "United States"
-      ],
-      "matched_keywords": [
-        "walk"
-      ]
-    },
     {
       "id": 44846,
       "title": "Milan - Cycleway Missing Foot Tags",

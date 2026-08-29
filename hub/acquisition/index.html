@@ -320,7 +320,7 @@
     <header>
         <div class="header-inner">
             <h1>&#x1F6B6; OSWM Data Acquisition &mdash; Milan</h1>
-            <span class="timestamp">2026-08-28 20:14 UTC</span>
+            <span class="timestamp">2026-08-29 05:07 UTC</span>
         </div>
     </header>
 
@@ -359,23 +359,13 @@
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.0.0/dist/maplibre-gl.mjs';
+import { Protocol as PmtilesProtocol } from 'https://cdn.jsdelivr.net/npm/pmtiles@4/+esm';
+
+const pmtilesProtocol = new PmtilesProtocol();
+maplibregl.addProtocol('pmtiles', pmtilesProtocol.tile);
+const BASEMAP_URL = new URL('../../data/basemaps/light.pmtiles', import.meta.url).href;
 
 const PROJECTS = [
-  {
-    "id": 1411,
-    "title": "Sustainable Transportation in Nashville, Tennessee",
-    "service": "Tasking Manager",
-    "instance": "https://tasks.teachosm.org/",
-    "url": "https://tasks.teachosm.org/projects/1411",
-    "status": "Published",
-    "description": "Sustainable transportation methods are crucial to a thriving city. A healthy network of transport promotes walkability, social interaction, use of public transportation, contribution to the city's sustainability, health, local economy, and livability. Here we are looking at Nashville's transportation infrastructure and improving its quality in OpenStreetMap.\n",
-    "country": [
-      "United States"
-    ],
-    "matched_keywords": [
-      "walk"
-    ]
-  },
   {
     "id": 44846,
     "title": "Milan - Cycleway Missing Foot Tags",
@@ -1118,7 +1108,18 @@ function initMap() {
     
     mapObj = new maplibregl.Map({
         container: 'map',
-        style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+        style: {
+            version: 8,
+            sources: {
+                'oswm-basemap': {
+                    type: 'raster',
+                    url: `pmtiles://${BASEMAP_URL}`,
+                    tileSize: 256,
+                    attribution: 'Basemap © OpenFreeMap, © OpenMapTiles; data © OpenStreetMap contributors'
+                }
+            },
+            layers: [{ id: 'oswm-basemap-tiles', type: 'raster', source: 'oswm-basemap' }]
+        },
         bounds: bounds,
         fitBoundsOptions: { padding: 40 }
     });
