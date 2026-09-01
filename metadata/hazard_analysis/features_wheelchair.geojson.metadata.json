@@ -26,14 +26,19 @@
         "name": "ISO 19157-1:2023",
         "role": "geographic data quality reporting",
         "url": "https://www.iso.org/standard/78900.html"
+      },
+      {
+        "name": "ISO 19110:2016",
+        "role": "feature catalogue concepts where applicable",
+        "url": "https://www.iso.org/standard/57303.html"
       }
     ],
     "conformance_note": "This is an OSWM JSON application profile. Geographic ISO concepts are applied only to geographic or mixed resources; the profile does not claim conformance to the ISO 19115-3 XML encoding."
   },
-  "identifier": "https://opensidewalkmap.github.io/milan/metadata/updates/versioning/kerbs_versioning.json.metadata.json",
+  "identifier": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_wheelchair.geojson.metadata.json",
   "resource_type": "dataset",
-  "title": "Milan — Kerbs Versioning",
-  "abstract": "Refresh status, OSM changeset monitoring, and feature-version history. This record describes the JSON distribution at data/updates/versioning/kerbs_versioning.json.",
+  "title": "Milan — Features Wheelchair",
+  "abstract": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_wheelchair.geojson.",
   "language": "en",
   "responsible_parties": [
     {
@@ -79,11 +84,11 @@
     }
   },
   "lineage": {
-    "process_description": "Generated from node workflow executions and OpenStreetMap history services.",
+    "process_description": "Derived from OSWM pedestrian features, accessibility rules, and configured terrain context.",
     "sources": [
+      "data/processed",
       "OpenStreetMap",
-      "ohsome API",
-      "OSWM workflows"
+      "Copernicus DEM"
     ]
   },
   "quality": {
@@ -108,31 +113,31 @@
     "deterministic": true
   },
   "distribution": {
-    "resource_path": "data/updates/versioning/kerbs_versioning.json",
-    "access_url": "https://opensidewalkmap.github.io/milan/data/updates/versioning/kerbs_versioning.json",
-    "download_url": "https://opensidewalkmap.github.io/milan/data/updates/versioning/kerbs_versioning.json",
-    "media_type": "application/json",
-    "format": "JSON",
-    "byte_size": 2312557,
+    "resource_path": "data/hazard_analysis/features_wheelchair.geojson",
+    "access_url": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_wheelchair.geojson",
+    "download_url": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_wheelchair.geojson",
+    "media_type": "application/geo+json",
+    "format": "GeoJSON",
+    "byte_size": 58160672,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "876b960b9b8e50bda46ed66249fafba7ca2728741f5f743f2eced38a1a5a6a6d"
+      "value": "298035ebed29af9516410eb3aa5f3ff9f6f1f16af917d34236682e69ee2d36a1"
     }
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://opensidewalkmap.github.io/milan/metadata/updates/versioning/kerbs_versioning.json.metadata.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_wheelchair.geojson.metadata.json",
       "type": "application/json"
     },
     {
       "rel": "describes",
-      "href": "https://opensidewalkmap.github.io/milan/data/updates/versioning/kerbs_versioning.json",
-      "type": "application/json"
+      "href": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_wheelchair.geojson",
+      "type": "application/geo+json"
     },
     {
       "rel": "collection",
-      "href": "https://opensidewalkmap.github.io/milan/metadata/updates/versioning/index.json",
+      "href": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/index.json",
       "type": "application/json"
     }
   ]
