@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "node_name": "Milan",
-    "generated_at": "2026-09-07T14:21:34.271608+00:00",
+    "generated_at": "2026-09-10T13:00:19.160209+00:00",
     "themes": {
         "footway_categories": {
             "kind": "categorical",
@@ -709,51 +709,51 @@
             "unknown": 0,
             "unknownPercent": 0.0,
             "invalid": 0,
-            "min": 0.002738,
-            "max": 22.078029,
-            "mean": 2.953657,
-            "median": 3.219713,
+            "min": 0.010951,
+            "max": 22.086242,
+            "mean": 2.961871,
+            "median": 3.227926,
             "bins": [
                 {
                     "label": "0–<2",
                     "lower": 0.0,
                     "upper": 2.0,
-                    "count": 36000,
+                    "count": 35945,
                     "color": "#90d743"
                 },
                 {
                     "label": "2–<4",
                     "lower": 2.0,
                     "upper": 4.0,
-                    "count": 34211,
+                    "count": 34071,
                     "color": "#35b779"
                 },
                 {
                     "label": "4–<6",
                     "lower": 4.0,
                     "upper": 6.0,
-                    "count": 23296,
+                    "count": 23491,
                     "color": "#21918c"
                 },
                 {
                     "label": "6–<8",
                     "lower": 6.0,
                     "upper": 8.0,
-                    "count": 1057,
+                    "count": 1054,
                     "color": "#31688e"
                 },
                 {
                     "label": "8–<10",
                     "lower": 8.0,
                     "upper": 10.0,
-                    "count": 937,
+                    "count": 932,
                     "color": "#443983"
                 },
                 {
                     "label": "10+",
                     "lower": 10.0,
                     "upper": null,
-                    "count": 1657,
+                    "count": 1665,
                     "color": "#440154"
                 }
             ],
