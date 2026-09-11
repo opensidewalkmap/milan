@@ -34,16 +34,16 @@
   ],
   "spatial": null,
   "temporal": {
-    "updated": "2026-09-10T13:03:09+00:00",
+    "updated": "2026-09-11T12:57:45+00:00",
     "node_registry": {
       "Data Fetching": "2026-08-29T04:29:19Z",
       "Versioning Data": "2026-09-06T13:07:54Z",
-      "Data Pre-Processing": "2026-09-10T12:56:11Z",
-      "Data Quality Tool": "2026-09-10T13:00:34Z",
-      "Completeness Analysis": "2026-09-10T13:02:55Z",
-      "Statistical Charts": "2026-09-10T13:03:09Z",
-      "OSWM Codebase Revision": "9355a89512c865702b47ed7fdafb655caf7da425",
-      "Pipeline Success": "2026-09-09T13:00:01Z",
+      "Data Pre-Processing": "2026-09-11T12:49:43Z",
+      "Data Quality Tool": "2026-09-11T12:55:27Z",
+      "Completeness Analysis": "2026-09-11T12:57:28Z",
+      "Statistical Charts": "2026-09-11T12:57:45Z",
+      "OSWM Codebase Revision": "ec230ff28d3fbf7433bdd602df2041c2f08f2e35",
+      "Pipeline Success": "2026-09-10T13:22:39Z",
       "Wiki check for keys": "2026-09-06T13:16:11Z"
     }
   },
@@ -66,11 +66,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-10T13:03:09+00:00",
+    "generated_at": "2026-09-11T12:57:45+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "ec230ff28d3fbf7433bdd602df2041c2f08f2e35",
-      "commit_date": "2026-09-09T18:15:00-03:00"
+      "commit": "3023fa63ac1616fee45d5e874ef4278b3ca0b5ca",
+      "commit_date": "2026-09-10T09:30:35-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -82,10 +82,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/snapshots/node_summary.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 28881,
+      "byte_size": 28880,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "a0167e0a2b4bcdf720dcbcf92697b1979546ca64366d61cc00baaa64636715be"
+        "value": "8064e6db3463a7983c5787cedc749130a54e1ec7827c2bba1ba29dd2fa42ea67"
       }
     }
   ],

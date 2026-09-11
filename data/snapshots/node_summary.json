@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "node_name": "Milan",
-    "generated_at": "2026-09-10T13:00:19.160209+00:00",
+    "generated_at": "2026-09-11T12:54:58.360065+00:00",
     "themes": {
         "footway_categories": {
             "kind": "categorical",
@@ -709,30 +709,30 @@
             "unknown": 0,
             "unknownPercent": 0.0,
             "invalid": 0,
-            "min": 0.010951,
-            "max": 22.086242,
-            "mean": 2.961871,
-            "median": 3.227926,
+            "min": 0.013689,
+            "max": 22.08898,
+            "mean": 2.964609,
+            "median": 3.230664,
             "bins": [
                 {
                     "label": "0–<2",
                     "lower": 0.0,
                     "upper": 2.0,
-                    "count": 35945,
+                    "count": 35927,
                     "color": "#90d743"
                 },
                 {
                     "label": "2–<4",
                     "lower": 2.0,
                     "upper": 4.0,
-                    "count": 34071,
+                    "count": 34086,
                     "color": "#35b779"
                 },
                 {
                     "label": "4–<6",
                     "lower": 4.0,
                     "upper": 6.0,
-                    "count": 23491,
+                    "count": 23494,
                     "color": "#21918c"
                 },
                 {
