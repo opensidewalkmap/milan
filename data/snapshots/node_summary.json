@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "node_name": "Milan",
-    "generated_at": "2026-09-11T12:54:58.360065+00:00",
+    "generated_at": "2026-09-18T13:03:37.310157+00:00",
     "themes": {
         "footway_categories": {
             "kind": "categorical",
@@ -710,50 +710,50 @@
             "unknownPercent": 0.0,
             "invalid": 0,
             "min": 0.013689,
-            "max": 22.08898,
-            "mean": 2.964609,
-            "median": 3.230664,
+            "max": 22.108145,
+            "mean": 2.97473,
+            "median": 3.244353,
             "bins": [
                 {
                     "label": "0–<2",
                     "lower": 0.0,
                     "upper": 2.0,
-                    "count": 35927,
+                    "count": 36011,
                     "color": "#90d743"
                 },
                 {
                     "label": "2–<4",
                     "lower": 2.0,
                     "upper": 4.0,
-                    "count": 34086,
+                    "count": 33881,
                     "color": "#35b779"
                 },
                 {
                     "label": "4–<6",
                     "lower": 4.0,
                     "upper": 6.0,
-                    "count": 23494,
+                    "count": 23618,
                     "color": "#21918c"
                 },
                 {
                     "label": "6–<8",
                     "lower": 6.0,
                     "upper": 8.0,
-                    "count": 1054,
+                    "count": 1042,
                     "color": "#31688e"
                 },
                 {
                     "label": "8–<10",
                     "lower": 8.0,
                     "upper": 10.0,
-                    "count": 932,
+                    "count": 942,
                     "color": "#443983"
                 },
                 {
                     "label": "10+",
                     "lower": 10.0,
                     "upper": null,
-                    "count": 1665,
+                    "count": 1664,
                     "color": "#440154"
                 }
             ],
@@ -791,35 +791,35 @@
             "invalid": 57,
             "min": 1.0,
             "max": 45.0,
-            "mean": 2.806974,
+            "mean": 2.810558,
             "median": 2.0,
             "bins": [
                 {
                     "label": "0–<5",
                     "lower": 0.0,
                     "upper": 5.0,
-                    "count": 80115,
+                    "count": 80091,
                     "color": "#1d1147"
                 },
                 {
                     "label": "5–<10",
                     "lower": 5.0,
                     "upper": 10.0,
-                    "count": 14748,
+                    "count": 14766,
                     "color": "#51127c"
                 },
                 {
                     "label": "10–<15",
                     "lower": 10.0,
                     "upper": 15.0,
-                    "count": 1830,
+                    "count": 1835,
                     "color": "#832681"
                 },
                 {
                     "label": "15–<20",
                     "lower": 15.0,
                     "upper": 20.0,
-                    "count": 307,
+                    "count": 308,
                     "color": "#b73779"
                 },
                 {
