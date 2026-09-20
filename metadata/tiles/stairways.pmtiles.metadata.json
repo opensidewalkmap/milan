@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-09-18T13:26:02+00:00",
+    "updated": "2026-09-20T13:21:09+00:00",
     "node_registry": {
       "Data Fetching": "2026-08-29T04:29:19Z",
       "Versioning Data": "2026-09-13T13:56:00Z",
-      "Data Pre-Processing": "2026-09-18T12:59:18Z",
-      "Data Quality Tool": "2026-09-18T13:03:54Z",
-      "Completeness Analysis": "2026-09-18T13:06:15Z",
-      "Statistical Charts": "2026-09-18T13:06:29Z",
+      "Data Pre-Processing": "2026-09-20T13:07:46Z",
+      "Data Quality Tool": "2026-09-20T13:13:34Z",
+      "Completeness Analysis": "2026-09-20T13:20:49Z",
+      "Statistical Charts": "2026-09-20T13:21:09Z",
       "OSWM Codebase Revision": "f5fa3e6205344e6fe917e0fb103e80405150dbb4",
-      "Pipeline Success": "2026-09-18T13:26:02Z",
+      "Pipeline Success": "2026-09-19T12:32:48Z",
       "Wiki check for keys": "2026-09-13T14:04:27Z"
     }
   },
@@ -101,11 +101,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-18T13:26:02+00:00",
+    "generated_at": "2026-09-20T13:21:09+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "f5fa3e6205344e6fe917e0fb103e80405150dbb4",
-      "commit_date": "2026-09-17T15:30:18-03:00"
+      "commit": "5d7e470015e5e5327cdeaa4d3511d919e4e21d8b",
+      "commit_date": "2026-09-19T11:18:56-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -116,10 +116,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/tiles/stairways.pmtiles",
     "media_type": "application/vnd.pmtiles",
     "format": "PMTiles",
-    "byte_size": 11944918,
+    "byte_size": 11944295,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "dd702ff8b0c87c986f1af0f1b39c5eff9fdc288425a7e1c2db053aeede1dafa5"
+      "value": "2dfbbe1770cd53570e1a282ed96dd1ef68dee8d52bcacfbf34129b0b660ba00b"
     }
   },
   "links": [
