@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-09-24T13:38:35+00:00",
+    "updated": "2026-09-25T13:49:01+00:00",
     "node_registry": {
       "Data Fetching": "2026-08-29T04:29:19Z",
       "Versioning Data": "2026-09-13T13:56:00Z",
-      "Data Pre-Processing": "2026-09-24T13:33:30Z",
-      "Data Quality Tool": "2026-09-24T13:36:31Z",
-      "Completeness Analysis": "2026-09-24T13:38:23Z",
-      "Statistical Charts": "2026-09-24T13:38:35Z",
-      "OSWM Codebase Revision": "5d7e470015e5e5327cdeaa4d3511d919e4e21d8b",
-      "Pipeline Success": "2026-09-23T13:52:26Z",
+      "Data Pre-Processing": "2026-09-25T13:43:32Z",
+      "Data Quality Tool": "2026-09-25T13:46:50Z",
+      "Completeness Analysis": "2026-09-25T13:48:47Z",
+      "Statistical Charts": "2026-09-25T13:49:01Z",
+      "OSWM Codebase Revision": "231b2d9dc31ff40226041e9097f2a523feae5474",
+      "Pipeline Success": "2026-09-24T13:54:53Z",
       "Wiki check for keys": "2026-09-13T14:04:27Z"
     }
   },
@@ -103,11 +103,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-24T13:38:35+00:00",
+    "generated_at": "2026-09-25T13:49:01+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "231b2d9dc31ff40226041e9097f2a523feae5474",
-      "commit_date": "2026-09-23T16:13:34-03:00"
+      "commit": "e66ae89639df209eee5e54399f8722614ff97054",
+      "commit_date": "2026-09-25T06:58:12-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -122,7 +122,7 @@
       "byte_size": 3007,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "edd84c1f26cb703fa28cfe2758dd864e87d23e2d96eaba5925fdbebcfa573766"
+        "value": "cc4e49ad522172973465429d05ace8c77a94a1a8098a5c46ff7baf941de4c018"
       }
     },
     {
@@ -158,7 +158,7 @@
       "byte_size": 17334295,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "c8b7ef8cb2b025f8e80f87b8cc4ccdb8eb85409953c2cb1ca4dc41e6f5906d41"
+        "value": "ae0d60e4f8df4c021f760d662743ee8c90c210250abbab4de63591ce1e938a4c"
       }
     },
     {
