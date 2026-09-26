@@ -34,7 +34,7 @@
   ],
   "spatial": null,
   "temporal": {
-    "updated": "2026-09-25T13:49:01+00:00",
+    "updated": "2026-09-25T14:07:01+00:00",
     "node_registry": {
       "Data Fetching": "2026-08-29T04:29:19Z",
       "Versioning Data": "2026-09-13T13:56:00Z",
@@ -42,8 +42,8 @@
       "Data Quality Tool": "2026-09-25T13:46:50Z",
       "Completeness Analysis": "2026-09-25T13:48:47Z",
       "Statistical Charts": "2026-09-25T13:49:01Z",
-      "OSWM Codebase Revision": "231b2d9dc31ff40226041e9097f2a523feae5474",
-      "Pipeline Success": "2026-09-24T13:54:53Z",
+      "OSWM Codebase Revision": "e66ae89639df209eee5e54399f8722614ff97054",
+      "Pipeline Success": "2026-09-25T14:07:01Z",
       "Wiki check for keys": "2026-09-13T14:04:27Z"
     }
   },
@@ -67,7 +67,7 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-25T13:49:01+00:00",
+    "generated_at": "2026-09-25T14:07:01+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
       "commit": "e66ae89639df209eee5e54399f8722614ff97054",
@@ -82,10 +82,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/updates/yesterday.json",
     "media_type": "application/json",
     "format": "JSON",
-    "byte_size": 1495,
+    "byte_size": 4509,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "d6e8cd51cf7a7a6afd3574e5ae4e68b296ba0f38affcb1e11b251f4c14648f2c"
+      "value": "0c2956c8b5d71907e8895793ad001f7d5e17f33eaffb8dd460eab448979110bf"
     }
   },
   "links": [
