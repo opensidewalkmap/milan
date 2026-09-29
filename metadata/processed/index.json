@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-09-27T15:00:37+00:00",
+    "updated": "2026-09-29T12:00:00+00:00",
     "node_registry": {
       "Data Fetching": "2026-08-29T04:29:19Z",
       "Versioning Data": "2026-09-27T14:53:00Z",
-      "Data Pre-Processing": "2026-09-27T14:53:19Z",
-      "Data Quality Tool": "2026-09-27T14:53:42Z",
-      "Completeness Analysis": "2026-09-25T13:48:47Z",
-      "Statistical Charts": "2026-09-27T14:53:52Z",
+      "Data Pre-Processing": "2026-09-29T11:50:40Z",
+      "Data Quality Tool": "2026-09-29T11:57:37Z",
+      "Completeness Analysis": "2026-09-29T11:59:44Z",
+      "Statistical Charts": "2026-09-29T12:00:00Z",
       "OSWM Codebase Revision": "e66ae89639df209eee5e54399f8722614ff97054",
-      "Pipeline Success": "2026-09-27T13:58:51Z",
+      "Pipeline Success": "2026-09-28T16:47:20Z",
       "Wiki check for keys": "2026-09-27T15:00:37Z"
     }
   },
@@ -102,11 +102,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-27T15:00:37+00:00",
+    "generated_at": "2026-09-29T12:00:00+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "e66ae89639df209eee5e54399f8722614ff97054",
-      "commit_date": "2026-09-25T06:58:12-03:00"
+      "commit": "6ac4a5dc71428ca59abf294afb7bc3bb2ab20a82",
+      "commit_date": "2026-09-28T13:20:04-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -118,10 +118,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/crossings.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 1631270,
+      "byte_size": 1631381,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "fdf5a1d5f7a13b3b60cb2bb5d70f812f1db9ab34cd08d82f9461485b571e75f3"
+        "value": "cfd391f178bc995f9c4f24391cc31fc0cdb6f7fa9dd9ac7f69e1070c71670041"
       }
     },
     {
@@ -130,10 +130,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/kerbs.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 1074298,
+      "byte_size": 1075021,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "5d2ec91207900f49c56026bbab2ecec51f9580b614b4af912bf800e576926c43"
+        "value": "21bd4f3bf6dc703da538b6531d9a793efec8db9d0e85a42e1897bc64eb2ee784"
       }
     },
     {
@@ -142,10 +142,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 2468710,
+      "byte_size": 2469779,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "5f32308d50e3a5553c4841436017619f47bf2d3c828a871c8f6b6f526d57e72e"
+        "value": "d25a3ee0d1c63adca186bcb84e5410328699c1f89902409c0090779230467179"
       }
     },
     {
@@ -154,10 +154,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/roads_for_completeness.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 3005657,
+      "byte_size": 3009561,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "41a1c292415bfc9813cbd4a6b80bf6cb20bff7b8e7f953af55918e139d0519e3"
+        "value": "1e2a2c6d90a7402ccf4fa52e8881f2ce9f6361f6be66c802c1ff64c2c94ff9a4"
       }
     },
     {
@@ -166,10 +166,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/sidewalks.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 2266329,
+      "byte_size": 2265442,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "f3b2b06655c78516d1336bf85a8be5ae39cc0bb9054b287fde6a4c09fe75d20a"
+        "value": "4e9d24ae225ccacbb296afa69faaa065709810e6ee42bb28d1c53accd2fb491b"
       }
     }
   ],

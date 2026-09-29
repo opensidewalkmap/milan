@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "renderer_version": 2,
+  "renderer_version": 3,
   "node": "Milan",
   "bounds": [
     9.0408867,
@@ -10,8 +10,12 @@
   ],
   "source": {
     "tilejson": "https://tiles.openfreemap.org/planet",
-    "versioned_template": "https://tiles.openfreemap.org/planet/20260830_080001_pt/{z}/{x}/{y}.pbf",
-    "attribution": "Basemap \u00a9 OpenFreeMap, \u00a9 OpenMapTiles; data \u00a9 OpenStreetMap contributors"
+    "versioned_template": "https://tiles.openfreemap.org/planet/20260913_164504_pt/{z}/{x}/{y}.pbf",
+    "attribution": "Basemap \u00a9 OpenFreeMap, \u00a9 OpenMapTiles; data \u00a9 OpenStreetMap contributors",
+    "style_basis": {
+      "light": "OpenFreeMap Positron",
+      "dark": "OpenFreeMap Dark Matter"
+    }
   },
   "min_zoom": 10,
   "requested_max_zoom": 16,
@@ -22,12 +26,12 @@
   "outputs": {
     "light": {
       "path": "data/basemaps/light.pmtiles",
-      "bytes": 32849792
+      "bytes": 24205165
     },
     "dark": {
       "path": "data/basemaps/dark.pmtiles",
-      "bytes": 28954716
+      "bytes": 28198216
     }
   },
-  "elapsed_seconds": 80.75454042000001
+  "elapsed_seconds": 84.75420489599992
 }
