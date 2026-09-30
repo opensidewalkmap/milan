@@ -28,6 +28,7 @@ osm_id,feat_type,key,value,commentary
 44602670,way,surface_bike,milanese_paving,no wiki page for this key
 44602671,way,surface_bike,sett,no wiki page for this key
 57742687,way,surface_bike,milanese_paving,no wiki page for this key
+99416158,way,surface_bike,sett,no wiki page for this key
 100183076,way,surface_bike,sett,no wiki page for this key
 104365489,way,surface_bike,sett,no wiki page for this key
 111655183,way,surface_bike,milanese_paving,no wiki page for this key
@@ -123,7 +124,6 @@ osm_id,feat_type,key,value,commentary
 1029875820,way,surface_bike,sett,no wiki page for this key
 1030695439,way,surface_bike,sett,no wiki page for this key
 1083716125,way,surface_bike,milanese_paving,no wiki page for this key
-1083716126,way,surface_bike,milanese_paving,no wiki page for this key
 1087323746,way,surface_bike,sett,no wiki page for this key
 1092121484,way,platform,tram,no wiki page for this key
 1118885332,way,surface_bike,sett,no wiki page for this key

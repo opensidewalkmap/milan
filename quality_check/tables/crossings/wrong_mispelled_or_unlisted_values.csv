@@ -1,5 +1,6 @@
 osm_id,feat_type,key,value,commentary
 334484101,way,surface,milanese_paving,"unlisted at accepted/known values, probably wrong/misspelled"
+591150419,way,crossing,informal,"unlisted at accepted/known values, probably wrong/misspelled"
 696353080,way,surface,milanese_paving,"unlisted at accepted/known values, probably wrong/misspelled"
 699424595,way,surface,milanese_paving,"unlisted at accepted/known values, probably wrong/misspelled"
 1106530679,way,surface,fine_gravel,"unlisted at accepted/known values, probably wrong/misspelled"
@@ -35,4 +36,5 @@ osm_id,feat_type,key,value,commentary
 1537785681,way,crossing,informal,"unlisted at accepted/known values, probably wrong/misspelled"
 1537785682,way,crossing,informal,"unlisted at accepted/known values, probably wrong/misspelled"
 1537785683,way,crossing,informal,"unlisted at accepted/known values, probably wrong/misspelled"
+1546615401,way,crossing,informal,"unlisted at accepted/known values, probably wrong/misspelled"
 1548401150,way,crossing,informal,"unlisted at accepted/known values, probably wrong/misspelled"

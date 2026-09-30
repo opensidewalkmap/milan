@@ -174,7 +174,6 @@ osm_id,feat_type,key,value,commentary
 263676492,way,name,Via Demonte,most sidewalks don't have an actual name
 263676496,way,name,Via Demonte,most sidewalks don't have an actual name
 265863457,way,name,Via Bassini - Via Ponzio,most sidewalks don't have an actual name
-273712497,way,name,Vicolo Santa Maria alla Porta,most sidewalks don't have an actual name
 275251492,way,name,Viale Isernia,most sidewalks don't have an actual name
 282975882,way,name,Promenade Varesine,most sidewalks don't have an actual name
 288755965,way,name,Viale Abruzzi Via Plinio,most sidewalks don't have an actual name
@@ -188,7 +187,6 @@ osm_id,feat_type,key,value,commentary
 301958437,way,name,Piazza Grandi,most sidewalks don't have an actual name
 301958438,way,name,Piazza Grandi,most sidewalks don't have an actual name
 310817829,way,name,Piazza 24 Maggio,most sidewalks don't have an actual name
-329736674,way,name,Galleria Manzoni,most sidewalks don't have an actual name
 330229219,way,name,Romolo,most sidewalks don't have an actual name
 330361322,way,name,Stazione Centrale M2 M3,most sidewalks don't have an actual name
 345703162,way,name,Via Mac Mahon - Via Bramantino,most sidewalks don't have an actual name
@@ -277,7 +275,6 @@ osm_id,feat_type,key,value,commentary
 685672153,way,name,Largo D'Ancona,most sidewalks don't have an actual name
 689278414,way,name,Piazza Monte Falterona,most sidewalks don't have an actual name
 696625981,way,name,Viale Bligny,most sidewalks don't have an actual name
-696625982,way,name,Viale Bligny,most sidewalks don't have an actual name
 697788457,way,name,Via Croce Rossa,most sidewalks don't have an actual name
 705605423,way,name,Piazza Duca d'Aosta,most sidewalks don't have an actual name
 705605424,way,name,Piazza Duca d'Aosta,most sidewalks don't have an actual name
@@ -297,7 +294,6 @@ osm_id,feat_type,key,value,commentary
 734802317,way,name,Viale Isonzo - Via Ripamonti,most sidewalks don't have an actual name
 734802318,way,name,Viale Isonzo - Via Ripamonti,most sidewalks don't have an actual name
 736649258,way,name,Via Alfonso Corti,most sidewalks don't have an actual name
-750788343,way,name,Vicolo Santa Maria alla Porta,most sidewalks don't have an actual name
 835902492,way,name,Via Vincenzo da Seregno,most sidewalks don't have an actual name
 835902494,way,name,Via Vincenzo da Seregno,most sidewalks don't have an actual name
 837542646,way,name,Via Fratelli Camillo e Giannino Antona Traversi,most sidewalks don't have an actual name
@@ -517,6 +513,7 @@ osm_id,feat_type,key,value,commentary
 1079420957,way,name,Viale Sabotino,most sidewalks don't have an actual name
 1079421536,way,name,Via Ripamonti - Viale Sabotino,most sidewalks don't have an actual name
 1079427340,way,name,Porta Lodovica,most sidewalks don't have an actual name
+1079428968,way,name,Porta Lodovica,most sidewalks don't have an actual name
 1079432109,way,name,Corso San Gottardo Via Lagrange,most sidewalks don't have an actual name
 1079457798,way,name,Piazza 24 Maggio,most sidewalks don't have an actual name
 1079460931,way,name,Viale Toscana Via Castelbarco,most sidewalks don't have an actual name
@@ -537,6 +534,7 @@ osm_id,feat_type,key,value,commentary
 1079995404,way,name,Turati M3,most sidewalks don't have an actual name
 1080003820,way,name,Tricolore M4,most sidewalks don't have an actual name
 1080004285,way,name,Piazza Risorgimento,most sidewalks don't have an actual name
+1080004971,way,name,piazzale dateo,most sidewalks don't have an actual name
 1080028403,way,name,Corvetto M3,most sidewalks don't have an actual name
 1080028405,way,name,Corvetto M3,most sidewalks don't have an actual name
 1080028668,way,name,Corvetto M3,most sidewalks don't have an actual name
@@ -551,6 +549,7 @@ osm_id,feat_type,key,value,commentary
 1080041958,way,name,Piazza Belfanti,most sidewalks don't have an actual name
 1080041959,way,name,Piazza Belfanti,most sidewalks don't have an actual name
 1080043381,way,name,viale Tibaldi via meda,most sidewalks don't have an actual name
+1080050234,way,name,Via Washington - Via Costanza,most sidewalks don't have an actual name
 1080050997,way,name,Via Foppa Via Washington,most sidewalks don't have an actual name
 1080052908,way,name,Via Silva Via Albani,most sidewalks don't have an actual name
 1080053070,way,name,P.le Arduino,most sidewalks don't have an actual name
@@ -577,6 +576,7 @@ osm_id,feat_type,key,value,commentary
 1080236824,way,name,Via Bronzetti Via Archimede,most sidewalks don't have an actual name
 1080236825,way,name,Via Bronzetti - Via Archimede,most sidewalks don't have an actual name
 1080237451,way,name,Corso Indipendenza - Via Bronzetti,most sidewalks don't have an actual name
+1080237589,way,name,corso indipendenza via bronzetti,most sidewalks don't have an actual name
 1080237682,way,name,Corso Indipendenza - Via Bronzetti,most sidewalks don't have an actual name
 1080238246,way,name,Via Castel Morrone Via Modena,most sidewalks don't have an actual name
 1080238248,way,name,Via C. Morrone - Via Modena,most sidewalks don't have an actual name
@@ -644,10 +644,13 @@ osm_id,feat_type,key,value,commentary
 1090177890,way,name,Via Martini,most sidewalks don't have an actual name
 1090177892,way,name,Via Martini,most sidewalks don't have an actual name
 1090178489,way,name,viale Omero,most sidewalks don't have an actual name
+1090178598,way,name,piazzale Gabriele Rosa,most sidewalks don't have an actual name
 1090178676,way,name,Piazzale Gabriele Rosa,most sidewalks don't have an actual name
 1090178922,way,name,Piazzale Gabriele Rosa,most sidewalks don't have an actual name
 1090186868,way,name,Via Ravenna Via Pomposa,most sidewalks don't have an actual name
+1090186869,way,name,Via dei cinquecento via ravenna,most sidewalks don't have an actual name
 1090186870,way,name,Via Ravenna Via Barabino,most sidewalks don't have an actual name
+1090186872,way,name,Via Ravenna Via Barabino,most sidewalks don't have an actual name
 1090207213,way,name,P.za Morselli,most sidewalks don't have an actual name
 1090207663,way,name,P.za Morselli,most sidewalks don't have an actual name
 1090230913,way,name,Via Arconati,most sidewalks don't have an actual name
@@ -666,6 +669,7 @@ osm_id,feat_type,key,value,commentary
 1090438857,way,name,Sondrio M3,most sidewalks don't have an actual name
 1090439682,way,name,Stazione Centrale Via Tonale,most sidewalks don't have an actual name
 1090441613,way,name,Sondrio,most sidewalks don't have an actual name
+1090510680,way,name,Viale Omero via barabino,most sidewalks don't have an actual name
 1091019433,way,name,Piazza Melozzo da Forlì,most sidewalks don't have an actual name
 1091023096,way,name,Piazza Amati,most sidewalks don't have an actual name
 1092105268,way,name,L.go Murani,most sidewalks don't have an actual name
@@ -693,8 +697,10 @@ osm_id,feat_type,key,value,commentary
 1092354560,way,name,Via Beato Angelico - Via Aselli,most sidewalks don't have an actual name
 1092355014,way,name,Via B. Angelico - Via Aselli,most sidewalks don't have an actual name
 1092566729,way,name,Via B. Angelico Via Aselli,most sidewalks don't have an actual name
+1092587970,way,name,Dateo M4,most sidewalks don't have an actual name
 1092588976,way,name,Viale dei Mille Piazza Novelli,most sidewalks don't have an actual name
 1092590040,way,name,Viale dei Mille Piazza Novelli,most sidewalks don't have an actual name
+1092590041,way,name,Viale dei Mille Piazza Novelli,most sidewalks don't have an actual name
 1092590613,way,name,Viale dei Mille - Piazza Novelli,most sidewalks don't have an actual name
 1092594711,way,name,piazza aspari,most sidewalks don't have an actual name
 1092614111,way,name,Via Juvara - Via Vanvitelli,most sidewalks don't have an actual name
@@ -739,6 +745,7 @@ osm_id,feat_type,key,value,commentary
 1092852856,way,name,Piazzale Loreto Via Padova,most sidewalks don't have an actual name
 1092853725,way,name,Via Padova Via Pasteur,most sidewalks don't have an actual name
 1092855021,way,name,Via Padova Via Pasteur,most sidewalks don't have an actual name
+1092870784,way,name,Via Padova Via Predabissi,most sidewalks don't have an actual name
 1092883572,way,name,Piazzale Loreto Viale Monza M1 M2,most sidewalks don't have an actual name
 1092884645,way,name,Pasteur M1,most sidewalks don't have an actual name
 1092887511,way,name,Pasteur M1,most sidewalks don't have an actual name
@@ -748,6 +755,7 @@ osm_id,feat_type,key,value,commentary
 1092903009,way,name,Via Ferrante Aporti Via Apulia,most sidewalks don't have an actual name
 1093086450,way,name,Via Gioia - Via Cagliero,most sidewalks don't have an actual name
 1093086982,way,name,Via Gioia Via Cagliero,most sidewalks don't have an actual name
+1093093815,way,name,via Gioia via Tirano,most sidewalks don't have an actual name
 1093094560,way,name,Via Gioia Via Tirano,most sidewalks don't have an actual name
 1093137410,way,name,P.le Farina,most sidewalks don't have an actual name
 1093141120,way,name,Piazzale Farina,most sidewalks don't have an actual name
@@ -762,6 +770,7 @@ osm_id,feat_type,key,value,commentary
 1093810330,way,name,Via Bartolini Viale Monte Ceneri,most sidewalks don't have an actual name
 1093813854,way,name,Via Bartolini Viale Monte Ceneri,most sidewalks don't have an actual name
 1093822567,way,name,Via Mac Mahon Via Monte Ceneri,most sidewalks don't have an actual name
+1094087987,way,name,Lancetti,most sidewalks don't have an actual name
 1094209492,way,name,Via Mac Mahon - Via Principe Eugenio,most sidewalks don't have an actual name
 1094210780,way,name,Via Mac Mahon - Via Principe Eugenio,most sidewalks don't have an actual name
 1098546891,way,name,Repetti M4,most sidewalks don't have an actual name
@@ -805,6 +814,8 @@ osm_id,feat_type,key,value,commentary
 1116529390,way,name,Via Ripamonti Via Quaranta,most sidewalks don't have an actual name
 1116529392,way,name,Viale Ortles Via Condino,most sidewalks don't have an actual name
 1116529394,way,name,Viale Ortles Via Condino,most sidewalks don't have an actual name
+1116530250,way,name,Via Quaranta Via Gargano,most sidewalks don't have an actual name
+1116531716,way,name,Via Marco d'Agrate Via Cassano d'Adda,most sidewalks don't have an actual name
 1116566617,way,name,Largo Isarco,most sidewalks don't have an actual name
 1116896478,way,name,Via Bonfadini - Via Del Liri,most sidewalks don't have an actual name
 1116896480,way,name,Via Bonfadini - Via Sordello,most sidewalks don't have an actual name
@@ -830,6 +841,7 @@ osm_id,feat_type,key,value,commentary
 1128452764,way,name,Via Pellegrino Rossi Via Grazioli,most sidewalks don't have an actual name
 1128464292,way,name,Bovisa (Politecnico),most sidewalks don't have an actual name
 1128464294,way,name,Bovisa (Politecnico),most sidewalks don't have an actual name
+1128464923,way,name,Via Maffucci Via Baldinucci,most sidewalks don't have an actual name
 1128541734,way,name,Via Pellegrino Rossi Via Armellini,most sidewalks don't have an actual name
 1128594560,way,name,Affori Centro M3,most sidewalks don't have an actual name
 1134762348,way,name,Via S. Venerio Via Medea,most sidewalks don't have an actual name
@@ -871,6 +883,7 @@ osm_id,feat_type,key,value,commentary
 1154500884,way,name,Loreto M1 M2,most sidewalks don't have an actual name
 1154511089,way,name,Via Padova Via Bengasi,most sidewalks don't have an actual name
 1154513650,way,name,Via Padova Via Don Orione,most sidewalks don't have an actual name
+1154539387,way,name,Piazza Costantino,most sidewalks don't have an actual name
 1154754956,way,name,Arena,most sidewalks don't have an actual name
 1155983397,way,name,Largo Boccioni,most sidewalks don't have an actual name
 1156001770,way,name,Via Fratelli Camillo e Giannino Antona Traversi,most sidewalks don't have an actual name
@@ -934,6 +947,7 @@ osm_id,feat_type,key,value,commentary
 1205716660,way,name,Via Ponte Nuovo Via Biumi,most sidewalks don't have an actual name
 1205716911,way,name,Via Ponte Nuovo Via Biumi,most sidewalks don't have an actual name
 1205717552,way,name,Via Ponte Nuovo Via Biumi,most sidewalks don't have an actual name
+1205726018,way,name,Piazza Costantino,most sidewalks don't have an actual name
 1205728785,way,name,Via Padova Via Palmanova,most sidewalks don't have an actual name
 1205733757,way,name,"Via Padova, 353",most sidewalks don't have an actual name
 1205733885,way,name,"Via Padova, 353",most sidewalks don't have an actual name
@@ -943,6 +957,7 @@ osm_id,feat_type,key,value,commentary
 1205881063,way,name,Via Palmanova - Via Cesana,most sidewalks don't have an actual name
 1205885723,way,name,via Padova via de la salle,most sidewalks don't have an actual name
 1205885725,way,name,Via Padova Via de la salle,most sidewalks don't have an actual name
+1205888370,way,name,Quartiere Turro,most sidewalks don't have an actual name
 1205891086,way,name,Viale Padova Via Mamiani,most sidewalks don't have an actual name
 1205898635,way,name,Via Valtorta Via Stamira d'Ancona,most sidewalks don't have an actual name
 1205899163,way,name,Via Valtorta Via Stamira d'Ancona,most sidewalks don't have an actual name
@@ -1009,6 +1024,8 @@ osm_id,feat_type,key,value,commentary
 1209069164,way,name,Ospedale Maggiore (Niguarda),most sidewalks don't have an actual name
 1209071027,way,name,Maciachini,most sidewalks don't have an actual name
 1209076799,way,name,Via Livigno via Abba,most sidewalks don't have an actual name
+1209080709,way,name,Via Durando Via Cosenz,most sidewalks don't have an actual name
+1209087611,way,name,Via Bovisasca Via El Alamein,most sidewalks don't have an actual name
 1209100215,way,name,Via Ippocrate,most sidewalks don't have an actual name
 1209102892,way,name,Ciccotti Affori M3,most sidewalks don't have an actual name
 1209103769,way,name,via Ciccotti,most sidewalks don't have an actual name
@@ -1039,6 +1056,7 @@ osm_id,feat_type,key,value,commentary
 1209734635,way,name,Piazza Miani,most sidewalks don't have an actual name
 1209735392,way,name,Via Biella Via Modica,most sidewalks don't have an actual name
 1209736079,way,name,Via Biella Via Binda,most sidewalks don't have an actual name
+1210711127,way,name,Muggiano,most sidewalks don't have an actual name
 1210780310,way,name,Via Novara via cascina Bellaria,most sidewalks don't have an actual name
 1210993079,way,name,Via Primaticcio Viale Forze Armate,most sidewalks don't have an actual name
 1211224594,way,name,Via Facchinetti - Via Bellosio,most sidewalks don't have an actual name
@@ -1081,6 +1099,8 @@ osm_id,feat_type,key,value,commentary
 1217976058,way,name,Cimitero di Chiaravalle,most sidewalks don't have an actual name
 1217976274,way,name,Cimitero di Chiaravalle,most sidewalks don't have an actual name
 1217981152,way,name,Via Piazzetta Via Panigarola,most sidewalks don't have an actual name
+1217982296,way,name,Via Cinquecento via Ravenna,most sidewalks don't have an actual name
+1217987337,way,name,Via d'agrate piazza angilberto,most sidewalks don't have an actual name
 1218042654,way,name,Via Sesto San Giovanni via Porto Corsini,most sidewalks don't have an actual name
 1218042655,way,name,Via Sesto S.G.via Porto Corsini,most sidewalks don't have an actual name
 1218514159,way,name,Stazione Lambrate M2,most sidewalks don't have an actual name

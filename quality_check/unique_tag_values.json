@@ -203,7 +203,7 @@
             "2025-12-12",
             "2025-03-28",
             "2026-03-01",
-            "2026-07-12",
+            "2026-09-18",
             "2024-10-10",
             "2025-10-12",
             "2024-12-29",
@@ -336,7 +336,6 @@
             "Via Benedetto Marcello",
             "Via Demonte",
             "Via Bassini - Via Ponzio",
-            "Vicolo Santa Maria alla Porta",
             "Viale Isernia",
             "Promenade Varesine",
             "Viale Abruzzi Via Plinio",
@@ -346,7 +345,6 @@
             "Via Mario Sironi",
             "Piazza Grandi",
             "Piazza 24 Maggio",
-            "Galleria Manzoni",
             "Romolo",
             "Stazione Centrale M2 M3",
             "Via Mac Mahon - Via Bramantino",
@@ -537,6 +535,7 @@
             "Via Moscova Via Solferino",
             "Tricolore M4",
             "Piazza Risorgimento",
+            "piazzale dateo",
             "Corvetto M3",
             "Viale Ortles via Calabiana",
             "Viale Ortles Via Calabiana",
@@ -545,6 +544,7 @@
             "Via Segantini - Via Gola",
             "Via Segantini Piazza Belfanti",
             "Piazza Belfanti",
+            "Via Washington - Via Costanza",
             "Via Foppa Via Washington",
             "Via Silva Via Albani",
             "P.le Arduino",
@@ -562,6 +562,7 @@
             "Via Bronzetti Via Archimede",
             "Via Bronzetti - Via Archimede",
             "Corso Indipendenza - Via Bronzetti",
+            "corso indipendenza via bronzetti",
             "Via Castel Morrone Via Modena",
             "Via C. Morrone - Via Modena",
             "P.le Bacone",
@@ -608,8 +609,10 @@
             "piazzale bologna",
             "Via Martini",
             "viale Omero",
+            "piazzale Gabriele Rosa",
             "Piazzale Gabriele Rosa",
             "Via Ravenna Via Pomposa",
+            "Via dei cinquecento via ravenna",
             "Via Ravenna Via Barabino",
             "P.za Morselli",
             "Via Arconati",
@@ -624,6 +627,7 @@
             "Viale Argonne - Via Marescalchi",
             "Sondrio M3",
             "Sondrio",
+            "Viale Omero via barabino",
             "Piazza Melozzo da Forlì",
             "Piazza Amati",
             "L.go Murani",
@@ -667,6 +671,7 @@
             "Via Teodosio Via Casoretto",
             "Piazzale Loreto Via Padova",
             "Via Padova Via Pasteur",
+            "Via Padova Via Predabissi",
             "Piazzale Loreto Viale Monza M1 M2",
             "Pasteur M1",
             "Rovereto M1",
@@ -674,6 +679,7 @@
             "Via Ferrante Aporti Via Apulia",
             "Via Gioia - Via Cagliero",
             "Via Gioia Via Cagliero",
+            "via Gioia via Tirano",
             "Via Gioia Via Tirano",
             "P.le Farina",
             "Piazzale Farina",
@@ -712,6 +718,8 @@
             "Piazza Chiaradia",
             "Via Ripamonti Via Quaranta",
             "Viale Ortles Via Condino",
+            "Via Quaranta Via Gargano",
+            "Via Marco d'Agrate Via Cassano d'Adda",
             "Largo Isarco",
             "Via Bonfadini - Via Del Liri",
             "Via Bonfadini - Via Sordello",
@@ -733,6 +741,7 @@
             "Bovisa FN (Politecnico)",
             "Via Pellegrino Rossi Via Grazioli",
             "Bovisa (Politecnico)",
+            "Via Maffucci Via Baldinucci",
             "Via Pellegrino Rossi Via Armellini",
             "Affori Centro M3",
             "Via S. Venerio Via Medea",
@@ -760,6 +769,7 @@
             "Piazza San Gerolamo",
             "Via Padova Via Bengasi",
             "Via Padova Via Don Orione",
+            "Piazza Costantino",
             "Largo Boccioni",
             "Viale Ortles Via Orobia",
             "Via Passo Rolle - Via Rombon",
@@ -801,6 +811,7 @@
             "Via Palmanova - Via Cesana",
             "via Padova via de la salle",
             "Via Padova Via de la salle",
+            "Quartiere Turro",
             "Viale Padova Via Mamiani",
             "Via Valtorta Via Stamira d'Ancona",
             "Via Carnia - Via Palmanova",
@@ -849,6 +860,8 @@
             "Via Arganini 30",
             "Maciachini",
             "Via Livigno via Abba",
+            "Via Durando Via Cosenz",
+            "Via Bovisasca Via El Alamein",
             "Via Ippocrate",
             "Ciccotti Affori M3",
             "via Ciccotti",
@@ -869,6 +882,7 @@
             "Piazza Miani",
             "Via Biella Via Modica",
             "Via Biella Via Binda",
+            "Muggiano",
             "Via Novara via cascina Bellaria",
             "Via Facchinetti - Via Bellosio",
             "via Dalmazia via Zante",
@@ -900,6 +914,8 @@
             "Abbazia di Chiaravalle",
             "Cimitero di Chiaravalle",
             "Via Piazzetta Via Panigarola",
+            "Via Cinquecento via Ravenna",
+            "Via d'agrate piazza angilberto",
             "Via Sesto San Giovanni via Porto Corsini",
             "Via Sesto S.G.via Porto Corsini",
             "16510",
@@ -910,6 +926,7 @@
             "V.le Monza Via Erodoto",
             "Argonne M4",
             "Montenapoleone M3",
+            "Galleria Manzoni",
             "Piazza Sant'Ambrogio",
             "Largo Mahler",
             "Viale Tibaldi - Via Meda",
@@ -926,6 +943,11 @@
             "Adriano-Vipiteno",
             "Via Parma",
             "Via Antonio Grossich"
+        ],
+        "operator": [
+            "Azienda Trasporti Milanesi",
+            "ATM",
+            "ATM Milano"
         ],
         "ref": [
             "15084",
@@ -1129,7 +1151,6 @@
             "11230",
             "10612",
             "11753",
-            "11752",
             "19740",
             "11757",
             "11737",
@@ -1247,6 +1268,7 @@
             "11771",
             "11755",
             "11459",
+            "11458",
             "11198",
             "11192",
             "11270",
@@ -1321,6 +1343,13 @@
             "19922",
             "15294"
         ],
+        "bicycle": [
+            "dismount",
+            "permissive",
+            "yes",
+            "designated",
+            "no"
+        ],
         "surface": [
             "asphalt",
             "cobblestone",
@@ -1340,15 +1369,9 @@
             "dirt",
             "concrete:lanes",
             "gravel",
+            "rubber",
             "yes",
             "milanese_paving"
-        ],
-        "bicycle": [
-            "dismount",
-            "permissive",
-            "yes",
-            "designated",
-            "no"
         ],
         "barrier": [
             "yes"
@@ -1376,7 +1399,6 @@
         ],
         "access": [
             "yes",
-            "permissive",
             "permit"
         ],
         "fixme": [
@@ -1524,6 +1546,7 @@
             "2026-05-20",
             "2026-06-02",
             "2026-03-31",
+            "2026-09-17",
             "2026-03-21",
             "2026-04-24",
             "2026-04-19",
@@ -1560,6 +1583,7 @@
             "2026-04-15",
             "2026-02-25",
             "2026-04-18",
+            "2026-09-13",
             "2026-02-12",
             "2026-01-24",
             "2026-05-24",
@@ -1571,11 +1595,15 @@
             "2026-02-20",
             "2026-02-10",
             "2026-03-06",
+            "2026-09-29",
             "2026-07-02",
             "2026-02-18",
             "2026-03-05",
+            "2026-09-28",
+            "2026-09-04",
             "2026-03-28",
             "2026-06-11",
+            "2026-09-15",
             "2026-05-25",
             "2026-01-25",
             "2026-01-31",
@@ -1603,6 +1631,7 @@
             "2026-05-31",
             "2026-08-02",
             "2026-07-04",
+            "2026-09-26",
             "2025-09-21"
         ],
         "passenger_information_display": [
@@ -1624,6 +1653,7 @@
             "2022-11-23",
             "2025-12-12",
             "2025-04-15",
+            "2026-09-18",
             "2026-02-20",
             "2025-06-21",
             "2024-12-29",
@@ -1641,7 +1671,7 @@
             "2023-10-12",
             "2025-10-12",
             "2024-12-29",
-            "2024-03-14",
+            "2026-09-26",
             "2025-09-21",
             "2026-04-22"
         ],
@@ -1687,11 +1717,6 @@
         ],
         "network:wikidata": [
             "Q65125405"
-        ],
-        "operator": [
-            "Azienda Trasporti Milanesi",
-            "ATM",
-            "ATM Milano"
         ],
         "footway": [
             "sidewalk"
@@ -1739,11 +1764,9 @@
             "1094_13795",
             "6247_48715",
             "5240_6773",
-            "617_36826",
             "6439_34269",
             "6086_34268",
             "6247_54081",
-            "617_13889",
             "2155_18533",
             "2587_14707",
             "6571_54100",
@@ -1829,10 +1852,10 @@
             "1.40 m",
             "2.77",
             "1.2 m",
+            "1.1 m",
             "0.8 m",
             "0.9 m",
             "2.5 m",
-            "1.1 m",
             "1 m",
             "1.25 m",
             "1.08 m",
@@ -1936,6 +1959,7 @@
             "down"
         ],
         "sidewalk": [
+            "yes",
             "no"
         ],
         "lanes": [
@@ -1969,6 +1993,7 @@
             "2025-10-16",
             "2026-05-03",
             "2025-10-13",
+            "2026-09-18",
             "2026-04-10",
             "2026-02-09",
             "2026-04-21"
@@ -2012,6 +2037,9 @@
         "cutting": [
             "yes"
         ],
+        "area:highway": [
+            "footway"
+        ],
         "footway:surface": [
             "asphalt",
             "sett"
@@ -2048,9 +2076,6 @@
         "stroller": [
             "yes"
         ],
-        "area:highway": [
-            "footway"
-        ],
         "location": [
             "roof"
         ],
@@ -2068,11 +2093,11 @@
             "2026-04-18",
             "2024-10-10"
         ],
-        "natural": [
-            "tree_row"
-        ],
         "leaf_type": [
             "broadleaved"
+        ],
+        "natural": [
+            "tree_row"
         ],
         "colonnade:left": [
             "open"
@@ -2147,7 +2172,8 @@
         ],
         "traffic_signals:sound": [
             "locate",
-            "yes"
+            "yes",
+            "walk"
         ],
         "traffic_signals:vibration": [
             "no",
@@ -2233,6 +2259,13 @@
             "Via Parma",
             "Piazza Ercole Luigi Morselli"
         ],
+        "bicycle": [
+            "dismount",
+            "yes",
+            "permissive",
+            "designated",
+            "no"
+        ],
         "surface": [
             "asphalt",
             "paving_stones",
@@ -2247,13 +2280,6 @@
             "fine_gravel",
             "gravel",
             "ground"
-        ],
-        "bicycle": [
-            "dismount",
-            "yes",
-            "permissive",
-            "designated",
-            "no"
         ],
         "foot": [
             "yes",
@@ -2441,8 +2467,8 @@
             "2021-03-30"
         ],
         "tunnel": [
-            "yes",
-            "building_passage"
+            "building_passage",
+            "yes"
         ],
         "service": [
             "driveway"
@@ -2580,6 +2606,7 @@
             "4011713702276782",
             "479381043120780",
             "788808945105700",
+            "1281052762341091",
             "336294467993651",
             "285020829988930",
             "152242786867811",
@@ -2623,8 +2650,8 @@
         "wheelchair": [
             "yes",
             "half",
-            "limited",
             "no",
+            "limited",
             "designated"
         ],
         "crossing:island": [
@@ -2639,6 +2666,7 @@
             "2025-07-11",
             "2026-04-03",
             "2026-05-03",
+            "2026-09-22",
             "2026-04-17",
             "2025-03-25",
             "2025-04-02",
@@ -2660,6 +2688,7 @@
             "2026-05-01",
             "2026-04-25",
             "2026-04-12",
+            "2026-09-22",
             "2026-05-19",
             "2026-04-14",
             "2023-12-07",
@@ -2670,6 +2699,7 @@
             "2026-03-27",
             "2026-06-11",
             "2026-04-11",
+            "2026-09-13",
             "2026-04-30",
             "2026-05-26",
             "2026-04-18",
@@ -2698,6 +2728,7 @@
             "2024-06-02",
             "2026-04-19",
             "2026-05-02",
+            "2026-09-26",
             "2026-06-02",
             "2023-09-15",
             "2024-05-14",
@@ -2709,8 +2740,13 @@
             "2026-06-26",
             "2026-03-30",
             "2026-03-16",
+            "2026-09-28",
+            "2026-09-29",
+            "2026-09-16",
+            "2026-09-17",
             "2026-07-02",
             "2026-06-14",
+            "2026-09-19",
             "2026-03-01",
             "2026-03-31",
             "2026-03-28",
@@ -2724,6 +2760,7 @@
             "2026-05-20",
             "2026-05-21",
             "2026-04-13",
+            "2026-09-18",
             "2026-04-09",
             "2026-04-21",
             "2026-04-17",
@@ -2749,12 +2786,14 @@
             "2026-05-04",
             "2026-07-12",
             "2026-05-12",
+            "2026-09-25",
             "2026-06-05",
             "2026-06-18",
             "2026-05-14",
             "2026-08-18",
             "2026-05-13",
             "2026-05-25",
+            "2026-09-15",
             "2026-04-01",
             "2026-04-08"
         ],
@@ -2780,6 +2819,9 @@
             "12428",
             "12430"
         ],
+        "bicycle": [
+            "yes"
+        ],
         "surface": [
             "sett",
             "paving_stones",
@@ -2787,9 +2829,6 @@
             "concrete",
             "cobblestone",
             "paved"
-        ],
-        "bicycle": [
-            "yes"
         ],
         "barrier": [
             "kerb",
@@ -2891,6 +2930,7 @@
             "2025-07-11",
             "2026-04-03",
             "2026-05-03",
+            "2026-09-22",
             "2026-04-18",
             "2026-03-29",
             "2026-04-17",
@@ -3050,17 +3090,14 @@
         "area": [
             "yes"
         ],
-        "leisure": [
-            "garden"
-        ],
         "area:highway": [
             "traffic_island"
         ],
+        "leisure": [
+            "garden"
+        ],
         "landuse": [
             "grass"
-        ],
-        "natural": [
-            "grassland"
         ],
         "two_sided": [
             "yes"
@@ -3267,6 +3304,7 @@
             "Piazzale Siena",
             "Piazza Esquilino",
             "Piazzale Giovanni Bausan",
+            "Piazza del Tricolore",
             "Piazza Eleonora Duse",
             "Parco pubblico Bassini",
             "Piazzale Governo Provvisorio",
@@ -3326,7 +3364,7 @@
             "Via Fiori Chiari",
             "Vicolo Fiori",
             "Piazza Sempione",
-            "Ripa di Porta Ticinese",
+            "Via Lario",
             "Via privata Chieti",
             "Via Pompeo Marchesi",
             "Piazza Santa Maria delle Grazie",
@@ -3435,13 +3473,14 @@
             "Piazza Belgioioso",
             "Piazza Sant'Alessandro",
             "Via dei Piatti",
+            "Piazza degli Affari",
             "Via San Vittore",
             "Via Cardinale Mezzofanti",
             "Via Sallustio",
+            "Ripa di Porta Ticinese",
             "Via Angelo Fava",
             "Via privata Tarvisio",
             "Via dei Guarneri",
-            "Viale Giovanni Sebastiano Bach",
             "Via Paolo Segneri",
             "Via Felice Casati",
             "Piazza Tirana",
@@ -3450,9 +3489,11 @@
             "Via Don Rodrigo",
             "Via Pietro Giordani",
             "Via Ottaviano Fabrizio Mossotti",
+            "Viale Famagosta",
             "Via Cristina Belgioioso",
             "Via Carlo Bo",
             "Via San Giuseppe Cottolengo",
+            "Via privata Eugenio Barsanti",
             "Via Filippo Argelati",
             "Via Carlo Maria Martini",
             "Via Bergognone Da Fossano",
@@ -3504,8 +3545,10 @@
             "Via Sergio Kasman",
             "Via Ventimiglia",
             "Giardino Angela e Luciana Giussani",
+            "Via Aterno",
             "Via privata Spinazzola",
             "Via Guascona",
+            "Via privata Autari",
             "Via Gaetano Moretti",
             "Via Martino Bassi",
             "Via Cassino",
@@ -3524,6 +3567,7 @@
             "Via Vico Magistretti",
             "Via Francesco Peverelli",
             "Passerella De Gasperi",
+            "Via Giovanni Rota",
             "Via Tommaso Grossi",
             "Passaggio Scuole Palatine",
             "Passaggio degli Osii",
@@ -3567,14 +3611,15 @@
             "Viale Turchia",
             "Via Libertà",
             "Viale Andrea Doria",
+            "Via Luigi Bertelli",
             "Via Pompeo Leoni",
             "Via Giacomo Puccini",
             "Via Gabrio Casati",
             "Via Porlezza",
             "Via Guido Venosta",
+            "Cambio Linea 2",
             "Via Val Cannobina",
             "Piazza Ospedale Maggiore",
-            "Via Luigi Bertelli",
             "Via Arturo Colautti",
             "Via Giuseppe Ripamonti",
             "Via Antonio Banfi",
@@ -3633,6 +3678,7 @@
             "Via dei Cavalieri del Santo Sepolcro",
             "Via Bramante",
             "Piazzale Antonio Baiamonti",
+            "Via Enrico Tazzoli",
             "Via Nicolò Tartaglia",
             "Via Ceresio",
             "Sentiero Walter Bonatti",
@@ -3704,6 +3750,7 @@
             "Via Fratelli Rizzardi",
             "Via Lazzaretto",
             "Corso San Gottardo",
+            "Via Giuseppe Meda",
             "Viale Coni Zugna",
             "Ciclabile Pero - Molino Dorino",
             "Via Corsico",
@@ -3807,7 +3854,6 @@
             "Via Rodolfo Margaria",
             "Viale Emilio Papiniano",
             "Via Giovanni Cena",
-            "Via Benvenuto Garofalo",
             "Via Ennio",
             "Via Manzano",
             "Piazzale Libia",
@@ -3816,6 +3862,7 @@
             "Via Camillo Golgi",
             "Piazza Don Piero Carnelli",
             "Via Don Giovanni Minzoni",
+            "Via Don Giuseppe Andreoli",
             "Via Simone Schiaffino",
             "Via Camillo Ugoni",
             "Via privata Bitonto",
@@ -3856,6 +3903,7 @@
             "Via Ferdinando Giorgi",
             "Piazza Enzo Paci",
             "Via della Chiesa Rossa",
+            "Via Augusto Stucchi",
             "Via Costantino Baroni",
             "Via San Vigilio",
             "Via Paul Valery",
@@ -3864,16 +3912,18 @@
             "Via Madonnina",
             "Via Domenico Berra",
             "Via privata Flumendosa",
-            "Piazza del Tricolore",
             "Via Costanza",
+            "Vicolo Santa Maria alla Porta",
             "Via Morigi",
             "Via Val Badia",
             "Via Muggiano",
             "Largo Don Saturnino Villa",
             "Via Edgardo Moltoni",
+            "Via Eugenio Quarti",
             "Via dei Bossi",
             "Via del Gallo",
             "Via Lelio Basso",
+            "Via Caldera",
             "Via Lucio Cornelio Silla",
             "Largo Arturo Toscanini",
             "Via San Maurilio",
@@ -3915,7 +3965,6 @@
             "Piazza dell'Ospedale Maggiore",
             "Via San Calimero",
             "Arcimboldi Ateneo Nuovo",
-            "Via San Dionigi",
             "Piazzale Donne Partigiane",
             "Via Meravigli",
             "Via Bardolino",
@@ -3940,7 +3989,6 @@
             "Via Montevecchia",
             "Piazza Enrico Berlinguer",
             "Via Chiese",
-            "Viale Famagosta",
             "Piazza Francesco Carvelli",
             "Viale Emilio Zola",
             "Ponte Alexander Langer",
@@ -3993,6 +4041,7 @@
             "Via Apollodoro",
             "Vicolo Privato Parini",
             "Via Albenza",
+            "Via Bonaventura Broggini",
             "Largo Sibilla Aleramo",
             "Via Anna Maria Ortese",
             "Viale Luigi Camoens",
@@ -4003,6 +4052,7 @@
             "Percorso Vita",
             "Passaggio Juri Pelikan",
             "Via Andre' Marie Ampere",
+            "Via San Dionigi",
             "Piazza Adriano Olivetti",
             "Via Giuseppe Tartini",
             "Via Oronzio De Nora",
@@ -4045,7 +4095,6 @@
             "Crocetta M3",
             "Via Roberto Tremelloni",
             "Piazza Aspromonte",
-            "Viale Federico Caprilli",
             "Via San Bernardino",
             "Passerella Gioia",
             "Piazzetta Pattari",
@@ -4065,6 +4114,7 @@
             "Vicolo Gaetano De Castillia",
             "Via Lucio Giunio Columella",
             "Corso Italia - Via Santa Sofia",
+            "Viale Giovanni Sebastiano Bach",
             "Via Lampugnano",
             "Vicolo Rasini",
             "via Zaha Hadid",
@@ -4092,11 +4142,11 @@
             "Corte Nord",
             "Via Angelo Rizzoli",
             "Viale del Bene",
-            "Via Osti",
             "Nuovo accesso M3",
             "via Passerini",
             "Via Monte Rotondo",
             "Spirals of Time",
+            "Largo Claudio Treves",
             "Passaggio della Luce",
             "Piazza Pietro Frattini",
             "Piazza Arrigo Arrighetti",
@@ -4109,6 +4159,10 @@
             "Passeggiata Emenuela Setti Carraro",
             "Piazza Cesare Stovani",
             "Strada della Carità"
+        ],
+        "operator": [
+            "Autosilo San Barnaba",
+            "ATM"
         ],
         "ref": [
             "11109",
@@ -4127,6 +4181,15 @@
             "10480",
             "11464",
             "15523"
+        ],
+        "bicycle": [
+            "yes",
+            "permissive",
+            "unknown",
+            "dismount",
+            "no",
+            "designated",
+            "official"
         ],
         "surface": [
             "paving_stones",
@@ -4158,22 +4221,12 @@
             "linoleum",
             "tartan",
             "stone",
-            "iron",
             "chipseal",
             "graound;grass",
             "see",
             "metal_grid",
             "woodchips",
             "tiles"
-        ],
-        "bicycle": [
-            "yes",
-            "permissive",
-            "unknown",
-            "dismount",
-            "no",
-            "designated",
-            "official"
         ],
         "barrier": [
             "gate",
@@ -4349,8 +4402,8 @@
             "yes"
         ],
         "bench": [
-            "no",
-            "yes"
+            "yes",
+            "no"
         ],
         "bin": [
             "yes",
@@ -4465,7 +4518,6 @@
             "Q105428",
             "Q23047410",
             "Q146183",
-            "Q734204",
             "Q13138",
             "Q3750366",
             "Q536108",
@@ -4478,11 +4530,12 @@
             "Q3940173",
             "Q128130",
             "Q315249",
-            "Q1339",
+            "Q734204",
             "Q1057722",
             "Q19689",
             "Q51122",
             "Q1092339",
+            "Q193190",
             "Q1041908",
             "Q723364",
             "Q3071873",
@@ -4508,7 +4561,6 @@
             "Q2979",
             "Q1858775",
             "Q94413748",
-            "Q594614",
             "Q3771321",
             "Q1432734",
             "Q630",
@@ -4590,8 +4642,6 @@
             "Q42595",
             "Q3878824",
             "Q3617237",
-            "Q244380",
-            "Q193190",
             "Q15",
             "Q3751173",
             "Q42940",
@@ -4602,13 +4652,14 @@
             "Q590",
             "Q675",
             "Q284282",
+            "Q244380",
             "Q108555",
             "Q654973",
             "Q13362",
-            "Q1345590",
             "Q694809",
             "Q1803058",
             "Q73914624",
+            "Q1339",
             "Q47780",
             "Q3842044",
             "Q2256684",
@@ -4628,12 +4679,14 @@
             "6",
             "1.4",
             "2.1",
+            "2.5",
             "1.5",
             "2.8",
             "3.2",
             "3.8",
             "2",
             "2.7",
+            "3",
             "1.8"
         ],
         "cycle_barrier": [
@@ -4767,6 +4820,7 @@
         ],
         "check_date:shelter": [
             "2026-05-21",
+            "2026-09-17",
             "2026-03-15",
             "2026-04-24"
         ],
@@ -4778,7 +4832,7 @@
         ],
         "check_date:opening_hours": [
             "2025-05-18",
-            "2023-04-17"
+            "2026-09-21"
         ],
         "dog": [
             "leashed",
@@ -4871,10 +4925,10 @@
             "accesso consentito ad autorizzati",
             "presente ingresso a garage sotterraneo",
             "surface is round cobblestone plus longitudinal stone flatted lanes",
-            "all'interno della zona a traffico limitato",
             "accesso consentito solo 1) a biciclette sempre e 2) per carico e scarico merci solo nelle fasce orarie 05:00-07:30 e 15:00-17:30 3) veicoli diretti all'interno delle proprietà privata ed autorizzati",
             "access possible only when the underground station is open",
             "may be not be suitable to bicycle",
+            "all'interno della zona a traffico limitato",
             "Pedestrian allowed on the sidewalk on the outer side or in the inner side (there is a part of the inner side at the same level of the road)",
             "only open when the train station is open",
             "stairs and escaltors, there are two escalator going down and one escalator going up (the one going up is the one in the centre)",
@@ -4902,7 +4956,8 @@
             "steps are 7 + 20 (from bottom to top)",
             "steps are 10 + 18 (from bottom to top)",
             "steps are 11 + 18 (from bottom to top)",
-            "step escalator only. Upward only"
+            "step escalator only. Upward only",
+            "Potenziamento nodo di Milano Bovisa"
         ],
         "colour": [
             "orange",
@@ -4927,10 +4982,6 @@
         ],
         "network:wikidata": [
             "Q381955"
-        ],
-        "operator": [
-            "Autosilo San Barnaba",
-            "ATM"
         ],
         "maxheight": [
             "4",
@@ -5115,11 +5166,11 @@
             "138_5572",
             "7111_28788",
             "1761_24501",
-            "5150_29633",
+            "1171_26931",
             "7193_5727",
             "612_50104",
             "6698_53717",
-            "6304_34440",
+            "6304_59563",
             "6164_28730",
             "6466_55716",
             "6741_55602",
@@ -5237,7 +5288,6 @@
             "1400_4372",
             "1399_13753",
             "4300_11666",
-            "4203_13676",
             "5378_25700",
             "5378_37326",
             "2315_14387",
@@ -5245,9 +5295,11 @@
             "5161_9416",
             "5416_9034",
             "1402_1939",
+            "5353_23272",
             "7501_50369",
             "5485_32632",
             "5375_2464",
+            "5147_37079",
             "5152_51176",
             "5150_19821",
             "309_1728",
@@ -5298,8 +5350,10 @@
             "4233_34025",
             "5119_45586",
             "6440_16227",
+            "6719_1550",
             "6750_2950",
             "6726_31543",
+            "5148_14412",
             "6438_34248",
             "6451_39694",
             "6451_39693",
@@ -5319,6 +5373,7 @@
             "2571_58019",
             "6363_48626",
             "99_2534",
+            "6254_48109",
             "105_49928",
             "545_51924",
             "544_51281",
@@ -5379,6 +5434,7 @@
             "2696_1226",
             "2700_15278",
             "2230_19096",
+            "2358_33500",
             "4326_33960",
             "625_15198",
             "1761_24544",
@@ -5404,7 +5460,6 @@
             "1661_250",
             "1501_2216",
             "5142_36226",
-            "5142_36225",
             "7096_36576",
             "7096_36573",
             "7084_17985",
@@ -5430,6 +5485,7 @@
             "6215_49912",
             "1361_46050",
             "6122_7665",
+            "1171_15500",
             "1443_25233",
             "6776_55951;6776_55952",
             "1413_21965",
@@ -5486,6 +5542,7 @@
             "5161_19824",
             "5161_19647",
             "595_19714",
+            "5150_37080",
             "7228_2849",
             "704_53979",
             "7111_17642",
@@ -5525,6 +5582,7 @@
             "4226_14957",
             "2112_38791",
             "5203_19829",
+            "5234_24685",
             "5110_19553",
             "5157_19652",
             "4045_37948",
@@ -5567,6 +5625,7 @@
             "1010_1779",
             "7114_48609",
             "5106_27933",
+            "5234_6770",
             "1036_1774",
             "1535_25924",
             "1_27704",
@@ -5667,7 +5726,6 @@
             "3141_24984",
             "3263_24985",
             "1665_4973",
-            "2243_19178",
             "4090_9524",
             "6672_20410",
             "1727_32371",
@@ -5681,6 +5739,7 @@
             "3361_32122",
             "1141_2384",
             "1276_7575",
+            "1467_7523",
             "1468_34076",
             "1282_17845",
             "1398_4375",
@@ -5783,12 +5842,15 @@
             "5110_19889",
             "1720_26472",
             "6743_34229",
+            "5353_23271",
             "5294_36472",
             "5294_36469",
             "5354_22505",
             "5488_36791",
             "5161_9473",
             "5321_41579",
+            "5480_42557",
+            "5480_42551",
             "5422_51572",
             "5486_33485",
             "5487_33487",
@@ -5830,6 +5892,7 @@
             "615_6803",
             "7461_12597",
             "6237_32998",
+            "617_36826",
             "637_20434",
             "633_6480",
             "633_11542",
@@ -5845,6 +5908,7 @@
             "8502_15311",
             "6330_13080",
             "6780_13079",
+            "6862_40438",
             "6333_46346",
             "6333_46340",
             "115_36253",
@@ -5865,6 +5929,7 @@
             "6304_26569",
             "6304_41832",
             "6304_26570",
+            "6302_12334",
             "516_30852",
             "6732_2712",
             "6732_13151",
@@ -5946,7 +6011,6 @@
             "7305_46853",
             "7178_34109",
             "7175_18212",
-            "3020_5303",
             "3026_6413",
             "577_36274",
             "5144_19923",
@@ -6045,7 +6109,6 @@
             "214_47094",
             "7086_36589",
             "2177_48891",
-            "2243_19177",
             "7514_30593",
             "2134_2215",
             "3261_5921",
@@ -6154,6 +6217,7 @@
             "1728_28593",
             "581_36406",
             "100102_2531",
+            "6700_59564",
             "129_28232",
             "7105_36608",
             "7377_7181",
@@ -6183,6 +6247,7 @@
             "7602_57563",
             "212_36257",
             "7517_57331",
+            "617_13889",
             "99061_58585",
             "6929_0",
             "6865_57850",
@@ -6205,9 +6270,7 @@
             "4066_58982",
             "6222_31413",
             "6643_31611",
-            "6532_35251",
             "318_24892",
-            "5150_19799",
             "5409_58412",
             "99061_58583",
             "7443_55933",
@@ -6215,6 +6278,7 @@
             "4150_36100",
             "1124_2313",
             "2399_35342",
+            "4203_13676",
             "350_49517",
             "6438_34258",
             "5340_21545",
@@ -6245,6 +6309,7 @@
             "6438_34265",
             "6435_34264",
             "2588_26065",
+            "4350_8502",
             "217_51374",
             "1449_32784",
             "1782_0",
@@ -6253,7 +6318,9 @@
             "6156_13630",
             "2690_35406",
             "5200_49780",
-            "4083_832"
+            "4083_832",
+            "4351_60095",
+            "6303_47629"
         ],
         "maxspeed": [
             "50",
@@ -6413,7 +6480,8 @@
             "single"
         ],
         "proposed": [
-            "cycleway"
+            "cycleway",
+            "footway"
         ],
         "start_date": [
             "2015-05-31",
@@ -6435,6 +6503,23 @@
             "delivery @ (Mo-Sa 08:00-20:00)",
             "no @ (20:00 - 31:00)",
             "no @ (Mo-Fr 07:30-09:00, 16:00-19:00)"
+        ],
+        "short_name": [
+            "Piazza 25 Aprile",
+            "Piazza Liberty",
+            "Via Pedroni",
+            "Via Nicolò Bettoni",
+            "Via Chieti",
+            "Via Filargo",
+            "Via Bo",
+            "Via Bergognone",
+            "Via Verga",
+            "Via della Garancetta",
+            "Viale Papiniano",
+            "Via Vespucci",
+            "Piazza Ospedale Maggiore",
+            "Via Salesina",
+            "Via Piaggio"
         ],
         "junction": [
             "roundabout"
@@ -6544,14 +6629,18 @@
             "Q106434501",
             "Q3902295",
             "Q929968",
+            "Q106463074",
+            "Q3205600",
             "Q106642743",
             "Q106982716",
+            "Q97703801",
             "Q106434467",
             "Q125147342",
             "Q4010601",
             "Q3886620",
-            "Q106463074",
+            "Q124795586",
             "Q36832507",
+            "Q3019414",
             "Q3757728",
             "Q3757734",
             "Q3902479",
@@ -6583,7 +6672,8 @@
             "Q3382248",
             "Q106434466",
             "Q107566927",
-            "Q106961073"
+            "Q106961073",
+            "Q106434475"
         ],
         "est_width": [
             "4",
@@ -6646,8 +6736,10 @@
             "it:Piazza della Scala",
             "it:Piazza San Fedele",
             "it:Piazza Mercanti",
+            "it:Piazza Cinque Giornate",
             "it:Via Dante (Milano)",
             "en:Ospedale Niguarda Ca' Granda",
+            "it:Piazza degli Affari",
             "it:Galleria De Cristoforis",
             "it:Galleria del Corso (Milano)",
             "it:Piazzale Luigi Cadorna",
@@ -6662,14 +6754,17 @@
         ],
         "check_date:surface": [
             "2025-07-13",
+            "2026-03-08",
             "2025-01-06",
             "2026-02-01",
             "2021-03-30",
             "2025-10-19",
+            "2026-09-21",
             "2023-12-02",
             "2024-10-29",
             "2021-01-10",
             "2025-10-21",
+            "2026-09-18",
             "2026-08-22",
             "2025-10-18",
             "2025-10-16",
@@ -6698,12 +6793,12 @@
             "2024-08-23",
             "2026-04-08",
             "2024-10-22",
+            "2026-09-15",
             "2026-06-18",
             "2026-02-17",
             "2026-02-20",
             "2025-12-14",
             "2023-10-19",
-            "2026-03-08",
             "2026-06-23",
             "2026-02-12",
             "2026-01-22",
@@ -6732,25 +6827,9 @@
         "overtaking": [
             "no"
         ],
-        "short_name": [
-            "Piazza 25 Aprile",
-            "Piazza Liberty",
-            "Via Pedroni",
-            "Via Nicolò Bettoni",
-            "Via Chieti",
-            "Via Filargo",
-            "Via Bo",
-            "Via Bergognone",
-            "Via Verga",
-            "Via della Garancetta",
-            "Viale Papiniano",
-            "Via Vespucci",
-            "Piazza Ospedale Maggiore",
-            "Via Salesina",
-            "Via Piaggio"
-        ],
         "source:maxspeed": [
             "sign",
+            "IT:urban",
             "IT:zone30"
         ],
         "tunnel": [
@@ -6972,6 +7051,7 @@
         ],
         "parking:left": [
             "no",
+            "street_side",
             "yes"
         ],
         "parking:right": [
@@ -6985,6 +7065,14 @@
         ],
         "maxweightrating:hgv": [
             "2.5"
+        ],
+        "area:highway": [
+            "pedestrian"
+        ],
+        "tourism": [
+            "yes",
+            "attraction",
+            "artwork"
         ],
         "footway:surface": [
             "asphalt",
@@ -7022,8 +7110,8 @@
         "cycleway:width": [
             "2.5",
             "2",
-            "3",
-            "1.2"
+            "1.2",
+            "3"
         ],
         "leisure": [
             "playground"
@@ -7032,6 +7120,7 @@
             "sett"
         ],
         "parking:left:orientation": [
+            "perpendicular",
             "parallel"
         ],
         "motorroad": [
@@ -7050,9 +7139,11 @@
             "2023-09-07",
             "2026-05-16",
             "2026-07-08",
+            "2026-09-19",
             "2026-05-17",
             "2025-11-01",
-            "2026-05-03"
+            "2026-05-03",
+            "2026-09-14"
         ],
         "lanes:psv:backward": [
             "1"
@@ -7062,11 +7153,6 @@
         ],
         "name:ko": [
             "비아 데이 피콜로미니"
-        ],
-        "tourism": [
-            "yes",
-            "attraction",
-            "artwork"
         ],
         "bridge:structure": [
             "suspension",
@@ -7079,6 +7165,10 @@
             "no"
         ],
         "sidewalk:both:surface": [
+            "paving_stones",
+            "asphalt"
+        ],
+        "sidewalk:right:surface": [
             "paving_stones",
             "asphalt"
         ],
@@ -7139,19 +7229,17 @@
         "source:cycleway:width": [
             "ARCore"
         ],
-        "area:highway": [
-            "pedestrian"
-        ],
         "check_date:ramp": [
             "2023-09-13",
             "2026-05-08",
-            "2025-10-31",
+            "2026-09-21",
             "2026-02-26",
             "2025-07-13",
             "2026-07-21",
             "2026-04-22",
             "2026-05-24",
             "2026-08-19",
+            "2026-09-15",
             "2026-05-28",
             "2026-04-30"
         ],
@@ -7213,10 +7301,6 @@
         ],
         "note:surface": [
             "made from fossil of ammonite"
-        ],
-        "sidewalk:right:surface": [
-            "asphalt",
-            "paving_stones"
         ],
         "conveying": [
             "no",
@@ -7478,6 +7562,12 @@
         "mtb:scale:imba": [
             "0"
         ],
+        "disused:bicycle": [
+            "yes"
+        ],
+        "disused:foot": [
+            "yes"
+        ],
         "stairs": [
             "yes"
         ],
@@ -7501,8 +7591,14 @@
         "footway:crossing:markings": [
             "zebra"
         ],
+        "check_date:platform_lift": [
+            "2022-05-22"
+        ],
         "flat_steps": [
             "yes"
+        ],
+        "roof:shape": [
+            "flat"
         ],
         "access_aisle": [
             "disabled"
