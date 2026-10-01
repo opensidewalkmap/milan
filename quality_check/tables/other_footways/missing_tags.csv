@@ -871,7 +871,6 @@ osm_id,feat_type,key,value,commentary
 59461452,way,surface,MISSING,Surface tag is recommended to assess accessibility
 59575149,way,surface,MISSING,Surface tag is recommended to assess accessibility
 59868596,way,surface,MISSING,Surface tag is recommended to assess accessibility
-59995414,way,surface,MISSING,Surface tag is recommended to assess accessibility
 59995425,way,surface,MISSING,Surface tag is recommended to assess accessibility
 60003126,way,surface,MISSING,Surface tag is recommended to assess accessibility
 60003129,way,surface,MISSING,Surface tag is recommended to assess accessibility
@@ -7731,8 +7730,8 @@ osm_id,feat_type,key,value,commentary
 1206923759,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1207123113,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1208236678,way,surface,MISSING,Surface tag is recommended to assess accessibility
+1208236679,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1208236680,way,surface,MISSING,Surface tag is recommended to assess accessibility
-1208236681,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1208903064,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1208903066,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1208903067,way,surface,MISSING,Surface tag is recommended to assess accessibility
@@ -8696,6 +8695,7 @@ osm_id,feat_type,key,value,commentary
 1337263935,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1337263938,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1337263952,way,surface,MISSING,Surface tag is recommended to assess accessibility
+1337691296,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1338322710,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1338322712,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1338326669,way,surface,MISSING,Surface tag is recommended to assess accessibility
@@ -10592,3 +10592,6 @@ osm_id,feat_type,key,value,commentary
 1563466111,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1563466113,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1563466114,way,surface,MISSING,Surface tag is recommended to assess accessibility
+1563911531,way,surface,MISSING,Surface tag is recommended to assess accessibility
+1563911537,way,surface,MISSING,Surface tag is recommended to assess accessibility
+1563981503,way,surface,MISSING,Surface tag is recommended to assess accessibility

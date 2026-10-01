@@ -65,16 +65,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-09-30T13:06:11+00:00",
+    "updated": "2026-10-01T13:25:49+00:00",
     "node_registry": {
-      "Data Fetching": "2026-09-30T12:35:19Z",
+      "Data Fetching": "2026-10-01T13:10:16Z",
       "Versioning Data": "2026-09-27T14:53:00Z",
-      "Data Pre-Processing": "2026-09-30T12:35:35Z",
-      "Data Quality Tool": "2026-09-30T12:39:59Z",
-      "Completeness Analysis": "2026-09-30T12:43:19Z",
-      "Statistical Charts": "2026-09-30T12:43:34Z",
+      "Data Pre-Processing": "2026-10-01T13:10:35Z",
+      "Data Quality Tool": "2026-10-01T13:16:07Z",
+      "Completeness Analysis": "2026-10-01T13:25:35Z",
+      "Statistical Charts": "2026-10-01T13:25:49Z",
       "OSWM Codebase Revision": "e729ceb75dc90a7fb51b52b526defe1854022a0e",
-      "Pipeline Success": "2026-09-30T13:06:11Z",
+      "Pipeline Success": "2026-09-30T15:09:42Z",
       "Wiki check for keys": "2026-09-27T15:00:37Z"
     }
   },
@@ -98,11 +98,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-30T13:06:11+00:00",
+    "generated_at": "2026-10-01T13:25:49+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "e729ceb75dc90a7fb51b52b526defe1854022a0e",
-      "commit_date": "2026-09-29T14:05:58-03:00"
+      "commit": "c440c911cb07c1f54658a799a6c1fedb028c0b0a",
+      "commit_date": "2026-09-30T21:27:17-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -126,10 +126,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/index.html.metadata.json",
       "media_type": "text/html",
       "format": "HTML",
-      "byte_size": 3363,
+      "byte_size": 3369,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "bbcc9e06d837522ab1e0b5598418248b4393c6877c20caead92948833559c8ca"
+        "value": "75f6fba2de0d07cad6e6556125263494acf095233bd6675cd116d92ccb527b61"
       }
     },
     {
@@ -138,10 +138,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/pipeline_decision.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 353,
+      "byte_size": 348,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "fde5e0229696a4ce02403f175416ea7c78379d8bc4f323ce049fe5773e72059e"
+        "value": "88d7edfa1c0941e83372ef5e98939467023e59f116ba4974eb9638e786cadf2d"
       }
     },
     {
@@ -150,10 +150,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/registry.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 471,
+      "byte_size": 470,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "748c197ee94e6f8750c8da3341e32fb55dcebd155f8eb38b5235236733a6dc31"
+        "value": "7c9a713be5e54377ce821e4b237cab799ab7d67b72789d786160cd71a6d4ee2d"
       }
     },
     {
@@ -165,7 +165,7 @@
       "byte_size": 231,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "b791842fbbf622c549bf19fe28fe98873dbc44b0e1d5cabf4d167dc2881ec5c4"
+        "value": "1d8687679c236da95028024a588efc5781f29e6f183cdbecd0b43efc835e2aaf"
       }
     },
     {
@@ -177,7 +177,7 @@
       "byte_size": 94194,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "9ccb9f06a353c04a2c54fc7d939fc403681b7d065c5174b8243286216634a04f"
+        "value": "9f7b93c1c5b7ec31d7841cf3360d2227ac8590eb7e548dd8801243d091e42056"
       }
     },
     {
@@ -186,10 +186,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/yesterday.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 9054,
+      "byte_size": 742,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "b43f033b7fd644e63296fe5dbc7a5380699892514ca04211b48079d9bade9ece"
+        "value": "7c3befb35494250fdbae3747880efb56740272d2fbde48543be9bb21d65be88a"
       }
     }
   ],

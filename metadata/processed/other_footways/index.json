@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-09-30T13:06:11+00:00",
+    "updated": "2026-10-01T13:25:49+00:00",
     "node_registry": {
-      "Data Fetching": "2026-09-30T12:35:19Z",
+      "Data Fetching": "2026-10-01T13:10:16Z",
       "Versioning Data": "2026-09-27T14:53:00Z",
-      "Data Pre-Processing": "2026-09-30T12:35:35Z",
-      "Data Quality Tool": "2026-09-30T12:39:59Z",
-      "Completeness Analysis": "2026-09-30T12:43:19Z",
-      "Statistical Charts": "2026-09-30T12:43:34Z",
+      "Data Pre-Processing": "2026-10-01T13:10:35Z",
+      "Data Quality Tool": "2026-10-01T13:16:07Z",
+      "Completeness Analysis": "2026-10-01T13:25:35Z",
+      "Statistical Charts": "2026-10-01T13:25:49Z",
       "OSWM Codebase Revision": "e729ceb75dc90a7fb51b52b526defe1854022a0e",
-      "Pipeline Success": "2026-09-30T13:06:11Z",
+      "Pipeline Success": "2026-09-30T15:09:42Z",
       "Wiki check for keys": "2026-09-27T15:00:37Z"
     }
   },
@@ -102,11 +102,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-30T13:06:11+00:00",
+    "generated_at": "2026-10-01T13:25:49+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "e729ceb75dc90a7fb51b52b526defe1854022a0e",
-      "commit_date": "2026-09-29T14:05:58-03:00"
+      "commit": "c440c911cb07c1f54658a799a6c1fedb028c0b0a",
+      "commit_date": "2026-09-30T21:27:17-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -118,10 +118,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways/informal_footways.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 308266,
+      "byte_size": 308319,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "ecca537b4d17d9485a62550866b4fc26c0f51c73f648563b81dad1aa752c6e1d"
+        "value": "8691ff827f485af57ed0ff5770a8cd1a77162b5581aa943e780e3b673c0d2e0b"
       }
     },
     {
@@ -130,10 +130,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways/main_footways.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 1675059,
+      "byte_size": 1676883,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "002f35fdd65455f508a9d6488d93733ec6db046b9f59c6af276f6699580e8cba"
+        "value": "b889e2f964a6b37cdd9242d2bf76cee8fd865a612bf0e792f0f1383c0eef6a1f"
       }
     },
     {
@@ -142,10 +142,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways/pedestrian_areas.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 665834,
+      "byte_size": 665985,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "7187f0774c0deff76fba3e6aa1376697c1911946d81581e16ecd1e6a896885db"
+        "value": "407b04c24b66bfb20850da8437703af9914c6bf25d74c1f2c12cdedb978e08bf"
       }
     },
     {
@@ -154,10 +154,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways/potential_footways.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 389285,
+      "byte_size": 389625,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "896a538da606ac97d59e103d30a6bbdc4f99c1605bbdd03c53bec9325d089d06"
+        "value": "64df1445041fcf997f2734924fbb0135f617bb803bb2019e4e9ba0f6b4722533"
       }
     },
     {
@@ -166,10 +166,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways/stairways.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 339293,
+      "byte_size": 339588,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "67c2333d6802a7d34e6ec7eb8de67e8c5e99dd9ff65fe8139d788d66f8e2726a"
+        "value": "4e58650eec9b53cf7889214cdb3c56f19eb8aaf8938ac9a12eecb34ffd9e8ee2"
       }
     }
   ],

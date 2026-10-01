@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-09-30T13:06:11+00:00",
+    "updated": "2026-10-01T13:25:49+00:00",
     "node_registry": {
-      "Data Fetching": "2026-09-30T12:35:19Z",
+      "Data Fetching": "2026-10-01T13:10:16Z",
       "Versioning Data": "2026-09-27T14:53:00Z",
-      "Data Pre-Processing": "2026-09-30T12:35:35Z",
-      "Data Quality Tool": "2026-09-30T12:39:59Z",
-      "Completeness Analysis": "2026-09-30T12:43:19Z",
-      "Statistical Charts": "2026-09-30T12:43:34Z",
+      "Data Pre-Processing": "2026-10-01T13:10:35Z",
+      "Data Quality Tool": "2026-10-01T13:16:07Z",
+      "Completeness Analysis": "2026-10-01T13:25:35Z",
+      "Statistical Charts": "2026-10-01T13:25:49Z",
       "OSWM Codebase Revision": "e729ceb75dc90a7fb51b52b526defe1854022a0e",
-      "Pipeline Success": "2026-09-30T13:06:11Z",
+      "Pipeline Success": "2026-09-30T15:09:42Z",
       "Wiki check for keys": "2026-09-27T15:00:37Z"
     }
   },
@@ -102,11 +102,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-09-30T13:06:11+00:00",
+    "generated_at": "2026-10-01T13:25:49+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "e729ceb75dc90a7fb51b52b526defe1854022a0e",
-      "commit_date": "2026-09-29T14:05:58-03:00"
+      "commit": "c440c911cb07c1f54658a799a6c1fedb028c0b0a",
+      "commit_date": "2026-09-30T21:27:17-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -118,10 +118,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/crossings.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 1632096,
+      "byte_size": 1633716,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "7c37a7e21003fa7d2beb6ae7175be370aec5d2831a79b3dbf129a840d225c09a"
+        "value": "7a56628a46e8961cda74088e171da1cde019c36e8ddb29b37516dbf02091de0a"
       }
     },
     {
@@ -130,10 +130,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/kerbs.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 1072211,
+      "byte_size": 1072412,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "4733a325eeb79869d010c3c594f0058f65ee776d7da43f9e553ae29f71bfe7ff"
+        "value": "fd4ec4baef1084005487672f6323ca1b037b748ae1f940ac675af62c43e13408"
       }
     },
     {
@@ -142,10 +142,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 2489924,
+      "byte_size": 2493937,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "16bda4a1856c9755ce04ffad2280f98f8664ab4187c5b53bc95410f74815fac6"
+        "value": "f1c62d47aed974b6450f5cb51533fd3a8019436681c3a893569d58460579ba8d"
       }
     },
     {
@@ -154,10 +154,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/roads_for_completeness.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 3009158,
+      "byte_size": 3005127,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "2be0b21cdc6d9890626730fd12c4ae3d82ebeac246e075109d71393107594f9b"
+        "value": "329cd9ace1132eeeebb4937391bffcf84829909c4191fe34e982140759557b15"
       }
     },
     {
@@ -166,10 +166,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/processed/sidewalks.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 2267068,
+      "byte_size": 2277214,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "a858abc23711a01066966a3667755067326e09e46317ad2fa1a08e6f0b33eea7"
+        "value": "dc30384f6b3e44f07c704f741b56112b1e6d38115f19eb16b955efb03234c92d"
       }
     }
   ],
