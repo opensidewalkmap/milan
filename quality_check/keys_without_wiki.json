@@ -112,9 +112,12 @@
         "colonnade:right",
         "parking:lane:both:parallel",
         "was:highway",
+        "disused:bicycle",
+        "disused:foot",
         "lanes:bicycle:backward",
         "cycleway:crossing:markings",
         "footway:crossing:markings",
+        "check_date:platform_lift",
         "access_aisle"
     ]
 }
