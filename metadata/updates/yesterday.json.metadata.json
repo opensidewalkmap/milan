@@ -82,10 +82,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/updates/yesterday.json",
     "media_type": "application/json",
     "format": "JSON",
-    "byte_size": 11723,
+    "byte_size": 6609,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "23c838a3ebeecc7a99b846c5d1f370be1e96a8ea6c728076c6b33df32d1407dd"
+      "value": "49f13d41527c1b256fb4ce970aa6ea895ff0d43425f020bae53d939da463d4d8"
     }
   },
   "links": [

@@ -1,6 +1,6 @@
 {
   "node_name": "Milan",
-  "generated_at": "2026-10-04T13:58:48Z",
+  "generated_at": "2026-10-05T17:12:57Z",
   "bbox": [
     45.3867381,
     9.0408867,
@@ -43,45 +43,6 @@
   "total_projects_found": 14,
   "projects": [
     {
-      "id": 44846,
-      "title": "Milan - Cycleway Missing Foot Tags",
-      "service": "MapRoulette",
-      "instance": "https://maproulette.org/",
-      "url": "https://maproulette.org/admin/project/56002/challenge/44846",
-      "status": "Ready",
-      "description": "This challenge identifies all cycleways that are missing\ninformation about access permission for pedestrians. Mappers are asked to add a foot tag to the\ncycleway to clearly identify whether foot traffic is allowed on the cycleway. Please see [Examples\nfrom the highway=cycleway wiki page](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway#Examples)\nto learn more about how to add a foot tag to the cycleway.\n",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              9.094858519,
-              45.416851642
-            ],
-            [
-              9.094858519,
-              45.53338165
-            ],
-            [
-              9.267200151,
-              45.53338165
-            ],
-            [
-              9.267200151,
-              45.416851642
-            ],
-            [
-              9.094858519,
-              45.416851642
-            ]
-          ]
-        ]
-      },
-      "matched_keywords": [
-        "pedestrian"
-      ]
-    },
-    {
       "id": 43949,
       "title": "Milan - Fix Conflicting Crossing Feature Tags",
       "service": "MapRoulette",
@@ -118,6 +79,45 @@
       },
       "matched_keywords": [
         "crossing"
+      ]
+    },
+    {
+      "id": 44846,
+      "title": "Milan - Cycleway Missing Foot Tags",
+      "service": "MapRoulette",
+      "instance": "https://maproulette.org/",
+      "url": "https://maproulette.org/admin/project/56002/challenge/44846",
+      "status": "Ready",
+      "description": "This challenge identifies all cycleways that are missing\ninformation about access permission for pedestrians. Mappers are asked to add a foot tag to the\ncycleway to clearly identify whether foot traffic is allowed on the cycleway. Please see [Examples\nfrom the highway=cycleway wiki page](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway#Examples)\nto learn more about how to add a foot tag to the cycleway.\n",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.094858519,
+              45.416851642
+            ],
+            [
+              9.094858519,
+              45.53338165
+            ],
+            [
+              9.267200151,
+              45.53338165
+            ],
+            [
+              9.267200151,
+              45.416851642
+            ],
+            [
+              9.094858519,
+              45.416851642
+            ]
+          ]
+        ]
+      },
+      "matched_keywords": [
+        "pedestrian"
       ]
     },
     {
