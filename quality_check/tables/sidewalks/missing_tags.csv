@@ -584,13 +584,10 @@ osm_id,feat_type,key,value,commentary
 686832691,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686890131,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686890132,way,surface,MISSING,Surface tag is recommended to assess accessibility
-686890133,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686890134,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686890136,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686890137,way,surface,MISSING,Surface tag is recommended to assess accessibility
-686890138,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686890140,way,surface,MISSING,Surface tag is recommended to assess accessibility
-686890141,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686890142,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686917020,way,surface,MISSING,Surface tag is recommended to assess accessibility
 686919331,way,surface,MISSING,Surface tag is recommended to assess accessibility
@@ -5536,3 +5533,4 @@ osm_id,feat_type,key,value,commentary
 1563207427,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1563207428,way,surface,MISSING,Surface tag is recommended to assess accessibility
 1564230026,way,surface,MISSING,Surface tag is recommended to assess accessibility
+1566283012,way,surface,MISSING,Surface tag is recommended to assess accessibility
