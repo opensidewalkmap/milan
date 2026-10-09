@@ -65,7 +65,7 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-10-09T13:24:17+00:00",
+    "updated": "2026-10-09T13:49:43+00:00",
     "node_registry": {
       "Data Fetching": "2026-10-09T13:16:07Z",
       "Versioning Data": "2026-10-04T15:02:27Z",
@@ -73,8 +73,8 @@
       "Data Quality Tool": "2026-10-09T13:22:07Z",
       "Completeness Analysis": "2026-10-09T13:24:01Z",
       "Statistical Charts": "2026-10-09T13:24:17Z",
-      "OSWM Codebase Revision": "0536100724de170e8d92353cd8a4bb8166eb2e70",
-      "Pipeline Success": "2026-10-08T16:16:41Z",
+      "OSWM Codebase Revision": "03f78441316cd5d9b56ce1c7f507a6e4d591b6be",
+      "Pipeline Success": "2026-10-09T13:49:43Z",
       "Wiki check for keys": "2026-10-04T15:10:17Z"
     }
   },
@@ -98,7 +98,7 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-10-09T13:24:17+00:00",
+    "generated_at": "2026-10-09T13:49:43+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
       "commit": "03f78441316cd5d9b56ce1c7f507a6e4d591b6be",
@@ -138,10 +138,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/pipeline_decision.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 348,
+      "byte_size": 353,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "ebf48aadab619f8d4b523bb99a7267330e3c85d00b312badd3a16aafbd34c429"
+        "value": "eeb2456d4e555cd0249f6cee1a6c39513b8eb3c8d3895c8b523a5cb6c71d8eae"
       }
     },
     {
@@ -150,10 +150,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/registry.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 470,
+      "byte_size": 471,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "4025639b234e7331de5bdf341c36cd9b21cd049ce09ea4176c137f961ba670b0"
+        "value": "61f4d02e699e90b84954da4a5abcb1a3e2cfeb34cc5d9ca1eb3cb2466fd15853"
       }
     },
     {
@@ -165,7 +165,7 @@
       "byte_size": 231,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "755aa4eeadd5ae262c11b4dfc7d35fca75f95d64617289c17060207b180418b6"
+        "value": "6e80f5713833ad6df8d109a3f2b52436b6d6f397b4f155fd3630278eecc0d710"
       }
     },
     {
@@ -177,7 +177,7 @@
       "byte_size": 94194,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "ed58a3749ea6dfaf878b8d27b4080db37f19eeb1157d4dbc2096e7c73ff27558"
+        "value": "91b75763ffef6ecfc47931e1bebf116f9084037ed5a5558c70cb7ac93e72afb7"
       }
     },
     {
