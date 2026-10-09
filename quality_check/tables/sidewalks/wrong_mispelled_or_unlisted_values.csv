@@ -1,7 +1,10 @@
 osm_id,feat_type,key,value,commentary
 45263538,way,surface,cobblestone:flattened,"unlisted at accepted/known values, probably wrong/misspelled"
+51357040,way,surface,fine_gravel,"unlisted at accepted/known values, probably wrong/misspelled"
+112631966,way,surface,fine_gravel,"unlisted at accepted/known values, probably wrong/misspelled"
 260495927,way,surface,fine_gravel,"unlisted at accepted/known values, probably wrong/misspelled"
 266587454,way,surface,fine_gravel,"unlisted at accepted/known values, probably wrong/misspelled"
+285200252,way,surface,fine_gravel,"unlisted at accepted/known values, probably wrong/misspelled"
 356914263,way,surface,cobblestone:flattened,"unlisted at accepted/known values, probably wrong/misspelled"
 441749038,way,surface,cobblestone:flattened,"unlisted at accepted/known values, probably wrong/misspelled"
 688337003,way,surface,concrete:lanes,"unlisted at accepted/known values, probably wrong/misspelled"

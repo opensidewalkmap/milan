@@ -813,6 +813,7 @@
             "Via Padova, 353",
             "Padova Rizzoli",
             "Via Palmanova 221",
+            "Cimiano M2",
             "Via Palmanova - Via Cesana",
             "Via Riccardi V.le Don Orione",
             "via Padova via de la salle",
@@ -1367,11 +1368,11 @@
             "sett",
             "concrete",
             "cobblestone:flattened",
+            "fine_gravel",
             "unpaved",
             "compacted",
             "paved",
             "ground",
-            "fine_gravel",
             "concrete:plates",
             "grass",
             "unhewn_cobblestone",
@@ -2285,7 +2286,6 @@
             "paved",
             "compacted",
             "concrete:plates",
-            "unpaved",
             "concrete",
             "cobblestone",
             "fine_gravel",
@@ -4758,6 +4758,7 @@
             "Via Giovanni Cimabue",
             "Via Mecenate",
             "Via don Giovanni Calabria",
+            "Piazza Leonardo da Vinci",
             "Via Sant'Erlembaldo",
             "Via Umberto Masotto",
             "Via Evaristo Baschenis",
@@ -4818,6 +4819,7 @@
             "07:00-20:00",
             "Tu-Su 10:30-20:00; Mo off",
             "07:00-20:00; Apr-Sep 07:00-22:00",
+            "Mo-Fr 07:00-21:00; Sa 07:00-20:00; Su closed",
             "Jun-Sep Mo-Su 06:30-23:30; Oct-May PH,Mo-Su 06:30-21:00",
             "Mo-Su 09:00-21:00",
             "24/7",
@@ -6399,6 +6401,9 @@
             "yes",
             "no",
             "-1"
+        ],
+        "source:opening_hours": [
+            "https://www.polimi.it/campus-e-servizi/spazi-e-aule-studio/orari-di-apertura-edifici"
         ],
         "lift_gate:type": [
             "single"

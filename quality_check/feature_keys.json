@@ -380,6 +380,7 @@
         "cycleway",
         "oneway",
         "oneway:bicycle",
+        "source:opening_hours",
         "lift_gate:type",
         "foot:conditional",
         "width",

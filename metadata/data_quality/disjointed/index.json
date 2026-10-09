@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-10-08T15:49:58+00:00",
+    "updated": "2026-10-09T13:24:17+00:00",
     "node_registry": {
-      "Data Fetching": "2026-10-08T15:38:59Z",
+      "Data Fetching": "2026-10-09T13:16:07Z",
       "Versioning Data": "2026-10-04T15:02:27Z",
-      "Data Pre-Processing": "2026-10-08T15:39:18Z",
-      "Data Quality Tool": "2026-10-08T15:45:07Z",
-      "Completeness Analysis": "2026-10-08T15:49:40Z",
-      "Statistical Charts": "2026-10-08T15:49:58Z",
+      "Data Pre-Processing": "2026-10-09T13:16:26Z",
+      "Data Quality Tool": "2026-10-09T13:22:07Z",
+      "Completeness Analysis": "2026-10-09T13:24:01Z",
+      "Statistical Charts": "2026-10-09T13:24:17Z",
       "OSWM Codebase Revision": "0536100724de170e8d92353cd8a4bb8166eb2e70",
-      "Pipeline Success": "2026-10-07T15:35:05Z",
+      "Pipeline Success": "2026-10-08T16:16:41Z",
       "Wiki check for keys": "2026-10-04T15:10:17Z"
     }
   },
@@ -103,11 +103,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-10-08T15:49:58+00:00",
+    "generated_at": "2026-10-09T13:24:17+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "0536100724de170e8d92353cd8a4bb8166eb2e70",
-      "commit_date": "2026-10-07T06:38:04-03:00"
+      "commit": "03f78441316cd5d9b56ce1c7f507a6e4d591b6be",
+      "commit_date": "2026-10-08T13:12:49-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -122,7 +122,7 @@
       "byte_size": 20550,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "174f27af702e72cb1b333204dc3192877b2c9c5a65298ed55b0ea48f9090efb3"
+        "value": "d94895c0d1ba7356120d9fe1bb85dacdbc0d16a1b891cda6fcfc97996cde47c7"
       }
     },
     {
@@ -131,10 +131,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/data_quality/disjointed/kerbs_disjointed.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 17023,
+      "byte_size": 17083,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "6e93b0512736019009c76d0e6e8c68a03eb3e2852b9afd00351ae716b3efc98c"
+        "value": "5f201419d6e4493b34afe737a4d10d62075567a0f4e7c85c90c53f8dc2d1a032"
       }
     }
   ],

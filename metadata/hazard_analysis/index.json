@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-10-08T15:49:58+00:00",
+    "updated": "2026-10-09T13:24:17+00:00",
     "node_registry": {
-      "Data Fetching": "2026-10-08T15:38:59Z",
+      "Data Fetching": "2026-10-09T13:16:07Z",
       "Versioning Data": "2026-10-04T15:02:27Z",
-      "Data Pre-Processing": "2026-10-08T15:39:18Z",
-      "Data Quality Tool": "2026-10-08T15:45:07Z",
-      "Completeness Analysis": "2026-10-08T15:49:40Z",
-      "Statistical Charts": "2026-10-08T15:49:58Z",
+      "Data Pre-Processing": "2026-10-09T13:16:26Z",
+      "Data Quality Tool": "2026-10-09T13:22:07Z",
+      "Completeness Analysis": "2026-10-09T13:24:01Z",
+      "Statistical Charts": "2026-10-09T13:24:17Z",
       "OSWM Codebase Revision": "0536100724de170e8d92353cd8a4bb8166eb2e70",
-      "Pipeline Success": "2026-10-07T15:35:05Z",
+      "Pipeline Success": "2026-10-08T16:16:41Z",
       "Wiki check for keys": "2026-10-04T15:10:17Z"
     }
   },
@@ -103,11 +103,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-10-08T15:49:58+00:00",
+    "generated_at": "2026-10-09T13:24:17+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "0536100724de170e8d92353cd8a4bb8166eb2e70",
-      "commit_date": "2026-10-07T06:38:04-03:00"
+      "commit": "03f78441316cd5d9b56ce1c7f507a6e4d591b6be",
+      "commit_date": "2026-10-08T13:12:49-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -119,10 +119,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_blind.geojson.metadata.json",
       "media_type": "application/geo+json",
       "format": "GeoJSON",
-      "byte_size": 60612813,
+      "byte_size": 60634650,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "3699390c025f0dd5dffeb614d9194a5bc4c7d6dbbb7d1244191239d9eca7cc9d"
+        "value": "dac09d7cede5a0088e0e95426d3afd63a544e9d3d66a5615aa2596a85a8abe09"
       }
     },
     {
@@ -131,10 +131,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_blind.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 6609616,
+      "byte_size": 6612133,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "1efb6febf1ad3008da75c2ba7cacd2a45aebb47402ca957949902244801a74c9"
+        "value": "d714db02e10503462c5a4e173b3de22d50e08e9f89989bcf614c9ea53cbca8a5"
       }
     },
     {
@@ -143,10 +143,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_elderly.geojson.metadata.json",
       "media_type": "application/geo+json",
       "format": "GeoJSON",
-      "byte_size": 58554162,
+      "byte_size": 58576303,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "ee3deabd5a218e9013de0e8150fc1c35bacfaf962e92609796a430267e74287c"
+        "value": "ffe9610a9c42f308186aafebeadab8495b7b0e99e87a45292731f90497a0d273"
       }
     },
     {
@@ -155,10 +155,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_elderly.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 6660609,
+      "byte_size": 6663592,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "ab2d20a7a1dd7fbe7466cbf48ac124ac6ea779820c927386f7af69786a974edd"
+        "value": "490e8932a5d35edf165442a69b78b8d1de261ba964816ddc73f428adede5c18e"
       }
     },
     {
@@ -167,10 +167,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_pedestrian.geojson.metadata.json",
       "media_type": "application/geo+json",
       "format": "GeoJSON",
-      "byte_size": 58031100,
+      "byte_size": 58052721,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "0d88edd0a99461e259f1b76cad65cc07d5e877ecbb83b9470ff22c1ce7d1f7d8"
+        "value": "3774d8ba3063e0e70786bb9125407d57e4b53c45e7827a9b676bc463f7ff20aa"
       }
     },
     {
@@ -179,10 +179,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_pedestrian.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 6591191,
+      "byte_size": 6593711,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "03e7c76564ca63f29514a765dbf34efcf6bdbd8d0a6b2c4207c56f278ac9e3ef"
+        "value": "a54f489e247159562c0ed312ed93b440c932aa40fc4ad4b58016941de293968e"
       }
     },
     {
@@ -191,10 +191,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_wheelchair.geojson.metadata.json",
       "media_type": "application/geo+json",
       "format": "GeoJSON",
-      "byte_size": 58329666,
+      "byte_size": 58352065,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "50e010ce99735daddd78f59d31aacf56a0f3fed8887568d41b63eaae63887a80"
+        "value": "b85d6275217d11b669fe0f9a8558de60c60389f5ddc2bb62f7fcdd34174f3697"
       }
     },
     {
@@ -203,10 +203,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_wheelchair.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 6630677,
+      "byte_size": 6632128,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "9e84a05113d701ab3115d927ebe9e7710b02f542985a5b8da16f919629887f29"
+        "value": "fe1b5f991816c4760df4333f1dc781c8f78a82aa86bd92206181668138481295"
       }
     },
     {
@@ -215,10 +215,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/hazard.pmtiles.metadata.json",
       "media_type": "application/vnd.pmtiles",
       "format": "PMTiles",
-      "byte_size": 83896892,
+      "byte_size": 83929436,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "20930078c61bd7a9ff67ace2091c38a4e87cf4850e213bfc97c851674c2271db"
+        "value": "31f7de42a5236acc683974f439e7567d840c0147115ea086d5aaf11c6a58acf0"
       }
     },
     {
@@ -242,7 +242,7 @@
       "byte_size": 3651,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "033f03e6fbd12944fe4bfb89856a953f4512e36506ef3211f4f04bbc65c1499d"
+        "value": "a88a8a56ff241fe5245d46a4b09e769191e3c6441775167d0b5cf58aa0d4e748"
       }
     },
     {
@@ -278,7 +278,7 @@
       "byte_size": 2071,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "f9a05461997b5353f1f2f704f77267cd8db67b4243abe5d8eb7a59c969307146"
+        "value": "ccc5d70cda8238478a2c03407aa56558276a67987f8cf0ed5e05bf5e2b6e4111"
       }
     },
     {
@@ -338,7 +338,7 @@
       "byte_size": 130,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "40a4a16c700425839c68ec6a701a9185680dcf5ec65ee8697809d91405d6fffa"
+        "value": "d9be6c49d2121385bb1f8ee9ea30720065edd406c43b8d48bf44d8f91eaf5429"
       }
     }
   ],

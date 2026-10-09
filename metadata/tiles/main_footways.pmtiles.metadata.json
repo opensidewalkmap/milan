@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-10-08T15:49:58+00:00",
+    "updated": "2026-10-09T13:24:17+00:00",
     "node_registry": {
-      "Data Fetching": "2026-10-08T15:38:59Z",
+      "Data Fetching": "2026-10-09T13:16:07Z",
       "Versioning Data": "2026-10-04T15:02:27Z",
-      "Data Pre-Processing": "2026-10-08T15:39:18Z",
-      "Data Quality Tool": "2026-10-08T15:45:07Z",
-      "Completeness Analysis": "2026-10-08T15:49:40Z",
-      "Statistical Charts": "2026-10-08T15:49:58Z",
+      "Data Pre-Processing": "2026-10-09T13:16:26Z",
+      "Data Quality Tool": "2026-10-09T13:22:07Z",
+      "Completeness Analysis": "2026-10-09T13:24:01Z",
+      "Statistical Charts": "2026-10-09T13:24:17Z",
       "OSWM Codebase Revision": "0536100724de170e8d92353cd8a4bb8166eb2e70",
-      "Pipeline Success": "2026-10-07T15:35:05Z",
+      "Pipeline Success": "2026-10-08T16:16:41Z",
       "Wiki check for keys": "2026-10-04T15:10:17Z"
     }
   },
@@ -101,11 +101,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-10-08T15:49:58+00:00",
+    "generated_at": "2026-10-09T13:24:17+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "0536100724de170e8d92353cd8a4bb8166eb2e70",
-      "commit_date": "2026-10-07T06:38:04-03:00"
+      "commit": "03f78441316cd5d9b56ce1c7f507a6e4d591b6be",
+      "commit_date": "2026-10-08T13:12:49-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -116,10 +116,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/tiles/main_footways.pmtiles",
     "media_type": "application/vnd.pmtiles",
     "format": "PMTiles",
-    "byte_size": 88364815,
+    "byte_size": 88559185,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "05d239a4a6209a91b360ec15432d213ceeeaabfa08ebdb8e1c933f85796fc454"
+      "value": "58035f0ccac9a4ed08f9ad3ee204788d4b9dfb82f4521917e64058702aae5b00"
     }
   },
   "links": [
