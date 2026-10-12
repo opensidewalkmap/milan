@@ -1612,6 +1612,7 @@
             "2026-03-05",
             "2026-09-28",
             "2026-09-04",
+            "2026-10-09",
             "2026-03-28",
             "2026-06-11",
             "2026-09-15",
@@ -2718,6 +2719,7 @@
             "2026-04-20",
             "2026-04-03",
             "2026-03-26",
+            "2026-10-11",
             "2026-02-28",
             "2026-03-18",
             "2023-12-02",
@@ -2726,6 +2728,7 @@
             "2024-01-04",
             "2025-02-26",
             "2026-03-15",
+            "2026-10-10",
             "2026-03-08",
             "2026-02-25",
             "2026-03-13",
@@ -2865,13 +2868,13 @@
             "di cantiere",
             "Può essere temporaneo e dovrebbe essere controllato dopo qualche tempo."
         ],
+        "bollard": [
+            "fixed"
+        ],
         "fixme": [
             "perché differenza per surface?",
             "da controllare in campo",
             "cantiere"
-        ],
-        "bollard": [
-            "fixed"
         ],
         "bench": [
             "yes",
@@ -3321,6 +3324,7 @@
             "Piazza Eleonora Duse",
             "Parco pubblico Bassini",
             "Piazzale Governo Provvisorio",
+            "Piazza Remo Cantoni",
             "Via Pasquale Fornari",
             "Via Giovanni da Procida",
             "Via Massaua",
@@ -3606,7 +3610,6 @@
             "Via Andrea Del Castagno",
             "Via Voltri",
             "Via Selvanesco",
-            "Piazza Remo Cantoni",
             "Largo Claudio Abbado",
             "Via Antonio Mosca",
             "Via Broni",
@@ -3798,6 +3801,7 @@
             "Galleria dell'Artigianato",
             "Via degli Elemosinieri",
             "Via Filippo De Filippi",
+            "Via Regina Teodolinda",
             "Via San Bernardo",
             "Piazza Sant'Angelo",
             "G2",
@@ -3942,7 +3946,6 @@
             "Via San Maurilio",
             "Via Santa Tecla",
             "Viale Malta",
-            "Via delle Forze Armate",
             "Vicolo Laghetto",
             "Via Larga",
             "Piazza Antonio Gramsci",
@@ -4083,6 +4086,7 @@
             "Ciclovia Staffette Partigiane",
             "Via Toce",
             "Sottopassaggio Centrale",
+            "Piazza Spoleto",
             "Sentiero delle rane",
             "Via dei Missaglia",
             "Ponte dell'Annone",
@@ -4108,6 +4112,7 @@
             "Crocetta M3",
             "Via Roberto Tremelloni",
             "Piazza Aspromonte",
+            "Via delle Forze Armate",
             "Via San Bernardino",
             "Passerella Gioia",
             "Piazzetta Pattari",
@@ -4347,6 +4352,11 @@
             "restricted",
             "agricultural"
         ],
+        "bollard": [
+            "fixed",
+            "rising",
+            "removable"
+        ],
         "fixme": [
             "Position estimated",
             "to be checked if accessible by bicycle too",
@@ -4401,11 +4411,6 @@
             "Shape estimated",
             "da misurare in campo",
             "check if it is also open to bicycle"
-        ],
-        "bollard": [
-            "rising",
-            "fixed",
-            "removable"
         ],
         "locked": [
             "no",
@@ -5649,6 +5654,7 @@
             "2159_53637",
             "2155_18533",
             "1558_42171",
+            "2388_50415",
             "2701_1577",
             "2464_53677",
             "7541_13011",
@@ -5831,6 +5837,7 @@
             "7359_12662",
             "7359_12660",
             "7543_12600",
+            "2626_35345",
             "2450_29275",
             "2274_20770",
             "2358_33501",
@@ -7463,6 +7470,9 @@
         ],
         "min_height": [
             "7.5"
+        ],
+        "fence_type": [
+            "bars"
         ],
         "comment:2": [
             "open from Jun/Jul 2013",
