@@ -616,6 +616,7 @@
             "Via Ravenna Via Pomposa",
             "Via dei cinquecento via ravenna",
             "Via Ravenna Via Barabino",
+            "Viale Elvezia (Arena)",
             "P.za Morselli",
             "Via Arconati",
             "P.za Cappelli",
@@ -1571,6 +1572,7 @@
             "2026-05-12",
             "2026-04-03",
             "2026-04-14",
+            "2026-10-13",
             "2026-02-06",
             "2026-04-13",
             "2026-03-29",
@@ -4067,6 +4069,7 @@
             "Piazza Giovanni Pesce",
             "Percorso Vita",
             "Passaggio Juri Pelikan",
+            "Viale Ingegner Francesco Tonolini",
             "Via Andre' Marie Ampere",
             "Via San Dionigi",
             "Piazza Adriano Olivetti",
@@ -4396,6 +4399,7 @@
             "Is this a covered=building_arcade ?",
             "geometry to be checked",
             "aperto solo durante certi orari",
+            "Surface da controllare. Un altro elemento (duplicato, ora eliminato) indicava paving_stones invece che sett. Verificare quale è corretto.",
             "Add exception to no access during night time",
             "percorso approssimato",
             "shape and position approximated",
@@ -4480,6 +4484,22 @@
             "wood",
             "marble",
             "granite"
+        ],
+        "maxwidth:physical": [
+            "1.5",
+            "1",
+            "6",
+            "1.4",
+            "2.1",
+            "2.5",
+            "2.8",
+            "3.2",
+            "0.7",
+            "3.8",
+            "2",
+            "2.7",
+            "3",
+            "1.8"
         ],
         "traffic_calming": [
             "chicane",
@@ -4669,6 +4689,7 @@
             "Q16560682",
             "Q466946",
             "Q590",
+            "Q63444675",
             "Q675",
             "Q284282",
             "Q244380",
@@ -4692,21 +4713,6 @@
             "yes",
             "no",
             "private"
-        ],
-        "maxwidth:physical": [
-            "1",
-            "6",
-            "1.4",
-            "2.1",
-            "2.5",
-            "1.5",
-            "2.8",
-            "3.2",
-            "3.8",
-            "2",
-            "2.7",
-            "3",
-            "1.8"
         ],
         "cycle_barrier": [
             "triple",
@@ -5005,6 +5011,7 @@
             "Q381955"
         ],
         "maxheight": [
+            "2",
             "4",
             "1.9",
             "1.8",
@@ -5014,7 +5021,6 @@
             "3.5",
             "4.85",
             "below_default",
-            "2",
             "default",
             "3.6",
             "2.7"
@@ -7265,6 +7271,7 @@
             "2026-04-22",
             "2026-05-24",
             "2026-08-19",
+            "2026-10-12",
             "2026-09-15",
             "2026-05-28",
             "2026-04-30"
