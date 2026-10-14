@@ -4,5 +4,5 @@
   "source": "network.parquet",
   "source_layer": "routing",
   "input_features": 59727,
-  "filesize": 17377756
+  "filesize": 17377755
 }
