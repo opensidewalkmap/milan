@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "oswm-opensidewalkmap-milan-processed--other_footways--pedestrian_areas-current",
+  "collection": "oswm-opensidewalkmap-milan-processed--other_footways--pedestrian_areas",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.0682051,
+          45.4036692
+        ],
+        [
+          9.2641004,
+          45.4036692
+        ],
+        [
+          9.2641004,
+          45.5304789
+        ],
+        [
+          9.0682051,
+          45.5304789
+        ],
+        [
+          9.0682051,
+          45.4036692
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.0682051,
+    45.4036692,
+    9.2641004,
+    45.5304789
+  ],
+  "properties": {
+    "datetime": "2026-10-20T21:24:44Z",
+    "title": "Milan — Pedestrian Areas",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/pedestrian_areas.parquet.",
+    "oswm:state": "current",
+    "oswm:product": "processed--other_footways--pedestrian_areas",
+    "oswm:datetime_semantics": "product-generation",
+    "oswm:footprint": "WGS84 envelope of published feature geometries",
+    "oswm:feature_count": 895,
+    "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
+    "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
+    "oswm:metadata_codebase_commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43"
+  },
+  "assets": {
+    "data": {
+      "href": "https://opensidewalkmap.github.io/milan/data/processed/other_footways/pedestrian_areas.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ],
+      "oswm:sha256": "cac3a398b4293171b9bec943d33417507c002677eedb458a03a8f1f797f61944",
+      "oswm:byte_size": 673706,
+      "title": "Analytical GeoParquet"
+    },
+    "metadata": {
+      "href": "https://opensidewalkmap.github.io/milan/metadata/processed/other_footways/pedestrian_areas.parquet.metadata.json",
+      "type": "application/json",
+      "roles": [
+        "metadata"
+      ],
+      "oswm:sha256": "629f83bcdda3666d867e420517fa47044047e3707898c76aa41c320241ad5b54",
+      "oswm:byte_size": 5292
+    },
+    "visual": {
+      "href": "https://opensidewalkmap.github.io/milan/data/tiles/pedestrian_areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "visual"
+      ],
+      "oswm:sha256": "0446f372bda8e9876ce7aee9e84b6039a0ce5e841f10951b0696a6c6b18c49e0",
+      "oswm:byte_size": 19738419,
+      "title": "Display PMTiles",
+      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
+    }
+  },
+  "oswm:generator": "oswm_codebase.metadata.stac_generation",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://opensidewalkmap.github.io/milan/stac/processed--other_footways--pedestrian_areas/current.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "collection.json",
+      "type": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "oswm-opensidewalkmap-milan-processed--kerbs",
+  "title": "Milan — Kerbs",
+  "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/kerbs.parquet.",
+  "oswm:generator": "oswm_codebase.metadata.stac_generation",
+  "license": "ODbL-1.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.0668636,
+          45.3981557,
+          9.2681793,
+          45.5337631
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-10-20T21:24:44Z",
+          "2026-10-20T21:24:44Z"
+        ]
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": "OpenSidewalkMap",
+      "roles": [
+        "processor",
+        "host"
+      ],
+      "url": "https://opensidewalkmap.github.io/milan/"
+    }
+  ],
+  "keywords": [
+    "OpenSidewalkMap",
+    "processed",
+    "kerbs",
+    "Milan"
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://opensidewalkmap.github.io/milan/stac/processed--kerbs/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://spdx.org/licenses/ODbL-1.0.html",
+      "type": "text/html"
+    },
+    {
+      "rel": "item",
+      "href": "current.json",
+      "type": "application/geo+json"
+    }
+  ]
+}

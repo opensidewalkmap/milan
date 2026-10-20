@@ -1480,6 +1480,25 @@ print(data)</pre>
   },
   {
     "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_blind.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_blind.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_blind.geojson.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
     "path": "data/hazard_analysis/features_blind.parquet",
     "format": "GeoParquet",
     "description": "Asset file: features_blind.parquet",
@@ -1495,6 +1514,25 @@ print(data)</pre>
     },
     "deliverable": "hazard_analysis",
     "metadata_path": "metadata/hazard_analysis/features_blind.parquet.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_elderly.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_elderly.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_elderly.geojson.metadata.json"
   },
   {
     "category": "Data (Parquet & GeoJSON)",
@@ -1516,6 +1554,25 @@ print(data)</pre>
   },
   {
     "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_pedestrian.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_pedestrian.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_pedestrian.geojson.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
     "path": "data/hazard_analysis/features_pedestrian.parquet",
     "format": "GeoParquet",
     "description": "Asset file: features_pedestrian.parquet",
@@ -1531,6 +1588,25 @@ print(data)</pre>
     },
     "deliverable": "hazard_analysis",
     "metadata_path": "metadata/hazard_analysis/features_pedestrian.parquet.metadata.json"
+  },
+  {
+    "category": "Data (Parquet & GeoJSON)",
+    "path": "data/hazard_analysis/features_wheelchair.geojson",
+    "format": "GeoJSON",
+    "description": "Asset file: features_wheelchair.geojson",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview GeoJSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "gdal",
+        "curl"
+      ],
+      "attribute_filter": "id IS NOT NULL"
+    },
+    "deliverable": "hazard_analysis",
+    "metadata_path": "metadata/hazard_analysis/features_wheelchair.geojson.metadata.json"
   },
   {
     "category": "Data (Parquet & GeoJSON)",
@@ -2165,9 +2241,43 @@ print(data)</pre>
   },
   {
     "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_blind.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_blind.geojson.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
     "path": "metadata/hazard_analysis/features_blind.parquet.metadata.json",
     "format": "JSON",
     "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_blind.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_elderly.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_elderly.geojson.",
     "capabilities": {
       "action": "preview-json",
       "action_label": "Preview JSON",
@@ -2199,9 +2309,43 @@ print(data)</pre>
   },
   {
     "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_pedestrian.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_pedestrian.geojson.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
     "path": "metadata/hazard_analysis/features_pedestrian.parquet.metadata.json",
     "format": "JSON",
     "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoParquet distribution at data/hazard_analysis/features_pedestrian.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "Hazard Analysis Metadata",
+    "path": "metadata/hazard_analysis/features_wheelchair.geojson.metadata.json",
+    "format": "JSON",
+    "description": "Profile-specific hazard evidence, rules, tiles, and terrain-context products. This record describes the GeoJSON distribution at data/hazard_analysis/features_wheelchair.geojson.",
     "capabilities": {
       "action": "preview-json",
       "action_label": "Preview JSON",
@@ -4511,6 +4655,329 @@ print(data)</pre>
     },
     "deliverable": "hazard_analysis",
     "metadata_path": "metadata/hazard_analysis/terrain.json.metadata.json"
+  },
+  {
+    "category": "STAC Catalog",
+    "path": "stac/catalog.json",
+    "format": "JSON",
+    "description": "Current published OSWM products. Assets are mutable; historical releases are not retained by this catalog.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--crossings/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/crossings.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--kerbs/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/kerbs.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--other_footways--informal_footways/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/informal_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--other_footways--main_footways/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/main_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--other_footways--pedestrian_areas/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/pedestrian_areas.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--other_footways--potential_footways/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/potential_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--other_footways--stairways/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/stairways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--other_footways/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Collection",
+    "path": "stac/processed--sidewalks/collection.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/sidewalks.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--crossings/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/crossings.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--kerbs/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/kerbs.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--other_footways--informal_footways/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/informal_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--other_footways--main_footways/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/main_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--other_footways--pedestrian_areas/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/pedestrian_areas.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--other_footways--potential_footways/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/potential_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--other_footways--stairways/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/stairways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--other_footways/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
+  },
+  {
+    "category": "STAC Item",
+    "path": "stac/processed--sidewalks/current.json",
+    "format": "JSON",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/sidewalks.parquet.",
+    "capabilities": {
+      "action": "preview-json",
+      "action_label": "Preview JSON",
+      "snippets": [
+        "javascript",
+        "python",
+        "curl"
+      ]
+    },
+    "deliverable": "metadata",
+    "metadata_path": null
   },
   {
     "category": "Sidewalks Charts",

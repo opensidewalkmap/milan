@@ -1,6 +1,6 @@
 {
   "analytical_network": {
-    "byte_size": 6629723,
+    "byte_size": 6629778,
     "feature_count": 59727,
     "filename": "network.parquet",
     "format": "GeoParquet"
@@ -40,7 +40,7 @@
   },
   "elevation_provider_fingerprint": "a4a4bc7ab35d623e",
   "feature_count": 59727,
-  "generated_at": "2026-10-14T13:53:29.388061+00:00",
+  "generated_at": "2026-10-20T21:44:52.462332+00:00",
   "profile_audit": {
     "blind": {
       "grade_bands": {

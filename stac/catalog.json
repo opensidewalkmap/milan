@@ -1,0 +1,75 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "oswm-opensidewalkmap-milan",
+  "title": "Milan — OpenSidewalkMap",
+  "description": "Current published OSWM products. Assets are mutable; historical releases are not retained by this catalog.",
+  "oswm:generator": "oswm_codebase.metadata.stac_generation",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://opensidewalkmap.github.io/milan/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "processed--sidewalks/collection.json",
+      "type": "application/json",
+      "title": "Milan — Sidewalks"
+    },
+    {
+      "rel": "child",
+      "href": "processed--crossings/collection.json",
+      "type": "application/json",
+      "title": "Milan — Crossings"
+    },
+    {
+      "rel": "child",
+      "href": "processed--kerbs/collection.json",
+      "type": "application/json",
+      "title": "Milan — Kerbs"
+    },
+    {
+      "rel": "child",
+      "href": "processed--other_footways/collection.json",
+      "type": "application/json",
+      "title": "Milan — Other Footways"
+    },
+    {
+      "rel": "child",
+      "href": "processed--other_footways--informal_footways/collection.json",
+      "type": "application/json",
+      "title": "Milan — Informal Footways"
+    },
+    {
+      "rel": "child",
+      "href": "processed--other_footways--main_footways/collection.json",
+      "type": "application/json",
+      "title": "Milan — Main Footways"
+    },
+    {
+      "rel": "child",
+      "href": "processed--other_footways--pedestrian_areas/collection.json",
+      "type": "application/json",
+      "title": "Milan — Pedestrian Areas"
+    },
+    {
+      "rel": "child",
+      "href": "processed--other_footways--potential_footways/collection.json",
+      "type": "application/json",
+      "title": "Milan — Potential Footways"
+    },
+    {
+      "rel": "child",
+      "href": "processed--other_footways--stairways/collection.json",
+      "type": "application/json",
+      "title": "Milan — Stairways"
+    }
+  ]
+}

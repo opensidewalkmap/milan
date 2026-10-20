@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "oswm-opensidewalkmap-milan-processed--sidewalks-current",
+  "collection": "oswm-opensidewalkmap-milan-processed--sidewalks",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.0661451,
+          45.3930759
+        ],
+        [
+          9.2746797,
+          45.3930759
+        ],
+        [
+          9.2746797,
+          45.535396
+        ],
+        [
+          9.0661451,
+          45.535396
+        ],
+        [
+          9.0661451,
+          45.3930759
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.0661451,
+    45.3930759,
+    9.2746797,
+    45.535396
+  ],
+  "properties": {
+    "datetime": "2026-10-20T21:24:44Z",
+    "title": "Milan — Sidewalks",
+    "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/sidewalks.parquet.",
+    "oswm:state": "current",
+    "oswm:product": "processed--sidewalks",
+    "oswm:datetime_semantics": "product-generation",
+    "oswm:footprint": "WGS84 envelope of published feature geometries",
+    "oswm:feature_count": 21772,
+    "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
+    "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
+    "oswm:metadata_codebase_commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43"
+  },
+  "assets": {
+    "data": {
+      "href": "https://opensidewalkmap.github.io/milan/data/processed/sidewalks.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ],
+      "oswm:sha256": "da685942bf13c2442d8bafcfed16dc62636a1330f63b63658f979900152d711e",
+      "oswm:byte_size": 2278045,
+      "title": "Analytical GeoParquet"
+    },
+    "metadata": {
+      "href": "https://opensidewalkmap.github.io/milan/metadata/processed/sidewalks.parquet.metadata.json",
+      "type": "application/json",
+      "roles": [
+        "metadata"
+      ],
+      "oswm:sha256": "d3de30638254bc11e42fcbe2f7c5b8c4a3ce7e988fbefd4e3e9ad98d6276e55c",
+      "oswm:byte_size": 5117
+    },
+    "visual": {
+      "href": "https://opensidewalkmap.github.io/milan/data/tiles/sidewalks.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "visual"
+      ],
+      "oswm:sha256": "294347449497958eeb29dc8d40bda5f17b64dd6756f9759c450e22ec1b86527b",
+      "oswm:byte_size": 64846920,
+      "title": "Display PMTiles",
+      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
+    }
+  },
+  "oswm:generator": "oswm_codebase.metadata.stac_generation",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://opensidewalkmap.github.io/milan/stac/processed--sidewalks/current.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "collection.json",
+      "type": "application/json"
+    }
+  ]
+}

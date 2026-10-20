@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "oswm-opensidewalkmap-milan-processed--other_footways--stairways",
+  "title": "Milan — Stairways",
+  "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/stairways.parquet.",
+  "oswm:generator": "oswm_codebase.metadata.stac_generation",
+  "license": "ODbL-1.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.0978541,
+          45.4046,
+          9.2677805,
+          45.5337184
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-10-20T21:24:44Z",
+          "2026-10-20T21:24:44Z"
+        ]
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": "OpenSidewalkMap",
+      "roles": [
+        "processor",
+        "host"
+      ],
+      "url": "https://opensidewalkmap.github.io/milan/"
+    }
+  ],
+  "keywords": [
+    "OpenSidewalkMap",
+    "processed",
+    "stairways",
+    "Milan"
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://opensidewalkmap.github.io/milan/stac/processed--other_footways--stairways/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://spdx.org/licenses/ODbL-1.0.html",
+      "type": "text/html"
+    },
+    {
+      "rel": "item",
+      "href": "current.json",
+      "type": "application/geo+json"
+    }
+  ]
+}
