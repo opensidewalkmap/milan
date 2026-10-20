@@ -80,6 +80,12 @@ API_EXAMPLE_BBOX_SIZE_M = 1000
 
 METADATA_TIMEZONE = "Europe/Rome"
 
+# Publish only the processed OSM-derived pedestrian datasets. See
+# docs/STAC_PILOT.md for the source and license review. Routing/DEM products
+# remain excluded until their separate licensing review is complete.
+STAC_ENABLED = True
+STAC_LICENSES = {"processed": "ODbL-1.0"}
+
 # MIN AND MAX ZOOM LEVELS FOR TILE GENERATION:
 # (since there's the 100MB file size limit, for big datasets might be better to stay at 19 or even 18)
 TILES_MIN_ZOOM = 9
