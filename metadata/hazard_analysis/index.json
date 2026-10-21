@@ -70,7 +70,7 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-10-20T21:36:22+00:00",
+    "updated": "2026-10-20T22:03:41+00:00",
     "node_registry": {
       "Data Fetching": "2026-10-13T20:55:20Z",
       "Versioning Data": "2026-10-18T13:35:18Z",
@@ -78,8 +78,8 @@
       "Data Quality Tool": "2026-10-20T21:30:36Z",
       "Completeness Analysis": "2026-10-20T21:36:04Z",
       "Statistical Charts": "2026-10-20T21:36:22Z",
-      "OSWM Codebase Revision": "bf6f98b2e72c48e8208e622d648dc7366e7d51f2",
-      "Pipeline Success": "2026-10-20T13:35:59Z",
+      "OSWM Codebase Revision": "74cbda522dbbc833c7fceabe1c16d83299e72c43",
+      "Pipeline Success": "2026-10-20T22:03:41Z",
       "Wiki check for keys": "2026-10-18T13:43:50Z"
     }
   },
@@ -103,7 +103,7 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-10-20T21:36:22+00:00",
+    "generated_at": "2026-10-20T22:03:41+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
       "commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43",
@@ -115,18 +115,6 @@
   "assets": [
     {
       "title": "Features Blind",
-      "resource": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_blind.geojson",
-      "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_blind.geojson.metadata.json",
-      "media_type": "application/geo+json",
-      "format": "GeoJSON",
-      "byte_size": 60676129,
-      "checksum": {
-        "algorithm": "SHA-256",
-        "value": "42fa407d1809dd9b31be100c8c0a6b15c164677e34a7cf3d29fa66fbd158bcc2"
-      }
-    },
-    {
-      "title": "Features Blind",
       "resource": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_blind.parquet",
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_blind.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
@@ -135,18 +123,6 @@
       "checksum": {
         "algorithm": "SHA-256",
         "value": "75cd052fa55da9ca2076ed697cf0e232d12c91f0ea8478bb24830dcaacb9b0a0"
-      }
-    },
-    {
-      "title": "Features Elderly",
-      "resource": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_elderly.geojson",
-      "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_elderly.geojson.metadata.json",
-      "media_type": "application/geo+json",
-      "format": "GeoJSON",
-      "byte_size": 58617372,
-      "checksum": {
-        "algorithm": "SHA-256",
-        "value": "7d556c568a23e7b66e235ac4d992375ede749d142758862a737b781d70f13500"
       }
     },
     {
@@ -163,18 +139,6 @@
     },
     {
       "title": "Features Pedestrian",
-      "resource": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_pedestrian.geojson",
-      "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_pedestrian.geojson.metadata.json",
-      "media_type": "application/geo+json",
-      "format": "GeoJSON",
-      "byte_size": 58093487,
-      "checksum": {
-        "algorithm": "SHA-256",
-        "value": "6b97178cc65034aaf590ca246a26d559d11c3954ad89cd2b4745f135798289fa"
-      }
-    },
-    {
-      "title": "Features Pedestrian",
       "resource": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_pedestrian.parquet",
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_pedestrian.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
@@ -183,18 +147,6 @@
       "checksum": {
         "algorithm": "SHA-256",
         "value": "fcaa54dde0de2af30b6fca438d4d8319bd4da25c359b51b9069654166ad903a7"
-      }
-    },
-    {
-      "title": "Features Wheelchair",
-      "resource": "https://opensidewalkmap.github.io/milan/data/hazard_analysis/features_wheelchair.geojson",
-      "metadata": "https://opensidewalkmap.github.io/milan/metadata/hazard_analysis/features_wheelchair.geojson.metadata.json",
-      "media_type": "application/geo+json",
-      "format": "GeoJSON",
-      "byte_size": 58393016,
-      "checksum": {
-        "algorithm": "SHA-256",
-        "value": "8c30a400b42a7f372214ab6caf048c9e33fc5e96458e9c918da1aeaba42c039f"
       }
     },
     {
