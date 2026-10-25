@@ -38,7 +38,7 @@
     45.5370227
   ],
   "properties": {
-    "datetime": "2026-10-20T21:24:44Z",
+    "datetime": "2026-10-25T13:57:25Z",
     "title": "Milan — Other Footways",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways.parquet.",
     "oswm:state": "current",
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "cac7130fc51b49166745fd9739f475d56036abb24a12a737652541c67959a356",
-      "oswm:byte_size": 2499575,
+      "oswm:sha256": "c1d35ce7c90a827e20a7b46f4bdb7e04d6a06502aad32c25ef3661c884eb2772",
+      "oswm:byte_size": 2499803,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,7 +67,7 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "8f5c162c5e8eb0855798be65d1287665641bc3da16638a1e48cea8c7fb1a762f",
+      "oswm:sha256": "431efec6b3224447b556c18b9bf45fac81f87181727962865f874800a19cc3c2",
       "oswm:byte_size": 5157
     }
   },

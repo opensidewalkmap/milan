@@ -70,17 +70,17 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-10-24T12:42:24+00:00",
+    "updated": "2026-10-25T14:04:35+00:00",
     "node_registry": {
       "Data Fetching": "2026-10-13T20:55:20Z",
-      "Versioning Data": "2026-10-18T13:35:18Z",
-      "Data Pre-Processing": "2026-10-20T21:24:44Z",
-      "Data Quality Tool": "2026-10-20T21:30:36Z",
+      "Versioning Data": "2026-10-25T13:57:07Z",
+      "Data Pre-Processing": "2026-10-25T13:57:25Z",
+      "Data Quality Tool": "2026-10-25T13:57:49Z",
       "Completeness Analysis": "2026-10-20T21:36:04Z",
-      "Statistical Charts": "2026-10-20T21:36:22Z",
+      "Statistical Charts": "2026-10-25T13:57:59Z",
       "OSWM Codebase Revision": "74cbda522dbbc833c7fceabe1c16d83299e72c43",
-      "Pipeline Success": "2026-10-24T12:42:24Z",
-      "Wiki check for keys": "2026-10-18T13:43:50Z"
+      "Pipeline Success": "2026-10-25T13:12:50Z",
+      "Wiki check for keys": "2026-10-25T14:04:35Z"
     }
   },
   "lineage": {
@@ -103,7 +103,7 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-10-24T12:42:24+00:00",
+    "generated_at": "2026-10-25T14:04:35+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
       "commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43",
@@ -118,10 +118,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/data_quality/crossings_lacking_kerbs/crossings_lacking_kerbs.parquet",
     "media_type": "application/vnd.apache.parquet",
     "format": "GeoParquet",
-    "byte_size": 155521,
+    "byte_size": 155830,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "c0cfe25518d7cc8654943063f4e5853fd1b8a71bbd8037e51f8ed6f7cee003fd"
+      "value": "fbaee4784249116026ad1c6e14ae238f787aa21987818b8e62c5709b73089449"
     }
   },
   "links": [

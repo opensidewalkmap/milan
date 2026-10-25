@@ -38,7 +38,7 @@
     45.5349237
   ],
   "properties": {
-    "datetime": "2026-10-20T21:24:44Z",
+    "datetime": "2026-10-25T13:57:25Z",
     "title": "Milan — Potential Footways",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/potential_footways.parquet.",
     "oswm:state": "current",
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "70f1d8988974a2c92c462fca409cdf6336ed90522ef15d9413329c597f57260e",
-      "oswm:byte_size": 392979,
+      "oswm:sha256": "34cf8fb10d98f4af8ee51b88eddbfe2c2c9af052672e96fc82adb76aa1667208",
+      "oswm:byte_size": 393060,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,19 +67,8 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "9665560f1fa6f2e47557733955e7e327c25e37126c25c8e49248bb00d44134c3",
+      "oswm:sha256": "68cb1a5e1b13e26ad3609be11ab1eb2aa6b5d498c2cae7735fc1a6497a2ef5a1",
       "oswm:byte_size": 5308
-    },
-    "visual": {
-      "href": "https://opensidewalkmap.github.io/milan/data/tiles/potential_footways.pmtiles",
-      "type": "application/vnd.pmtiles",
-      "roles": [
-        "visual"
-      ],
-      "oswm:sha256": "7e21a43d07130a92a89f677682e22dac5beaf6016bb0816e6fc756969affa057",
-      "oswm:byte_size": 26851170,
-      "title": "Display PMTiles",
-      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
   },
   "oswm:generator": "oswm_codebase.metadata.stac_generation",
