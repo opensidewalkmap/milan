@@ -38,7 +38,7 @@
     45.5360893
   ],
   "properties": {
-    "datetime": "2026-10-25T13:57:25Z",
+    "datetime": "2026-10-29T15:14:29Z",
     "title": "Milan — Informal Footways",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/informal_footways.parquet.",
     "oswm:state": "current",
@@ -48,7 +48,7 @@
     "oswm:feature_count": 806,
     "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
     "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
-    "oswm:metadata_codebase_commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43"
+    "oswm:metadata_codebase_commit": "44cafc7c0f582ee1732e515446ed11a418b13afa"
   },
   "assets": {
     "data": {
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "4477f6bc9bf866ea6788767a5eb639d81c7c2c3d85808ac144dc16d2557a0e20",
-      "oswm:byte_size": 309800,
+      "oswm:sha256": "d2c0574ea7cf65c85116b7b0be92f12debc796f93c116f819be23f48ed323d7a",
+      "oswm:byte_size": 309785,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,8 +67,19 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "974f282537f8223b26271fb921efd6de6130e60d791bd8472491138e6cabc62d",
+      "oswm:sha256": "53bd247936808c7622358bb157503eabfc307c17258b4258e41b338844f2c36a",
       "oswm:byte_size": 5300
+    },
+    "visual": {
+      "href": "https://opensidewalkmap.github.io/milan/data/tiles/informal_footways.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "visual"
+      ],
+      "oswm:sha256": "76be70d0811fcf755c8a1743955a044c236dc8e9626c18ce494baa4d8cd1f5a0",
+      "oswm:byte_size": 13532335,
+      "title": "Display PMTiles",
+      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
   },
   "oswm:generator": "oswm_codebase.metadata.stac_generation",

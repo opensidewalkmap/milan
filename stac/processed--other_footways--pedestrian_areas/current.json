@@ -38,7 +38,7 @@
     45.5304789
   ],
   "properties": {
-    "datetime": "2026-10-25T13:57:25Z",
+    "datetime": "2026-10-29T15:14:29Z",
     "title": "Milan — Pedestrian Areas",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/pedestrian_areas.parquet.",
     "oswm:state": "current",
@@ -48,7 +48,7 @@
     "oswm:feature_count": 895,
     "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
     "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
-    "oswm:metadata_codebase_commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43"
+    "oswm:metadata_codebase_commit": "44cafc7c0f582ee1732e515446ed11a418b13afa"
   },
   "assets": {
     "data": {
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "d1f04a2285619f27fda39fc17c80c68c47fa062200d414d2ec436d28cee6e7c1",
-      "oswm:byte_size": 673826,
+      "oswm:sha256": "7571d6b60c66dbd152cde3522d917b668fe67af1da10018a39c8db2596d86a51",
+      "oswm:byte_size": 673974,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,8 +67,19 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "24c951a3ebbd4907769c2f218b30d84af49918d1bbce0ae0268ca5c8552758f8",
+      "oswm:sha256": "98ae08811a47b9d3776acb0734ec87af2a9c12c84de31b30accf21fc1f66bac7",
       "oswm:byte_size": 5292
+    },
+    "visual": {
+      "href": "https://opensidewalkmap.github.io/milan/data/tiles/pedestrian_areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "visual"
+      ],
+      "oswm:sha256": "fe3e3f4b5eeec143484231da16dc53dcd791bb989a48c29a463e2086f5f201d0",
+      "oswm:byte_size": 19738046,
+      "title": "Display PMTiles",
+      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
   },
   "oswm:generator": "oswm_codebase.metadata.stac_generation",

@@ -38,7 +38,7 @@
     45.5337184
   ],
   "properties": {
-    "datetime": "2026-10-25T13:57:25Z",
+    "datetime": "2026-10-29T15:14:29Z",
     "title": "Milan — Stairways",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/stairways.parquet.",
     "oswm:state": "current",
@@ -48,7 +48,7 @@
     "oswm:feature_count": 2231,
     "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
     "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
-    "oswm:metadata_codebase_commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43"
+    "oswm:metadata_codebase_commit": "44cafc7c0f582ee1732e515446ed11a418b13afa"
   },
   "assets": {
     "data": {
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "0356ae43a7a7c6897411d295bd3bc4c1c9dccf2c08e519f6ea50b15cf7b81c91",
-      "oswm:byte_size": 340754,
+      "oswm:sha256": "eac5ef473de06fe90ebc4edd0f4040a678d5825697d5f55624502f1c1c9bafdf",
+      "oswm:byte_size": 341272,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,8 +67,19 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "0ee2764b6a643e9b1660c183ec24ecde89ca7e11dd5b67ff0ca6bd945a36077c",
+      "oswm:sha256": "ad6e0e3dc7e83d705dd311d3afe46a79c7ee31002a15adc747ea4b519343ca15",
       "oswm:byte_size": 5236
+    },
+    "visual": {
+      "href": "https://opensidewalkmap.github.io/milan/data/tiles/stairways.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "visual"
+      ],
+      "oswm:sha256": "a9df9d5e1b72a6e34685e05343279dc9d214e4098427101204101a28e3a08fd2",
+      "oswm:byte_size": 12159788,
+      "title": "Display PMTiles",
+      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
   },
   "oswm:generator": "oswm_codebase.metadata.stac_generation",

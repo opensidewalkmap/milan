@@ -38,7 +38,7 @@
     45.5337646
   ],
   "properties": {
-    "datetime": "2026-10-25T13:57:25Z",
+    "datetime": "2026-10-29T15:14:29Z",
     "title": "Milan — Crossings",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/crossings.parquet.",
     "oswm:state": "current",
@@ -48,7 +48,7 @@
     "oswm:feature_count": 17705,
     "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
     "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
-    "oswm:metadata_codebase_commit": "74cbda522dbbc833c7fceabe1c16d83299e72c43"
+    "oswm:metadata_codebase_commit": "44cafc7c0f582ee1732e515446ed11a418b13afa"
   },
   "assets": {
     "data": {
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "62be963253eefe9074e0985a5409e84516b17299d86721c49b25ffd3f40fa459",
-      "oswm:byte_size": 1634950,
+      "oswm:sha256": "f8a129402e68bdc115942f150be952f718d899abe45e304af38b7f7e7daa44ea",
+      "oswm:byte_size": 1635283,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,8 +67,19 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "bf000b602c897d48f534facb04c5a87b92ce714ccac56907a86166d0b47c6c22",
+      "oswm:sha256": "b4f0616a8c9c2b673b25350599d117888076d5c9e6f38111c08257e6661bde5f",
       "oswm:byte_size": 5117
+    },
+    "visual": {
+      "href": "https://opensidewalkmap.github.io/milan/data/tiles/crossings.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "visual"
+      ],
+      "oswm:sha256": "9c1e38ffc3afa1aaa2df561c2d495672547e262e38a58073a353e9813940adaa",
+      "oswm:byte_size": 26062262,
+      "title": "Display PMTiles",
+      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
   },
   "oswm:generator": "oswm_codebase.metadata.stac_generation",
