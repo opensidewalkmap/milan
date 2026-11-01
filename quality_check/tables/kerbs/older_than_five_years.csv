@@ -1,5 +1,6 @@
 osm_id,feat_type,key,value,commentary
 575908626,node,last_update,29-4-2019,Feature has not been updated in 5 years or more
+1110603654,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
 1514319797,node,last_update,23-8-2021,Feature has not been updated in 5 years or more
 1836642986,node,last_update,21-5-2021,Feature has not been updated in 5 years or more
 1836643028,node,last_update,21-5-2021,Feature has not been updated in 5 years or more
@@ -108,12 +109,15 @@ osm_id,feat_type,key,value,commentary
 6425494629,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
 6425494637,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
 6425494639,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
+6425836558,node,last_update,30-10-2021,Feature has not been updated in 5 years or more
+6425836559,node,last_update,30-10-2021,Feature has not been updated in 5 years or more
 6425909151,node,last_update,2-1-2021,Feature has not been updated in 5 years or more
 6425909152,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
 6425909153,node,last_update,2-1-2021,Feature has not been updated in 5 years or more
 6425987370,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
 6438089242,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
 6438089243,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
+6438336911,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
 6438336914,node,last_update,2-12-2020,Feature has not been updated in 5 years or more
 6438336915,node,last_update,2-12-2020,Feature has not been updated in 5 years or more
 6438762954,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
@@ -140,6 +144,8 @@ osm_id,feat_type,key,value,commentary
 6445540339,node,last_update,26-10-2021,Feature has not been updated in 5 years or more
 6451644991,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
 6451645003,node,last_update,21-2-2021,Feature has not been updated in 5 years or more
+6451692656,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
+6451692674,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
 6451958179,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 6451973031,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 6452588916,node,last_update,30-11-2020,Feature has not been updated in 5 years or more
@@ -183,6 +189,7 @@ osm_id,feat_type,key,value,commentary
 6554743936,node,last_update,20-2-2021,Feature has not been updated in 5 years or more
 6554743937,node,last_update,20-2-2021,Feature has not been updated in 5 years or more
 6554793085,node,last_update,20-2-2021,Feature has not been updated in 5 years or more
+6554990903,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
 6555023370,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 6555023373,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 6555023374,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
@@ -190,12 +197,18 @@ osm_id,feat_type,key,value,commentary
 6555232632,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 6555265966,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 6555267090,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
+6555701109,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
 6629902987,node,last_update,21-9-2021,Feature has not been updated in 5 years or more
 6629903122,node,last_update,2-1-2021,Feature has not been updated in 5 years or more
 7008171362,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 7008422309,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 7008592805,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
 7008592806,node,last_update,1-12-2020,Feature has not been updated in 5 years or more
+7011398854,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
+7011398855,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
+7011453531,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
+7011453532,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
+7011453545,node,last_update,31-10-2021,Feature has not been updated in 5 years or more
 7011989961,node,last_update,17-2-2021,Feature has not been updated in 5 years or more
 7011989962,node,last_update,17-2-2021,Feature has not been updated in 5 years or more
 7013566385,node,last_update,16-2-2021,Feature has not been updated in 5 years or more

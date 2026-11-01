@@ -38,7 +38,7 @@
     45.5337631
   ],
   "properties": {
-    "datetime": "2026-10-29T15:14:29Z",
+    "datetime": "2026-11-01T16:23:28Z",
     "title": "Milan — Kerbs",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/kerbs.parquet.",
     "oswm:state": "current",
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "94185bfb5402d67bea88530b9c2a8ebda435662fecef85a369132dcc1fe9efbe",
-      "oswm:byte_size": 1078753,
+      "oswm:sha256": "161c6aa45d37d29ec00ec13f90a6bac798d59d62872952c1aa7aed14abcdf69c",
+      "oswm:byte_size": 1079672,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,19 +67,8 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "81a7a2b316b32dd269fe1a408c20d8c7c1df39429259f56a89d12c98aec5a5c6",
+      "oswm:sha256": "ed4888f7a8e2616f3a07a3bbb4d730cfd3cb92723a714993cce982052b413589",
       "oswm:byte_size": 5085
-    },
-    "visual": {
-      "href": "https://opensidewalkmap.github.io/milan/data/tiles/kerbs.pmtiles",
-      "type": "application/vnd.pmtiles",
-      "roles": [
-        "visual"
-      ],
-      "oswm:sha256": "e366586071fb71e4ffbdef3d27fdb5584ae3d55c1af24c3983ed76626a7c43d1",
-      "oswm:byte_size": 22785848,
-      "title": "Display PMTiles",
-      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
   },
   "oswm:generator": "oswm_codebase.metadata.stac_generation",
