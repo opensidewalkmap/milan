@@ -65,7 +65,7 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-11-01T16:31:46+00:00",
+    "updated": "2026-11-02T18:22:47+00:00",
     "node_registry": {
       "Data Fetching": "2026-10-13T20:55:20Z",
       "Versioning Data": "2026-11-01T16:23:13Z",
@@ -74,7 +74,7 @@
       "Completeness Analysis": "2026-10-29T15:25:36Z",
       "Statistical Charts": "2026-11-01T16:23:54Z",
       "OSWM Codebase Revision": "44cafc7c0f582ee1732e515446ed11a418b13afa",
-      "Pipeline Success": "2026-11-01T15:05:59Z",
+      "Pipeline Success": "2026-11-02T18:22:47Z",
       "Wiki check for keys": "2026-11-01T16:31:46Z"
     }
   },
@@ -98,7 +98,7 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-11-01T16:31:46+00:00",
+    "generated_at": "2026-11-02T18:22:47+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
       "commit": "44cafc7c0f582ee1732e515446ed11a418b13afa",
@@ -153,7 +153,7 @@
       "byte_size": 353,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "8633b0ca36c919c03d59f243eec8e89fefeb2fe98d5494634824d1d1d4030a57"
+        "value": "63771ef190a64e09e91cd6142f210a892574bb9e7de77480a2e0f69a717688d5"
       }
     },
     {
@@ -162,10 +162,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/registry.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 470,
+      "byte_size": 471,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "c7b2aae1d96fb9dee026035023e5459a059c7367e1238671b9a89f97db64adcc"
+        "value": "67cfc96c857696abbe6fba254c3ec49b87217e8f39bb4c921efbc11b2d165f4f"
       }
     },
     {
@@ -177,7 +177,7 @@
       "byte_size": 231,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "1e3dd9d377a2bcc65fc8bd79d286909eb09e8b8848aa885b8deb0c2b0cdd8b6c"
+        "value": "1de17a004a91a2a43b76b8246c930698bae4c57f7791c93e91a7dd9374c35963"
       }
     },
     {
@@ -189,7 +189,7 @@
       "byte_size": 94194,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "8460d3ac889022b3962b23075db31acbdc1f1f474d723a2792e00b12fc264437"
+        "value": "19d7dd9f11cf50370de6816ae9bfba255efc8b32de90b40ec9ba6916d3a2b209"
       }
     },
     {
@@ -198,10 +198,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/updates/yesterday.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 749,
+      "byte_size": 7019,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "e685d79b4cee4776cf41350977ee76179ab21408e21b73080206f64581a23aa0"
+        "value": "b4e3783ba8aadce77dabc1e6c78fa702efec934cf35621efb383135986c30458"
       }
     }
   ],
