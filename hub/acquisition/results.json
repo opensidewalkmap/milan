@@ -1,6 +1,6 @@
 {
   "node_name": "Milan",
-  "generated_at": "2026-11-04T16:17:33Z",
+  "generated_at": "2026-11-05T17:22:33Z",
   "bbox": [
     45.3867381,
     9.0408867,
@@ -40,7 +40,7 @@
       }
     }
   },
-  "total_projects_found": 14,
+  "total_projects_found": 13,
   "projects": [
     {
       "id": 43949,
@@ -117,47 +117,6 @@
         ]
       },
       "matched_keywords": [
-        "pedestrian"
-      ]
-    },
-    {
-      "id": 41811,
-      "title": "Milan - Missing Crossing Way",
-      "service": "MapRoulette",
-      "instance": "https://maproulette.org/",
-      "url": "https://maproulette.org/admin/project/56810/challenge/41811",
-      "status": "Ready",
-      "description": "This challenge focuses on identifying\ncrossing nodes that are not connected to a crossing way. A crossing *node* is\na specific type of node that indicates where pedestrian or bicycle crossings\nintersect with roads. A crossing *way*, on the other hand, represents the\nphysical crossing itself, such as a lined or zebra crossing.\n\nTypically, a crossing node should connect to both a highway and a footway\nor cycleway. However, we have found instances where crossing nodes are either\nincorrectly tagged or not connected to any crossing highway. Each task flags\nan instance of a crossing node that is not connected to a crossing way.\n\nWe ask that mappers working on these tasks use satellite imagery to identify\nthe crossing node and its connection to the highway. If the crossing node is\nis mistagged, or misplaced then please resolve the issue and make sure that\nthe crossing node is located at the intersection of a crossing way and a\nhighway.\n",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              9.0943113,
-              45.4215123
-            ],
-            [
-              9.0943113,
-              45.5369883
-            ],
-            [
-              9.2671217,
-              45.5369883
-            ],
-            [
-              9.2671217,
-              45.4215123
-            ],
-            [
-              9.0943113,
-              45.4215123
-            ]
-          ]
-        ]
-      },
-      "matched_keywords": [
-        "crossing",
-        "footway",
         "pedestrian"
       ]
     },
