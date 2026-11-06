@@ -1,6 +1,6 @@
 {
   "node_name": "Milan",
-  "generated_at": "2026-11-05T17:22:33Z",
+  "generated_at": "2026-11-06T15:57:44Z",
   "bbox": [
     45.3867381,
     9.0408867,
@@ -40,7 +40,7 @@
       }
     }
   },
-  "total_projects_found": 13,
+  "total_projects_found": 12,
   "projects": [
     {
       "id": 43949,
@@ -282,45 +282,6 @@
       },
       "matched_keywords": [
         "footway"
-      ]
-    },
-    {
-      "id": 50969,
-      "title": "Milan - Validate Cycleway Foot Tag",
-      "service": "MapRoulette",
-      "instance": "https://maproulette.org/",
-      "url": "https://maproulette.org/admin/project/59040/challenge/50969",
-      "status": "Ready",
-      "description": "This challenge focuses on verifying cycleways that are currently\ntagged with foot=no or foot=private to ensure the accuracy of pedestrian access information. Mappers are asked while\nreviewing these cycleways to confirm whether the foot=no or foot=private tag is appropriate or if adjustments are needed.\nFor guidance on using the foot tag, please refer to (https://wiki.openstreetmap.org/wiki/Key:foot)\nto learn more about how to use a foot tag.\n",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              9.0941818,
-              45.42345455
-            ],
-            [
-              9.0941818,
-              45.5318633
-            ],
-            [
-              9.25482345,
-              45.5318633
-            ],
-            [
-              9.25482345,
-              45.42345455
-            ],
-            [
-              9.0941818,
-              45.42345455
-            ]
-          ]
-        ]
-      },
-      "matched_keywords": [
-        "pedestrian"
       ]
     },
     {
