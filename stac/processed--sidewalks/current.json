@@ -38,7 +38,7 @@
     45.535396
   ],
   "properties": {
-    "datetime": "2026-11-01T16:23:28Z",
+    "datetime": "2026-11-08T16:19:29Z",
     "title": "Milan — Sidewalks",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/sidewalks.parquet.",
     "oswm:state": "current",
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "f5e5ca803f1636e255bfcd270d4d65b0423fa2312920ce1ca5e0030451052813",
-      "oswm:byte_size": 2278381,
+      "oswm:sha256": "9041ac11aaaac2511d43f28f4e278499dabc5139d4008d8e68a306bf74a384c1",
+      "oswm:byte_size": 2280730,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,7 +67,7 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "057cce9962c1bad83eb9c2c5dbb8d1d354c44bd1310472c6b3507e74afadc864",
+      "oswm:sha256": "2409c0a60b3e152a894c930de0c29444a02d10dbd9ba34d95e68dd09b21ff43b",
       "oswm:byte_size": 5117
     }
   },

@@ -38,7 +38,7 @@
     45.5337631
   ],
   "properties": {
-    "datetime": "2026-11-01T16:23:28Z",
+    "datetime": "2026-11-08T16:19:29Z",
     "title": "Milan — Kerbs",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/kerbs.parquet.",
     "oswm:state": "current",
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "161c6aa45d37d29ec00ec13f90a6bac798d59d62872952c1aa7aed14abcdf69c",
-      "oswm:byte_size": 1079672,
+      "oswm:sha256": "718e273d2a3b12b9abc815fb1f8c73d307490757cabd53b47fc248a8ffa5ed5f",
+      "oswm:byte_size": 1078814,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,7 +67,7 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "a36e23de3cfb4f351abf7bb974b489ec1577dfba564604b3d537367e504e90c7",
+      "oswm:sha256": "80fdcfdfc3838e47e8a1a6d159e30a28bc6dd1a43d089ff84575f08859c4c076",
       "oswm:byte_size": 5085
     }
   },
