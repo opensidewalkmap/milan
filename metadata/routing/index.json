@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-11-08T16:27:14+00:00",
+    "updated": "2026-11-10T16:47:53+00:00",
     "node_registry": {
       "Data Fetching": "2026-10-13T20:55:20Z",
       "Versioning Data": "2026-11-08T16:19:18Z",
-      "Data Pre-Processing": "2026-11-08T16:19:29Z",
-      "Data Quality Tool": "2026-11-08T16:19:41Z",
-      "Completeness Analysis": "2026-10-29T15:25:36Z",
-      "Statistical Charts": "2026-11-08T16:19:48Z",
+      "Data Pre-Processing": "2026-11-10T16:27:19Z",
+      "Data Quality Tool": "2026-11-10T16:32:50Z",
+      "Completeness Analysis": "2026-11-10T16:47:38Z",
+      "Statistical Charts": "2026-11-10T16:47:53Z",
       "OSWM Codebase Revision": "44cafc7c0f582ee1732e515446ed11a418b13afa",
-      "Pipeline Success": "2026-11-08T15:10:42Z",
+      "Pipeline Success": "2026-11-09T18:47:06Z",
       "Wiki check for keys": "2026-11-08T16:27:14Z"
     }
   },
@@ -103,11 +103,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-11-08T16:27:14+00:00",
+    "generated_at": "2026-11-10T16:47:53+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "44cafc7c0f582ee1732e515446ed11a418b13afa",
-      "commit_date": "2026-10-28T18:09:46-03:00"
+      "commit": "3b626494e980a3d0bba34a982b3d43ca4275f541",
+      "commit_date": "2026-11-10T09:20:59-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -122,7 +122,7 @@
       "byte_size": 3006,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "febc116a3b280f9d08b997001dc34ebd350c1792890111d502eff8570aeb6bc7"
+        "value": "32eb61e32e0adc32cb5bcc5bd4a4f15fe5895d8cab821afdb5a814540ce8c1d1"
       }
     },
     {
@@ -155,10 +155,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/routing/network.pmtiles.metadata.json",
       "media_type": "application/vnd.pmtiles",
       "format": "PMTiles",
-      "byte_size": 17377754,
+      "byte_size": 17377757,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "6bb91ab8ed9154c16b8a58b2af5433be1a4c7bc42f8aff7bc8ba2a2f75e60fa5"
+        "value": "47d473a93ab46519266bfe8c505811a372a8ea1f8f227e38d4b38da21bb5c4c2"
       }
     },
     {
@@ -194,7 +194,7 @@
       "byte_size": 219,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "027a3b9034610b12afbc64db41eb7d6dc79c8c5bbb86ca0106365b2f39893076"
+        "value": "6b2c47e96b46bc10fc5fc44c5f671f099e31c8c7c71a6642a6ed9f78ac843939"
       }
     }
   ],

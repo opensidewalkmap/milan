@@ -38,7 +38,7 @@
     45.5337631
   ],
   "properties": {
-    "datetime": "2026-11-08T16:19:29Z",
+    "datetime": "2026-11-10T16:27:19Z",
     "title": "Milan — Kerbs",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/kerbs.parquet.",
     "oswm:state": "current",
@@ -48,7 +48,7 @@
     "oswm:feature_count": 37119,
     "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
     "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
-    "oswm:metadata_codebase_commit": "44cafc7c0f582ee1732e515446ed11a418b13afa"
+    "oswm:metadata_codebase_commit": "3b626494e980a3d0bba34a982b3d43ca4275f541"
   },
   "assets": {
     "data": {
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "718e273d2a3b12b9abc815fb1f8c73d307490757cabd53b47fc248a8ffa5ed5f",
-      "oswm:byte_size": 1078814,
+      "oswm:sha256": "13f16e6247f12999aa9b5146cc22517d646ea18a6a99e7e9f1550790abd87577",
+      "oswm:byte_size": 1078975,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,8 +67,19 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "80fdcfdfc3838e47e8a1a6d159e30a28bc6dd1a43d089ff84575f08859c4c076",
+      "oswm:sha256": "3d471109a8c0e90f0edc293668fa9b5c583b5db240911c4355543e5cb24822d6",
       "oswm:byte_size": 5085
+    },
+    "visual": {
+      "href": "https://opensidewalkmap.github.io/milan/data/tiles/kerbs.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "visual"
+      ],
+      "oswm:sha256": "cc35ebc56b1cb81738ea3e970076127c3e897413c1cd7e8870c268c1a2ae13e0",
+      "oswm:byte_size": 22787057,
+      "title": "Display PMTiles",
+      "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
   },
   "oswm:generator": "oswm_codebase.metadata.stac_generation",

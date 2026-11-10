@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-11-08T16:27:14+00:00",
+    "updated": "2026-11-10T16:47:53+00:00",
     "node_registry": {
       "Data Fetching": "2026-10-13T20:55:20Z",
       "Versioning Data": "2026-11-08T16:19:18Z",
-      "Data Pre-Processing": "2026-11-08T16:19:29Z",
-      "Data Quality Tool": "2026-11-08T16:19:41Z",
-      "Completeness Analysis": "2026-10-29T15:25:36Z",
-      "Statistical Charts": "2026-11-08T16:19:48Z",
+      "Data Pre-Processing": "2026-11-10T16:27:19Z",
+      "Data Quality Tool": "2026-11-10T16:32:50Z",
+      "Completeness Analysis": "2026-11-10T16:47:38Z",
+      "Statistical Charts": "2026-11-10T16:47:53Z",
       "OSWM Codebase Revision": "44cafc7c0f582ee1732e515446ed11a418b13afa",
-      "Pipeline Success": "2026-11-08T15:10:42Z",
+      "Pipeline Success": "2026-11-09T18:47:06Z",
       "Wiki check for keys": "2026-11-08T16:27:14Z"
     }
   },
@@ -102,11 +102,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-11-08T16:27:14+00:00",
+    "generated_at": "2026-11-10T16:47:53+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "44cafc7c0f582ee1732e515446ed11a418b13afa",
-      "commit_date": "2026-10-28T18:09:46-03:00"
+      "commit": "3b626494e980a3d0bba34a982b3d43ca4275f541",
+      "commit_date": "2026-11-10T09:20:59-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -117,10 +117,10 @@
     "download_url": "https://opensidewalkmap.github.io/milan/data/processed/roads_for_completeness.parquet",
     "media_type": "application/vnd.apache.parquet",
     "format": "GeoParquet",
-    "byte_size": 3008775,
+    "byte_size": 3008073,
     "checksum": {
       "algorithm": "SHA-256",
-      "value": "5a2e1f8e371d7102bdbf5ca0fa1e7a7293b2bfe035380ed0aa1a8b1ff935bf6a"
+      "value": "2aad50e28a84bd4a7200e8b2b76d11df015916680e1d82425b84e46c6ec03075"
     }
   },
   "links": [
