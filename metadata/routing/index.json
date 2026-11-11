@@ -70,16 +70,16 @@
     "geometry": "https://opensidewalkmap.github.io/milan/data/boundaries/polygon.geojson"
   },
   "temporal": {
-    "updated": "2026-11-10T16:47:53+00:00",
+    "updated": "2026-11-11T17:09:14+00:00",
     "node_registry": {
       "Data Fetching": "2026-10-13T20:55:20Z",
       "Versioning Data": "2026-11-08T16:19:18Z",
-      "Data Pre-Processing": "2026-11-10T16:27:19Z",
-      "Data Quality Tool": "2026-11-10T16:32:50Z",
-      "Completeness Analysis": "2026-11-10T16:47:38Z",
-      "Statistical Charts": "2026-11-10T16:47:53Z",
-      "OSWM Codebase Revision": "44cafc7c0f582ee1732e515446ed11a418b13afa",
-      "Pipeline Success": "2026-11-09T18:47:06Z",
+      "Data Pre-Processing": "2026-11-11T17:00:00Z",
+      "Data Quality Tool": "2026-11-11T17:05:51Z",
+      "Completeness Analysis": "2026-11-11T17:08:23Z",
+      "Statistical Charts": "2026-11-11T17:09:14Z",
+      "OSWM Codebase Revision": "3b626494e980a3d0bba34a982b3d43ca4275f541",
+      "Pipeline Success": "2026-11-10T17:13:12Z",
       "Wiki check for keys": "2026-11-08T16:27:14Z"
     }
   },
@@ -103,11 +103,11 @@
   "metadata_generation": {
     "generator": "oswm_codebase.metadata.metadata_generation",
     "profile_version": "1.0.0",
-    "generated_at": "2026-11-10T16:47:53+00:00",
+    "generated_at": "2026-11-11T17:09:14+00:00",
     "code": {
       "repository": "https://github.com/kauevestena/oswm_codebase",
-      "commit": "3b626494e980a3d0bba34a982b3d43ca4275f541",
-      "commit_date": "2026-11-10T09:20:59-03:00"
+      "commit": "6f811852641f5dfab29d522535556999c683d8eb",
+      "commit_date": "2026-11-10T21:33:14-03:00"
     },
     "source_root": "data",
     "deterministic": true
@@ -119,10 +119,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/routing/metadata.json.metadata.json",
       "media_type": "application/json",
       "format": "JSON",
-      "byte_size": 3006,
+      "byte_size": 3007,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "32eb61e32e0adc32cb5bcc5bd4a4f15fe5895d8cab821afdb5a814540ce8c1d1"
+        "value": "7282ed7726a0f07d00f05b882497c59ee43f7f4ab1c885440cd8e7477e688dd8"
       }
     },
     {
@@ -134,7 +134,7 @@
       "byte_size": 17493084,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "e72f8551fbde9c94998bca26381aa01a686e4e3cc9f28b4d97dc9268a0009277"
+        "value": "b365357c1ffe377c14613c0613112456f703f7aaba9a6bc3bd087db61e2b7e3d"
       }
     },
     {
@@ -143,10 +143,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/routing/network.parquet.metadata.json",
       "media_type": "application/vnd.apache.parquet",
       "format": "GeoParquet",
-      "byte_size": 6629778,
+      "byte_size": 6623356,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "46231b4d1dabce67ae146905c205f9b4dc64ded73de600ffbdcee989f80e0ff9"
+        "value": "98a5de50312ff5823b4ed185a5097f44030448b879562549122c42982e81cf8a"
       }
     },
     {
@@ -155,10 +155,10 @@
       "metadata": "https://opensidewalkmap.github.io/milan/metadata/routing/network.pmtiles.metadata.json",
       "media_type": "application/vnd.pmtiles",
       "format": "PMTiles",
-      "byte_size": 17377757,
+      "byte_size": 17377756,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "47d473a93ab46519266bfe8c505811a372a8ea1f8f227e38d4b38da21bb5c4c2"
+        "value": "24c03fe60c12602300f8d9207f71c203f8bb0c501caf2eb5c00707e1fb8534d1"
       }
     },
     {
@@ -170,7 +170,7 @@
       "byte_size": 3923,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "17f8316cd72d515448188da662ee0f9fbf24847b381a1d7936cb909c7dbfe404"
+        "value": "dd571b765027d18fa0e7e1302762c11898b80ff89d2e4ed0536887a77a46f4ec"
       }
     },
     {
@@ -194,7 +194,7 @@
       "byte_size": 219,
       "checksum": {
         "algorithm": "SHA-256",
-        "value": "6b2c47e96b46bc10fc5fc44c5f671f099e31c8c7c71a6642a6ed9f78ac843939"
+        "value": "bd285c47bef772cfbb82d8ba3e27bfcadb5b8a06802d6ef28ac3b584d2d8422e"
       }
     }
   ],

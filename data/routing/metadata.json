@@ -1,6 +1,6 @@
 {
   "analytical_network": {
-    "byte_size": 6629778,
+    "byte_size": 6623356,
     "feature_count": 59727,
     "filename": "network.parquet",
     "format": "GeoParquet"
@@ -28,7 +28,7 @@
     ],
     "schema_version": 2,
     "segment_count": 245182,
-    "sha256": "e72f8551fbde9c94998bca26381aa01a686e4e3cc9f28b4d97dc9268a0009277",
+    "sha256": "b365357c1ffe377c14613c0613112456f703f7aaba9a6bc3bd087db61e2b7e3d",
     "spatial_index": "uniform_grid",
     "topology_tolerance": 1e-05
   },
@@ -40,20 +40,20 @@
   },
   "elevation_provider_fingerprint": "a4a4bc7ab35d623e",
   "feature_count": 59727,
-  "generated_at": "2026-11-10T16:54:57.222731+00:00",
+  "generated_at": "2026-11-11T17:17:16.265326+00:00",
   "profile_audit": {
     "blind": {
       "grade_bands": {
-        "0": 16048,
-        "1-19": 0,
+        "0": 0,
+        "1-19": 16048,
         "20-39": 928,
         "40-59": 33002,
         "60-79": 8219,
         "80-100": 1530
       },
       "maximum_grade": 99,
-      "mean_grade": 40.1,
-      "minimum_grade": 0,
+      "mean_grade": 44.4,
+      "minimum_grade": 13,
       "most_common_limiting_factors": {
         "crossing": 9,
         "incline": 3445,
@@ -67,52 +67,52 @@
     },
     "elderly": {
       "grade_bands": {
-        "0": 4970,
-        "1-19": 3730,
-        "20-39": 4092,
+        "0": 2,
+        "1-19": 7017,
+        "20-39": 5773,
         "40-59": 41097,
         "60-79": 5806,
         "80-100": 32
       },
       "maximum_grade": 85,
-      "mean_grade": 45.54,
+      "mean_grade": 46.98,
       "minimum_grade": 0,
       "most_common_limiting_factors": {
         "cross_slope": 53,
         "crossing": 302,
-        "incline": 9617,
+        "incline": 9614,
         "kerb": 2276,
-        "smoothness": 27850,
+        "smoothness": 27851,
         "surface": 15794,
-        "width": 3835
+        "width": 3837
       }
     },
     "wheelchair": {
       "grade_bands": {
-        "0": 8752,
-        "1-19": 5,
-        "20-39": 3475,
+        "0": 4290,
+        "1-19": 2795,
+        "20-39": 5147,
         "40-59": 46501,
         "60-79": 994,
         "80-100": 0
       },
       "maximum_grade": 75,
-      "mean_grade": 39.47,
+      "mean_grade": 40.82,
       "minimum_grade": 0,
       "most_common_limiting_factors": {
         "barrier": 2287,
         "cross_slope": 66,
         "crossing": 235,
-        "incline": 9054,
-        "kerb": 2324,
-        "smoothness": 27229,
+        "incline": 8836,
+        "kerb": 2541,
+        "smoothness": 27230,
         "surface": 14717,
         "width": 3815
       }
     }
   },
-  "ruleset_hash": "90797572d833bc88",
-  "ruleset_version": "1.1.0",
+  "ruleset_hash": "7ae40754cf77b3e2",
+  "ruleset_version": "1.2.0",
   "schema_version": 1,
   "slope_source_counts": {
     "copernicus_glo30": 59650,

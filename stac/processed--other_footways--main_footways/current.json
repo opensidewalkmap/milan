@@ -38,7 +38,7 @@
     45.5370227
   ],
   "properties": {
-    "datetime": "2026-11-10T16:27:19Z",
+    "datetime": "2026-11-11T17:00:00Z",
     "title": "Milan — Main Footways",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/other_footways/main_footways.parquet.",
     "oswm:state": "current",
@@ -48,7 +48,7 @@
     "oswm:feature_count": 15584,
     "oswm:attribution": "© OpenStreetMap contributors; additional sources are described in the linked metadata.",
     "oswm:source_fetched_at": "2026-10-13T20:55:20Z",
-    "oswm:metadata_codebase_commit": "3b626494e980a3d0bba34a982b3d43ca4275f541"
+    "oswm:metadata_codebase_commit": "6f811852641f5dfab29d522535556999c683d8eb"
   },
   "assets": {
     "data": {
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "a038ac004e0368be408bf3334145687571f8ecd8bf1759d2f3c2cc6556489d7e",
-      "oswm:byte_size": 1679955,
+      "oswm:sha256": "9604f990f2d09c81cc07b3b4c02496d02bbbd87750a61174bac074c068daf33f",
+      "oswm:byte_size": 1679747,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,7 +67,7 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "8ec2b37d8f631d613feb625359de996724707bf11851c06fc78ecbdf004849f3",
+      "oswm:sha256": "b778a1f9a177f7ff0c3f6e68993428346d88ec8f506ad7c246c147fcfbfa703b",
       "oswm:byte_size": 5269
     },
     "visual": {
@@ -76,8 +76,8 @@
       "roles": [
         "visual"
       ],
-      "oswm:sha256": "67669840a1edd60568c3dddd7fd3c3bb36fa0b06cf8d4bd848602d53e5a83b48",
-      "oswm:byte_size": 88796836,
+      "oswm:sha256": "6906d65f1338ef037e7c06882df6132c7e77234c0ae935ecf496e85c85062d10",
+      "oswm:byte_size": 88797288,
       "title": "Display PMTiles",
       "description": "Zoom-dependent display representation; geometry and attributes may differ from the analytical GeoParquet."
     }
