@@ -4,203 +4,43 @@
     <title>OSWM Watcher Changeset Activity - Milan</title>
     <link>https://opensidewalkmap.github.io/milan/hub/watcher/index.html</link>
     <description>OSM changeset activity monitoring and deletion watch for OpenSidewalkMap interest features in Milan.</description>
-    <lastBuildDate>Thu, 12 Nov 2026 16:51:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 16:16:58 GMT</lastBuildDate>
     <item>
-        <title>[Activity] OSM Changeset 191796025 by ja+ (13 additions, 35 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191796025</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191796025&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/ja+&quot;&gt;ja+&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; Aggiornamenti ciclabile Villoresi&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 13&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 35&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191796025&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191796025&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 15:23:49 GMT</pubDate>
-        <guid isPermaLink="false">activity_191796025</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191794340 by giadamantione (3 additions, 3 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191794340</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191794340&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian path&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 3&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 3&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191794340&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191794340&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:51:14 GMT</pubDate>
-        <guid isPermaLink="false">activity_191794340</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191793626 by giadamantione (1 additions, 5 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191793626</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191793626&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 5&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191793626&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191793626&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:39:00 GMT</pubDate>
-        <guid isPermaLink="false">activity_191793626</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191782559 by giadamantione (2 additions, 4 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191782559</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191782559&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
+        <title>[Activity] OSM Changeset 191842451 by giadamantione (2 additions, 2 modifications, 0 deletions)</title>
+        <link>https://www.openstreetmap.org/changeset/191842451</link>
+        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191842451&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
     &lt;li&gt;Additions (creations): 2&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 4&lt;/li&gt;
+    &lt;li&gt;Modifications (tags/geom): 2&lt;/li&gt;
     &lt;li&gt;Deletions: 0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191782559&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191782559&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191842451&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191842451&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Nov 2026 10:36:56 GMT</pubDate>
-        <guid isPermaLink="false">activity_191782559</guid>
+        <pubDate>Thu, 12 Nov 2026 13:33:24 GMT</pubDate>
+        <guid isPermaLink="false">activity_191842451</guid>
     </item>
     <item>
-        <title>[Activity] OSM Changeset 191792360 by giadamantione (1 additions, 4 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191792360</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191792360&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 4&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191792360&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191792360&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:12:26 GMT</pubDate>
-        <guid isPermaLink="false">activity_191792360</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191792938 by giadamantione (3 additions, 1 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191792938</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191792938&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 3&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 1&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191792938&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191792938&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:25:17 GMT</pubDate>
-        <guid isPermaLink="false">activity_191792938</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191793153 by giadamantione (2 additions, 1 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191793153</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191793153&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 2&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 1&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191793153&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191793153&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:30:41 GMT</pubDate>
-        <guid isPermaLink="false">activity_191793153</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191791697 by giadamantione (1 additions, 2 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191791697</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191791697&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
+        <title>[Activity] OSM Changeset 191843520 by giadamantione (1 additions, 2 modifications, 0 deletions)</title>
+        <link>https://www.openstreetmap.org/changeset/191843520</link>
+        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191843520&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian route&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
     &lt;li&gt;Additions (creations): 1&lt;/li&gt;
     &lt;li&gt;Modifications (tags/geom): 2&lt;/li&gt;
     &lt;li&gt;Deletions: 0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191791697&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191791697&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191843520&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191843520&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Nov 2026 13:56:57 GMT</pubDate>
-        <guid isPermaLink="false">activity_191791697</guid>
+        <pubDate>Thu, 12 Nov 2026 13:56:21 GMT</pubDate>
+        <guid isPermaLink="false">activity_191843520</guid>
     </item>
     <item>
-        <title>[Activity] OSM Changeset 191785912 by giadamantione (1 additions, 2 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191785912</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191785912&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 2&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191785912&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191785912&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 11:43:00 GMT</pubDate>
-        <guid isPermaLink="false">activity_191785912</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191785256 by giadamantione (2 additions, 1 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191785256</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191785256&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 2&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 1&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191785256&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191785256&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 11:29:15 GMT</pubDate>
-        <guid isPermaLink="false">activity_191785256</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191767137 by fick89 (3 additions, 0 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191767137</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191767137&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/fick89&quot;&gt;fick89&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; Added businesses in Milano; added empty locations in Milano; changed businesses in Carate Brianza and Cinisello Balsamo; added details to businesses in Carate Brianza; added parkings in La Valletta Brianza; added street in Carimate; added gym in Carimate&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 3&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 0&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191767137&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191767137&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 00:14:38 GMT</pubDate>
-        <guid isPermaLink="false">activity_191767137</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191794655 by giadamantione (1 additions, 1 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191794655</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191794655&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian path&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 1&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191794655&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191794655&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:56:03 GMT</pubDate>
-        <guid isPermaLink="false">activity_191794655</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191791942 by giadamantione (0 additions, 2 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191791942</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191791942&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
+        <title>[Activity] OSM Changeset 191844118 by giadamantione (0 additions, 2 modifications, 0 deletions)</title>
+        <link>https://www.openstreetmap.org/changeset/191844118</link>
+        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191844118&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -208,15 +48,15 @@
     &lt;li&gt;Modifications (tags/geom): 2&lt;/li&gt;
     &lt;li&gt;Deletions: 0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191791942&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191791942&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191844118&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191844118&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Nov 2026 14:01:50 GMT</pubDate>
-        <guid isPermaLink="false">activity_191791942</guid>
+        <pubDate>Thu, 12 Nov 2026 14:10:07 GMT</pubDate>
+        <guid isPermaLink="false">activity_191844118</guid>
     </item>
     <item>
-        <title>[Activity] OSM Changeset 191785825 by giadamantione (1 additions, 1 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191785825</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191785825&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
+        <title>[Activity] OSM Changeset 191843665 by giadamantione (1 additions, 1 modifications, 0 deletions)</title>
+        <link>https://www.openstreetmap.org/changeset/191843665</link>
+        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191843665&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -224,95 +64,47 @@
     &lt;li&gt;Modifications (tags/geom): 1&lt;/li&gt;
     &lt;li&gt;Deletions: 0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191785825&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191785825&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191843665&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191843665&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Nov 2026 11:40:26 GMT</pubDate>
-        <guid isPermaLink="false">activity_191785825</guid>
+        <pubDate>Thu, 12 Nov 2026 14:00:22 GMT</pubDate>
+        <guid isPermaLink="false">activity_191843665</guid>
     </item>
     <item>
-        <title>[Activity] OSM Changeset 191783136 by giadamantione (1 additions, 1 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191783136</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191783136&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
+        <title>[Activity] OSM Changeset 191844696 by giadamantione (0 additions, 1 modifications, 0 deletions)</title>
+        <link>https://www.openstreetmap.org/changeset/191844696</link>
+        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191844696&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 1&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191783136&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191783136&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 10:49:44 GMT</pubDate>
-        <guid isPermaLink="false">activity_191783136</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191793302 by giadamantione (1 additions, 0 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191793302</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191793302&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 0&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191793302&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191793302&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:34:03 GMT</pubDate>
-        <guid isPermaLink="false">activity_191793302</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191792451 by giadamantione (1 additions, 0 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191792451</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191792451&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 0&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191792451&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191792451&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:14:36 GMT</pubDate>
-        <guid isPermaLink="false">activity_191792451</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191792386 by giadamantione (1 additions, 0 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191792386</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191792386&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 0&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191792386&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191792386&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 14:13:16 GMT</pubDate>
-        <guid isPermaLink="false">activity_191792386</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191787974 by nicola_yubo (0 additions, 1 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191787974</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191787974&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/nicola_yubo&quot;&gt;nicola_yubo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; Determine the heights of kerbs at crossings&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
     &lt;li&gt;Additions (creations): 0&lt;/li&gt;
     &lt;li&gt;Modifications (tags/geom): 1&lt;/li&gt;
     &lt;li&gt;Deletions: 0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191787974&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191787974&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191844696&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191844696&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Nov 2026 12:34:28 GMT</pubDate>
-        <guid isPermaLink="false">activity_191787974</guid>
+        <pubDate>Thu, 12 Nov 2026 14:22:32 GMT</pubDate>
+        <guid isPermaLink="false">activity_191844696</guid>
     </item>
     <item>
-        <title>[Activity] OSM Changeset 191783570 by giadamantione (1 additions, 0 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191783570</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191783570&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
+        <title>[Activity] OSM Changeset 191843562 by giadamantione (1 additions, 0 modifications, 0 deletions)</title>
+        <link>https://www.openstreetmap.org/changeset/191843562</link>
+        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191843562&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian route&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
+    &lt;li&gt;Modifications (tags/geom): 0&lt;/li&gt;
+    &lt;li&gt;Deletions: 0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191843562&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191843562&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Nov 2026 13:57:43 GMT</pubDate>
+        <guid isPermaLink="false">activity_191843562</guid>
+    </item>
+    <item>
+        <title>[Activity] OSM Changeset 191843408 by giadamantione (1 additions, 0 modifications, 0 deletions)</title>
+        <link>https://www.openstreetmap.org/changeset/191843408</link>
+        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191843408&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -320,26 +112,10 @@
     &lt;li&gt;Modifications (tags/geom): 0&lt;/li&gt;
     &lt;li&gt;Deletions: 0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191783570&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191783570&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191843408&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191843408&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Nov 2026 10:58:16 GMT</pubDate>
-        <guid isPermaLink="false">activity_191783570</guid>
-    </item>
-    <item>
-        <title>[Activity] OSM Changeset 191781819 by giadamantione (1 additions, 0 modifications, 0 deletions)</title>
-        <link>https://www.openstreetmap.org/changeset/191781819</link>
-        <description>&lt;p&gt;&lt;strong&gt;OSM Changeset 191781819&lt;/strong&gt; by &lt;a href=&quot;https://www.openstreetmap.org/user/giadamantione&quot;&gt;giadamantione&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; added pedestrian sidewalk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Edits to OSWM features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Additions (creations): 1&lt;/li&gt;
-    &lt;li&gt;Modifications (tags/geom): 0&lt;/li&gt;
-    &lt;li&gt;Deletions: 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&quot;https://www.openstreetmap.org/changeset/191781819&quot;&gt;OSM&lt;/a&gt; | &lt;a href=&quot;https://osmcha.org/changesets/191781819&quot;&gt;OSMCha&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 10:19:57 GMT</pubDate>
-        <guid isPermaLink="false">activity_191781819</guid>
+        <pubDate>Thu, 12 Nov 2026 13:53:55 GMT</pubDate>
+        <guid isPermaLink="false">activity_191843408</guid>
     </item>
     <item>
         <title>[Alert] High Deletion OSM Changeset 183563407 by c674a (29 deletions)</title>
