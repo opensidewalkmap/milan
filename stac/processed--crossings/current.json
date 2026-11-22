@@ -38,7 +38,7 @@
     45.5337646
   ],
   "properties": {
-    "datetime": "2026-11-15T16:37:59Z",
+    "datetime": "2026-11-22T17:26:48Z",
     "title": "Milan — Crossings",
     "description": "Cleaned and structured pedestrian-network layers prepared by OSWM. This record describes the GeoParquet distribution at data/processed/crossings.parquet.",
     "oswm:state": "current",
@@ -57,8 +57,8 @@
       "roles": [
         "data"
       ],
-      "oswm:sha256": "99198c67b166b4bfdffdcc9243c72ceb0da192e3162ff14928b6104ac6740cea",
-      "oswm:byte_size": 1635973,
+      "oswm:sha256": "0da9829f70e2b2bbc2dfaae3759a69fb78fe4a77c6ba5b57955163373f2fecb1",
+      "oswm:byte_size": 1636943,
       "title": "Analytical GeoParquet"
     },
     "metadata": {
@@ -67,7 +67,7 @@
       "roles": [
         "metadata"
       ],
-      "oswm:sha256": "f7cee410fd8c225e11fad408d3f01c22aaee5077c7baac186636b5a0a70cd264",
+      "oswm:sha256": "4f598110a363c4f6f037bd56f1a97b4c5f0b074bdb06e063f334bf0f4498c390",
       "oswm:byte_size": 5117
     }
   },
